@@ -1,0 +1,93 @@
+Money and contracts are what make <T>value-based care</T> financially possible. Data is what makes it clinically real.
+
+An ACO that takes on responsibility for the <T>total cost of care</T> for 10,000 <T>Medicare</T> patients cannot manage that population through intuition. It needs to know, continuously, which patients are highest risk, which have gaps in their preventive care, which were just admitted to a hospital, which are overdue for a medication refill, and where actual spending is tracking against the <T>benchmark</T>. Without that information — current, accurate, and actionable — all the contracting and financial infrastructure in the world produces nothing.
+
+This chapter follows data through the VBC ecosystem: where it originates, how it moves, what happens to it along the way, and how it ultimately shapes the care that patients receive.
+
+---
+
+## Five Sources, Five Different Stories
+
+Data in healthcare comes from multiple places, and each source tells a different part of the patient's story.
+
+<Diagram id="ch17_img01" />
+
+<T>Claims</T> data is generated every time a service is billed to a payer. It contains the ICD-10 diagnosis codes, the CPT procedure codes, the date of service, the provider, the cost, and whether the claim was paid. Claims data is comprehensive — it captures virtually everything a patient does that touches an insurer — but it arrives late. By the time a claim is submitted, adjudicated, and made available to the ACO, the service may have happened 30 to 90 days ago. Claims are the foundation of <T>population health</T> analytics, <T>risk adjustment</T>, and quality measurement, but they are always a backward-looking view.
+
+<T>EHR</T> data — from the Electronic Health Record — is the richest and most clinically detailed source available. It contains physician notes, the problem list, current medications, lab results, vital signs, and the full documented history of a patient's care at that practice. Unlike claims, EHR data is near real-time — a visit today generates data today. The problem is access: EHR data lives inside the practice's system, and getting it out in a structured, analyzable form requires technical integration. Different practices use different EHR platforms — Epic, Oracle Health (formerly Cerner), eClinicalWorks, Athenahealth, and dozens of others — each with different data structures, APIs, and integration challenges.
+
+Lab and pharmacy data fills critical gaps that neither claims nor EHR data covers well. Lab results — HbA1c levels for diabetics, cholesterol panels, kidney function tests — tell the clinical story of whether chronic disease is actually controlled. Pharmacy data, typically sourced from a <T>Pharmacy Benefit Manager</T> (PBM), shows what medications a patient is actually filling, not just what was prescribed. Medication adherence — whether patients are actually taking what they are prescribed — is one of the strongest predictors of avoidable hospitalization, and pharmacy fill data is the only reliable way to measure it.
+
+ADT feeds — Admission, Discharge, Transfer notifications — are perhaps the most time-sensitive data in the VBC ecosystem. When a patient is admitted to a hospital or presents to an emergency room, an ADT message can be sent electronically to their care team within minutes or hours. This enables the <T>care management</T> intervention that often determines whether a patient's hospitalization results in a clean recovery or a costly readmission: a follow-up call within 48 hours of discharge, a medication reconciliation appointment, a home health visit. Without ADT integration, the primary care team may not learn about a hospitalization until a claims record appears weeks later — by which point the critical window for intervention has closed.
+
+<T>SDOH</T> data — Social Determinants of Health — is the newest and least standardized of the five sources. It captures the non-clinical factors that profoundly shape health outcomes: housing stability, food security, transportation access, social isolation, literacy. This data typically comes from patient-reported screening tools (such as the PRAPARE assessment or the AHC Health-Related Social Needs screening tool) administered during care management contacts or office visits. CMS and MA plans are increasingly requiring SDOH screening and incorporating it into VBC contracts, reflecting growing recognition that clinical care alone cannot close the health gaps driven by social circumstances.
+
+---
+
+## The Problem of Fragmentation
+
+The five data sources above are controlled by five different types of organizations — payers, provider practices, labs, hospitals, and care management teams — operating on different technology platforms, using different data standards, and sharing data under different legal and contractual frameworks.
+
+This fragmentation is one of the central operational challenges of VBC. An analytics platform trying to build a complete picture of a patient's health must pull data from all five sources, reconcile it, and link records that refer to the same patient but may use different identifiers — a problem solved through Master Patient Indexing (MPI), which matches records across systems using demographic fields like name, date of birth, and address.
+
+The data standards landscape adds further complexity. Clinical data in EHRs often follows HL7 <T>FHIR</T> (Fast Healthcare Interoperability Resources), a modern standard for exchanging healthcare information electronically that CMS has increasingly mandated. Claims data follows HIPAA X12 transaction standards. Lab data uses LOINC codes. Medications use RxNorm. Each system speaks a slightly different dialect, and translating between them — without losing clinical meaning — requires significant engineering.
+
+The 21st Century Cures Act of 2016 and subsequent CMS rules have pushed the industry toward greater interoperability, requiring EHR vendors and payers to open their data through standardized APIs. Progress has been real but uneven. Many smaller practices still struggle to get structured data out of their EHR in any usable form.
+
+---
+
+## From Data to Intelligence: The Analytics Platform
+
+Once data has been collected from multiple sources, cleaned, deduplicated, and linked to individual patients, it flows into an analytics platform — the engine of population health management.
+
+<Diagram id="ch17_img02" />
+
+The core function of this platform is to transform raw data into actionable intelligence. Specifically, a mature VBC analytics platform does several things simultaneously.
+
+Risk stratification assigns every patient in the population a risk score — a prediction of how likely they are to incur high healthcare costs or experience a serious adverse event in the coming months. These scores draw on claims history, EHR diagnoses, lab values, pharmacy adherence, and increasingly on social determinants. The output is a ranked list of patients: the highest-risk patients who need proactive outreach, the rising-risk patients who need monitoring, and the stable patients who need routine preventive care.
+
+<T>Care gap</T> identification identifies patients who are overdue for specific evidence-based services: diabetics who haven't had an HbA1c test in the past year, patients with hypertension whose blood pressure is uncontrolled, patients over 50 who haven't completed a colorectal cancer screening. These gaps directly correspond to the <T>HEDIS</T> quality measures that drive Stars ratings and <T>shared savings</T> eligibility — so closing care gaps has both clinical and financial value.
+
+Cost and utilization tracking compares actual spending against the benchmark on a running basis, showing which service categories (inpatient, specialist, pharmacy, emergency) are driving variance and whether the ACO is on track to generate shared savings or heading toward a loss.
+
+RAF and <T>HCC</T> scoring scans the population for patients with documented diagnoses that map to HCC categories, identifies conditions that may not have been coded or that require annual re-documentation to remain in the RAF calculation, and generates alerts for physicians and coders to ensure that the patient's risk profile is accurately captured.
+
+---
+
+## Quality Reporting: Where Data Meets Accountability
+
+A significant portion of the data flowing through the VBC ecosystem is not used for care management — it is used for reporting. Quality measures are the formal mechanism through which health plans, ACOs, and CMS assess whether the care being delivered is actually good.
+
+The most important quality framework in US healthcare is HEDIS — the Healthcare Effectiveness Data and Information Set — maintained by the National Committee for Quality Assurance (NCQA). HEDIS contains more than 90 measures across six domains of care: effectiveness of care, access and availability, experience of care, utilization, <T>health plan</T> descriptive information, and measures collected using electronic data.
+
+Health plans use HEDIS performance to calculate their CMS Stars ratings (for MA plans) and their NCQA accreditation scores (for commercial plans). ACOs are evaluated on a subset of quality measures as a condition of receiving shared savings. Physicians receive quality scorecards from their IPA or MSO showing their individual performance.
+
+The data flows required to produce quality reports are substantial. A single HEDIS measure — say, Controlling High Blood Pressure, which measures the percentage of patients with hypertension whose blood pressure was adequately controlled during the measurement year — requires pulling blood pressure readings from EHR data, checking whether the patient had a qualifying visit during the measurement period from claims data, verifying that the patient was continuously enrolled with the plan, and excluding patients who meet specific clinical exception criteria. Multiply this across 90 measures for a population of tens of thousands, and the data engineering required is considerable.
+
+Hybrid measures use both administrative (claims) and medical record data, and require payers and health plans to conduct medical record reviews — literally pulling charts for a sample of patients and verifying the clinical evidence. This is expensive, labor-intensive, and creates significant workload for practices — but it remains the most accurate way to capture clinical events that claims data may miss.
+
+---
+
+## The Latency Problem
+
+The single most important practical constraint on data-driven VBC is latency — the delay between when something happens clinically and when it appears in the analytics platform.
+
+Claims data, as noted, typically arrives 30 to 90 days after the service. A patient hospitalized in January may not appear in the ACO's cost-tracking system until March. A specialist visit in February may not be visible until April. This means that an ACO reviewing its mid-year performance in July is actually looking at data through April or May — and the second half of the year is effectively invisible until it becomes history.
+
+EHR data can theoretically be near real-time, but only if the practice has integrated its EHR with the analytics platform — an integration that requires technical work, contract negotiation, and ongoing maintenance. Many practices, particularly smaller ones, have not completed this integration, leaving the analytics platform dependent on claims alone.
+
+ADT feeds can deliver near real-time notifications, but only from hospitals that have implemented the relevant data exchange standards and have live connections to the ACO's platform. Building out ADT coverage across a hospital network takes time and resources.
+
+The practical result is that most VBC analytics platforms are operating with a view of the world that is four to twelve weeks behind reality. This is manageable — and far better than no data at all — but it constrains what interventions are possible and how quickly organizations can respond to emerging cost trends.
+
+---
+
+## Why Data Is Competitive Advantage
+
+In a <T>fee-for-service</T> world, data is primarily administrative: it documents what happened so that claims can be submitted and paid.
+
+In a value-based care world, data is a source of competitive advantage. Organizations that can see their population more clearly, identify risk earlier, close care gaps faster, and respond to hospitalizations more quickly will manage care better — and earn more in shared savings.
+
+This is why the MSOs, analytics vendors, and technology platforms that have built sophisticated data infrastructure have become so valuable in the VBC ecosystem. The organizations that can move data quickly from source to action — turning a hospital ADT notification into a care coordinator call within 24 hours, or turning an uncoded HCC into a physician alert before the end of the measurement year — are the ones that will outperform over time.
+
+Data does not deliver value by existing. It delivers value by driving action. The quality of the action depends on the quality of the data — and on the care teams and workflows that sit between the insight and the patient.

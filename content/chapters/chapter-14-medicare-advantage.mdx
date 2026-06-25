@@ -1,0 +1,109 @@
+<T><T>Medicare</T> Advantage</T> is arguably the most important business in US healthcare right now.
+
+It covers roughly half of all Medicare-eligible Americans — over 33 million people, 65+ years old — and that share continues to grow every year. It is the primary arena where <T>value-based care</T> is being tested at scale. It is the growth engine behind some of the largest companies in American healthcare. And it operates on a financial logic that is unlike any other insurance market in the country.
+
+To understand modern healthcare, you need to understand how Medicare Advantage actually works — not just conceptually, but mechanically. This chapter explains the economics in detail.
+
+---
+
+## The Basic Structure
+
+Medicare Advantage is Part C of Medicare. Instead of receiving coverage directly from the federal government through <T>traditional Medicare</T>, a beneficiary can choose to enroll in a private <T>health plan</T> — offered by insurers like UnitedHealthcare, Humana, CVS Health/Aetna, or Centene — that delivers the same core Medicare benefits, often with extras like dental, vision, and gym memberships bundled in.
+
+In exchange for covering that member, the private plan receives a monthly payment from CMS. The plan takes on the financial risk: if the member's care costs less than the payment, the plan profits; if care costs more, the plan absorbs the loss.
+
+That payment from CMS is not a flat, fixed amount. It is carefully calculated to reflect how sick or healthy each enrolled member is expected to be. This calculation is the heart of Medicare Advantage economics — and it is where the concept of <T>risk adjustment</T> becomes central.
+
+<Diagram id="ch14_img03" />
+
+---
+
+## What Is Risk Adjustment?
+
+Risk adjustment is the process by which CMS calibrates its monthly payments to MA plans based on the predicted cost of each member's care.
+
+The logic is straightforward. A 70-year-old with diabetes, heart failure, and chronic kidney disease is going to cost far more to care for than a healthy 67-year-old with no chronic conditions. If CMS paid every plan the same amount per member regardless of health status, plans would have a strong incentive to seek out healthy members and avoid sick ones — a phenomenon called adverse selection. Risk adjustment is designed to counteract this by paying more for sicker members and less for healthier ones.
+
+The mechanism works through a scoring system. Every MA member is assigned a <T>RAF score</T> — a Risk Adjustment Factor — that represents how expensive they are expected to be relative to an average Medicare beneficiary. A score of 1.0 means average expected cost. A score of 1.5 means the member is expected to cost 50% more than average. A score of 0.7 means they are expected to be 30% less expensive.
+
+CMS multiplies this RAF score by a base payment rate — the <T>benchmark</T>, which is set at the county level based on local Medicare cost patterns — to calculate the plan's monthly payment for that member. The higher the RAF score, the higher the payment.
+
+---
+
+## How RAF Scores Are Built: <T>HCC</T> Coding
+
+RAF scores are not assigned arbitrarily. They are calculated from the medical diagnoses documented in a patient's medical record and submitted on <T>claims</T>.
+
+The system works in layers.
+
+First, a physician sees a patient and documents their diagnoses in the electronic health record (<T>EHR</T>). Each diagnosis is assigned an <T>ICD-10 code</T> — the standardized billing codes introduced in Chapter 4. A diagnosis of Type 2 diabetes with chronic kidney disease, for example, maps to specific ICD-10 codes.
+
+Second, those ICD-10 codes are run through a mapping system that groups them into HCCs — Hierarchical Condition Categories. HCCs are clusters of clinically related diagnoses that CMS uses to predict future healthcare cost. There are roughly 86 HCC categories in the standard CMS model, ranging from diabetes with complications to congestive heart failure to major psychiatric disorders to HIV/AIDS. The "hierarchical" part means that when a patient has multiple related conditions, only the most severe is counted, to prevent double-counting.
+
+Third, each HCC carries a numeric weight — a coefficient derived from Medicare claims data showing how much more expensive beneficiaries with that condition are compared to average. These weights are added up across all of a patient's HCCs, combined with a demographic baseline score (based on age, sex, and whether they are in the community or an institution), to produce the final RAF score.
+
+<Diagram id="ch14_img01" />
+
+To take a concrete example: a 72-year-old woman with Type 2 diabetes with complications, congestive heart failure, and a history of major depression might have HCC weights of 0.35 (diabetes), 0.45 (CHF), and 0.35 (depression) added to a demographic base of around 0.40, producing a total RAF score of approximately 1.55. CMS would pay an MA plan roughly 55% more per month for this member than for a member with a score of 1.0.
+
+---
+
+## Why Diagnosis Coding Matters So Much
+
+Here is the critical implication: the more accurately and completely a patient's conditions are documented and coded, the higher their RAF score, and the more CMS pays the plan to care for them.
+
+This makes diagnosis coding one of the most financially significant activities in Medicare Advantage. If a patient has diabetes with kidney complications but the claim only reflects "diabetes" without specifying the complication, the HCC that captures the higher acuity may not be triggered — and the plan receives a lower payment than the patient's actual health status warrants.
+
+This is why MA plans and MSOs invest heavily in risk adjustment coding — the process of ensuring that all of a patient's relevant, documented conditions are accurately captured in claims each year. Physicians are often trained or supported on how to document conditions at the appropriate level of specificity. Coders review charts to identify potential HCCs that may not have been captured. Some plans conduct annual Health Risk Assessments (HRAs) — comprehensive in-home or in-office evaluations of a member's health — specifically designed to surface undocumented conditions that would generate additional HCC codes.
+
+<T>Prospective coding</T> refers to identifying and documenting conditions before the claim period — helping physicians capture conditions in advance. Retrospective coding (or chart review) refers to going back through historical records to identify HCCs that may have been missed. Both are standard practice in MA.
+
+It is worth noting the line between accurate coding and manipulation. Documenting a real, clinically valid condition that was previously missed is legitimate and important — patients benefit from having their full health profile captured. Documenting conditions that don't actually exist, or inflating severity beyond what the clinical record supports, is fraud. CMS monitors for anomalous coding patterns and has recovered billions of dollars through audit programs targeting overcoding in Medicare Advantage.
+
+---
+
+## The PMPM Payment in Practice
+
+The term PMPM — <T>per member per month</T> — appears constantly in value-based care discussions. In the MA context, it refers to the monthly payment CMS makes to an MA plan for each enrolled member.
+
+The PMPM is not a single fixed number. It varies by county (reflecting local healthcare costs), by the plan's bid relative to the benchmark, by the member's RAF score, and by the plan's Star rating (more on this shortly). A plan in a high-cost urban county covering a sick population will receive a materially higher PMPM than a plan in a rural county covering a healthier one.
+
+For MA plans that sub-contract with provider organizations — paying primary care practices a capitated rate to manage their attributed members — the plan in turn pays the provider a <T>sub-<T>capitation</T></T> PMPM. The provider receives, say, $80–$150 per member per month to deliver all primary care services and manage the overall health of their panel, regardless of how many visits occur. The plan keeps the rest of the CMS payment to cover specialist care, hospital care, drugs, and administration.
+
+---
+
+## Stars Ratings: The Quality Overlay
+
+Revenue in Medicare Advantage is not determined by capitation alone. CMS overlays a second financial mechanism: Star ratings.
+
+Every MA plan is rated annually on a 1-to-5 star scale, based on performance across dozens of quality measures — preventive care rates, chronic disease management, patient experience, call center responsiveness, and more. These measures cover domains like: what percentage of diabetic members had their blood sugar tested; how many members received a colorectal cancer screening; how patients rate their experience with the plan and their doctors.
+
+<Diagram id="ch14_img02" />
+
+The financial stakes are significant. Plans that achieve 4 or 5 stars receive a quality bonus payment from CMS — roughly 5% additional revenue on top of their base capitation. For a large plan covering hundreds of thousands of members, that bonus can amount to hundreds of millions of dollars annually. Plans with 5 stars also receive the right to market to members outside the normal annual enrollment period — a significant competitive advantage.
+
+Plans rated below 3 stars face reputational damage, member losses, and if they remain at 2.5 stars or below for three consecutive years, CMS can terminate their contracts. This creates an intense operational focus on Stars performance across the entire MA industry.
+
+Because many Stars measures depend on what happens at the provider level — whether physicians document preventive care, whether care gaps are closed, whether patients receive their recommended screenings — MA plans have strong financial incentives to partner closely with provider organizations that can drive quality performance. This is one reason why the relationship between MA plans and VBC provider networks has become so central to the industry.
+
+---
+
+## The MA Bid Process
+
+There is one more piece of the MA financial structure worth understanding: the bid process.
+
+Each year, MA plans submit a bid to CMS stating how much they expect to spend delivering standard Medicare benefits to an average-risk member. CMS compares this bid to the county benchmark. If the bid is below the benchmark, the plan keeps a portion of the difference as a rebate, which it must use to provide additional benefits to members — extra dental coverage, reduced premiums, transportation benefits, and so on. This is why MA plans often offer benefits that traditional Medicare does not: those extras are funded by the gap between the plan's efficient <T>care management</T> and the CMS benchmark.
+
+Plans that bid above the benchmark must charge members a supplemental premium to make up the difference — a disadvantage in the marketplace.
+
+This structure creates a continuous incentive for MA plans to reduce the cost of care below the benchmark while maintaining quality above the Stars threshold. That tension — between cost reduction and quality maintenance — is what drives most of the innovation in MA plan design, provider contracting, and care management strategy.
+
+---
+
+## Why MA Matters to the Whole Industry
+
+Medicare Advantage is not just a government program. It is the laboratory where most of the most consequential experiments in value-based care are being run.
+
+The companies that have built the most sophisticated MA operations — <T>UnitedHealth Group</T> (through UnitedHealthcare and <T>Optum</T>), Humana, CVS Health/Aetna — are using their MA experience to drive vertically integrated models that combine insurance, primary care delivery, analytics, and care management under one roof. The VBC ecosystem that has grown up around MA — ACOs, IPAs, MSOs, risk adjustment platforms, care management vendors — is largely a product of the financial incentives this program creates.
+
+Understanding MA is, in many ways, understanding the direction American healthcare is heading.

@@ -1,0 +1,938 @@
+[
+  {
+    "term": "Accountable Care Organization",
+    "slug": "aco",
+    "shortDef": "A network of providers collectively accountable for the quality and total cost of care for a defined patient population.",
+    "category": "organization-type",
+    "seeAlso": [
+      "mssp",
+      "aco-reach",
+      "shared-savings",
+      "benchmark",
+      "attribution"
+    ],
+    "chapters": [
+      "chapter-07-acos",
+      "chapter-10-aco-ipa-mso",
+      "chapter-15-how-contracts-flow"
+    ]
+  },
+  {
+    "term": "ACO REACH",
+    "slug": "aco-reach",
+    "shortDef": "A CMS innovation model offering global capitation options and equity requirements; replaced Direct Contracting in 2023.",
+    "category": "program",
+    "seeAlso": [
+      "aco",
+      "global-capitation",
+      "cmmi",
+      "mssp"
+    ],
+    "chapters": [
+      "chapter-07-acos",
+      "chapter-11-cms-federal-programs"
+    ]
+  },
+  {
+    "term": "Administrative Services Only",
+    "slug": "aso",
+    "shortDef": "An arrangement where a self-insured employer hires an insurer to administer its health plan without transferring financial risk.",
+    "category": "contract-type",
+    "seeAlso": [
+      "self-insured-employer",
+      "health-plan"
+    ],
+    "chapters": [
+      "chapter-02-who-pays-for-healthcare"
+    ]
+  },
+  {
+    "term": "ADT Feed",
+    "slug": "adt-feed",
+    "shortDef": "Admission, Discharge, Transfer notification \u2014 a near real-time alert when a patient enters or leaves a hospital.",
+    "category": "data",
+    "seeAlso": [
+      "care-management",
+      "data-flow",
+      "ehr"
+    ],
+    "chapters": [
+      "chapter-17-how-data-flows"
+    ]
+  },
+  {
+    "term": "Affordable Care Act",
+    "slug": "aca",
+    "shortDef": "The 2010 federal health reform law that created ACA Marketplaces, expanded Medicaid, established CMMI, and accelerated VBC.",
+    "category": "legislation",
+    "seeAlso": [
+      "cmmi",
+      "aca-marketplace",
+      "medicaid",
+      "value-based-care"
+    ],
+    "chapters": [
+      "chapter-02-who-pays-for-healthcare",
+      "chapter-05-value-based-care",
+      "chapter-11-cms-federal-programs"
+    ]
+  },
+  {
+    "term": "Attribution",
+    "slug": "attribution",
+    "shortDef": "The process of algorithmically assigning Medicare patients to an ACO based on care patterns, not enrollment.",
+    "category": "concept",
+    "seeAlso": [
+      "aco",
+      "mssp",
+      "population-health"
+    ],
+    "chapters": [
+      "chapter-07-acos",
+      "chapter-15-how-contracts-flow"
+    ]
+  },
+  {
+    "term": "Benchmark",
+    "slug": "benchmark",
+    "shortDef": "The spending target CMS sets for an ACO based on historical costs. Spending below benchmark generates shared savings.",
+    "category": "concept",
+    "seeAlso": [
+      "aco",
+      "shared-savings",
+      "total-cost-of-care",
+      "minimum-savings-rate"
+    ],
+    "chapters": [
+      "chapter-07-acos",
+      "chapter-15-how-contracts-flow",
+      "chapter-16-how-money-flows"
+    ]
+  },
+  {
+    "term": "Bundled Payments",
+    "slug": "bundled-payments",
+    "shortDef": "A single fixed payment covering all services related to a defined episode of care (e.g., a hip replacement).",
+    "category": "payment-model",
+    "seeAlso": [
+      "bpci-a",
+      "cmmi",
+      "fee-for-service"
+    ],
+    "chapters": [
+      "chapter-05-value-based-care",
+      "chapter-11-cms-federal-programs"
+    ]
+  },
+  {
+    "term": "Capitation",
+    "slug": "capitation",
+    "shortDef": "A payment model where a provider receives a fixed monthly amount per patient (PMPM), regardless of services used.",
+    "category": "payment-model",
+    "seeAlso": [
+      "pmpm",
+      "global-capitation",
+      "sub-capitation",
+      "risk-bearing-entity"
+    ],
+    "chapters": [
+      "chapter-06-understanding-risk",
+      "chapter-14-medicare-advantage",
+      "chapter-16-how-money-flows"
+    ]
+  },
+  {
+    "term": "Care Gap",
+    "slug": "care-gap",
+    "shortDef": "A preventive or chronic disease service a patient should have received per guidelines but hasn't.",
+    "category": "concept",
+    "seeAlso": [
+      "hedis",
+      "quality-measures",
+      "care-management"
+    ],
+    "chapters": [
+      "chapter-05-value-based-care",
+      "chapter-09-msos",
+      "chapter-17-how-data-flows"
+    ]
+  },
+  {
+    "term": "Care Management",
+    "slug": "care-management",
+    "shortDef": "Proactive, structured support by care coordinators and nurse navigators to coordinate care and prevent avoidable events.",
+    "category": "function",
+    "seeAlso": [
+      "population-health",
+      "aco",
+      "mso",
+      "ccm"
+    ],
+    "chapters": [
+      "chapter-09-msos",
+      "chapter-16-how-money-flows",
+      "chapter-17-how-data-flows"
+    ]
+  },
+  {
+    "term": "Center for Medicare and Medicaid Innovation",
+    "slug": "cmmi",
+    "shortDef": "A CMS agency created by the ACA to design, test, and evaluate new payment and delivery models. Can scale successful models nationally without legislation.",
+    "category": "organization",
+    "seeAlso": [
+      "cms",
+      "mssp",
+      "aco-reach",
+      "bundled-payments"
+    ],
+    "chapters": [
+      "chapter-05-value-based-care",
+      "chapter-11-cms-federal-programs"
+    ]
+  },
+  {
+    "term": "Centers for Medicare & Medicaid Services",
+    "slug": "cms",
+    "shortDef": "The federal agency that administers Medicare and Medicaid \u2014 the most powerful single entity in US healthcare.",
+    "category": "organization",
+    "seeAlso": [
+      "medicare",
+      "medicaid",
+      "cmmi",
+      "mssp"
+    ],
+    "chapters": [
+      "chapter-02-who-pays-for-healthcare",
+      "chapter-11-cms-federal-programs"
+    ]
+  },
+  {
+    "term": "Chronic Care Management",
+    "slug": "ccm",
+    "shortDef": "A Medicare billing code allowing monthly billing for care coordination services for patients with 2+ chronic conditions.",
+    "category": "billing-code",
+    "seeAlso": [
+      "care-management",
+      "primary-care",
+      "revenue-cycle"
+    ],
+    "chapters": [
+      "chapter-16-how-money-flows"
+    ]
+  },
+  {
+    "term": "Clawback",
+    "slug": "clawback",
+    "shortDef": "A payer demand to recover previously paid funds, typically after a retroactive audit finding overcoding or overpayment.",
+    "category": "concept",
+    "seeAlso": [
+      "risk-adjustment",
+      "raf-score"
+    ],
+    "chapters": [
+      "chapter-15-how-contracts-flow",
+      "chapter-economics-incentives"
+    ]
+  },
+  {
+    "term": "Claims",
+    "slug": "claims",
+    "shortDef": "Formal payment requests submitted by providers to payers, containing ICD-10 codes, CPT codes, and service information.",
+    "category": "data",
+    "seeAlso": [
+      "icd-10",
+      "cpt-code",
+      "fee-for-service"
+    ],
+    "chapters": [
+      "chapter-04-fee-for-service",
+      "chapter-17-how-data-flows"
+    ]
+  },
+  {
+    "term": "Corporate Practice of Medicine",
+    "slug": "cpom",
+    "shortDef": "A legal doctrine in most US states prohibiting corporations from owning medical practices or directly employing physicians.",
+    "category": "legal",
+    "seeAlso": [
+      "mso",
+      "professional-corporation"
+    ],
+    "chapters": [
+      "chapter-09-msos",
+      "chapter-18-physician-led-models"
+    ]
+  },
+  {
+    "term": "CPT Code",
+    "slug": "cpt-code",
+    "shortDef": "Current Procedural Terminology \u2014 a standardized 5-digit code describing a specific medical service. The language of FFS billing.",
+    "category": "billing",
+    "seeAlso": [
+      "icd-10",
+      "claims",
+      "fee-for-service"
+    ],
+    "chapters": [
+      "chapter-04-fee-for-service"
+    ]
+  },
+  {
+    "term": "Downside Risk",
+    "slug": "downside-risk",
+    "shortDef": "A contractual arrangement where a provider owes money back to the payer if actual costs exceed the benchmark. Also called two-sided risk.",
+    "category": "concept",
+    "seeAlso": [
+      "shared-risk",
+      "risk-spectrum",
+      "aco",
+      "stop-loss"
+    ],
+    "chapters": [
+      "chapter-06-understanding-risk",
+      "chapter-07-acos"
+    ]
+  },
+  {
+    "term": "EHR",
+    "slug": "ehr",
+    "shortDef": "Electronic Health Record \u2014 digital system capturing a patient's clinical information at the point of care.",
+    "category": "technology",
+    "seeAlso": [
+      "fhir",
+      "data-flow",
+      "claims"
+    ],
+    "chapters": [
+      "chapter-09-msos",
+      "chapter-17-how-data-flows"
+    ]
+  },
+  {
+    "term": "Fee-for-Service",
+    "slug": "fee-for-service",
+    "shortDef": "A payment model where providers are paid separately for each service delivered. Still the dominant payment model in US healthcare.",
+    "category": "payment-model",
+    "seeAlso": [
+      "cpt-code",
+      "claims",
+      "value-based-care",
+      "risk-spectrum"
+    ],
+    "chapters": [
+      "chapter-04-fee-for-service",
+      "chapter-05-value-based-care"
+    ]
+  },
+  {
+    "term": "FHIR",
+    "slug": "fhir",
+    "shortDef": "Fast Healthcare Interoperability Resources \u2014 a modern standard for electronic health data exchange via APIs, increasingly mandated by CMS.",
+    "category": "technology",
+    "seeAlso": [
+      "ehr",
+      "hl7"
+    ],
+    "chapters": [
+      "chapter-17-how-data-flows"
+    ]
+  },
+  {
+    "term": "Global Capitation",
+    "slug": "global-capitation",
+    "shortDef": "Capitation covering the total cost of all of a patient's care. Maximum provider risk arrangement.",
+    "category": "payment-model",
+    "seeAlso": [
+      "capitation",
+      "pmpm",
+      "risk-bearing-entity",
+      "aco-reach"
+    ],
+    "chapters": [
+      "chapter-06-understanding-risk",
+      "chapter-11-cms-federal-programs",
+      "chapter-19-risk-bearing-platforms"
+    ]
+  },
+  {
+    "term": "HCC",
+    "slug": "hcc",
+    "shortDef": "Hierarchical Condition Category \u2014 a CMS model grouping ICD-10 diagnoses into cost-weighted categories used to calculate RAF scores.",
+    "category": "concept",
+    "seeAlso": [
+      "raf-score",
+      "icd-10",
+      "risk-adjustment"
+    ],
+    "chapters": [
+      "chapter-14-medicare-advantage"
+    ]
+  },
+  {
+    "term": "HEDIS",
+    "slug": "hedis",
+    "shortDef": "Healthcare Effectiveness Data and Information Set \u2014 the primary quality measure framework for US health plans, maintained by NCQA.",
+    "category": "standard",
+    "seeAlso": [
+      "quality-measures",
+      "stars-rating",
+      "ncqa"
+    ],
+    "chapters": [
+      "chapter-05-value-based-care",
+      "chapter-07-acos",
+      "chapter-17-how-data-flows"
+    ]
+  },
+  {
+    "term": "Health Plan",
+    "slug": "health-plan",
+    "shortDef": "An organization that collects premiums or government payments and agrees to cover members' healthcare costs.",
+    "category": "organization-type",
+    "seeAlso": [
+      "commercial-insurance",
+      "medicare-advantage",
+      "medicaid-mco"
+    ],
+    "chapters": [
+      "chapter-02-who-pays-for-healthcare",
+      "chapter-13-health-plans"
+    ]
+  },
+  {
+    "term": "Health Risk Assessment",
+    "slug": "hra",
+    "shortDef": "A comprehensive patient evaluation to identify undocumented conditions and social needs \u2014 key for RAF score accuracy.",
+    "category": "function",
+    "seeAlso": [
+      "raf-score",
+      "hcc",
+      "risk-adjustment",
+      "sdoh"
+    ],
+    "chapters": [
+      "chapter-14-medicare-advantage"
+    ]
+  },
+  {
+    "term": "ICD-10 Code",
+    "slug": "icd-10",
+    "shortDef": "International Classification of Diseases codes describing diagnoses \u2014 the primary input for HCC mapping and risk adjustment.",
+    "category": "billing",
+    "seeAlso": [
+      "cpt-code",
+      "hcc",
+      "risk-adjustment",
+      "claims"
+    ],
+    "chapters": [
+      "chapter-04-fee-for-service",
+      "chapter-14-medicare-advantage"
+    ]
+  },
+  {
+    "term": "Independent Practice Association",
+    "slug": "ipa",
+    "shortDef": "A legal entity aggregating independent physicians into one contracting unit for collective negotiation with payers and ACOs.",
+    "category": "organization-type",
+    "seeAlso": [
+      "aco",
+      "mso",
+      "sub-capitation"
+    ],
+    "chapters": [
+      "chapter-08-ipas",
+      "chapter-10-aco-ipa-mso"
+    ]
+  },
+  {
+    "term": "Kaiser Permanente",
+    "slug": "kaiser-permanente",
+    "shortDef": "The largest nonprofit integrated health system in the US \u2014 health plan, hospitals, and exclusive physician groups unified.",
+    "category": "company",
+    "seeAlso": [
+      "payvider",
+      "integrated-model"
+    ],
+    "chapters": [
+      "chapter-21-integrated-models"
+    ]
+  },
+  {
+    "term": "Management Services Agreement",
+    "slug": "msa",
+    "shortDef": "The contract between an MSO and a physician practice defining services, fees, and data obligations.",
+    "category": "contract-type",
+    "seeAlso": [
+      "mso",
+      "cpom",
+      "professional-corporation"
+    ],
+    "chapters": [
+      "chapter-09-msos",
+      "chapter-15-how-contracts-flow"
+    ]
+  },
+  {
+    "term": "Management Services Organization",
+    "slug": "mso",
+    "shortDef": "A company providing administrative, operational, and technology services to physician practices, IPAs, and ACOs.",
+    "category": "organization-type",
+    "seeAlso": [
+      "cpom",
+      "msa",
+      "aco",
+      "ipa"
+    ],
+    "chapters": [
+      "chapter-09-msos",
+      "chapter-10-aco-ipa-mso"
+    ]
+  },
+  {
+    "term": "Medicaid",
+    "slug": "medicaid",
+    "shortDef": "A federal-state partnership providing health coverage to ~90 million low-income Americans.",
+    "category": "program",
+    "seeAlso": [
+      "cms",
+      "medicaid-mco",
+      "chip"
+    ],
+    "chapters": [
+      "chapter-02-who-pays-for-healthcare",
+      "chapter-11-cms-federal-programs"
+    ]
+  },
+  {
+    "term": "Medicaid MCO",
+    "slug": "medicaid-mco",
+    "shortDef": "A private health plan that states contract with to administer Medicaid benefits on a capitated basis.",
+    "category": "organization-type",
+    "seeAlso": [
+      "medicaid",
+      "capitation",
+      "health-plan"
+    ],
+    "chapters": [
+      "chapter-13-health-plans"
+    ]
+  },
+  {
+    "term": "Medical Loss Ratio",
+    "slug": "mlr",
+    "shortDef": "The percentage of premium dollars spent on medical care. ACA requires minimums of 80-85%.",
+    "category": "metric",
+    "seeAlso": [
+      "health-plan",
+      "aca"
+    ],
+    "chapters": [
+      "chapter-13-health-plans",
+      "chapter-economics-incentives"
+    ]
+  },
+  {
+    "term": "Medicare",
+    "slug": "medicare",
+    "shortDef": "The federal health insurance program for Americans 65+ and qualifying younger people with disabilities.",
+    "category": "program",
+    "seeAlso": [
+      "cms",
+      "medicare-advantage",
+      "traditional-medicare"
+    ],
+    "chapters": [
+      "chapter-02-who-pays-for-healthcare",
+      "chapter-11-cms-federal-programs"
+    ]
+  },
+  {
+    "term": "Medicare Advantage",
+    "slug": "medicare-advantage",
+    "shortDef": "Part C of Medicare \u2014 private health plans paid a risk-adjusted PMPM by CMS. Covers ~half of Medicare beneficiaries.",
+    "category": "program",
+    "seeAlso": [
+      "medicare",
+      "risk-adjustment",
+      "stars-rating",
+      "pmpm"
+    ],
+    "chapters": [
+      "chapter-02-who-pays-for-healthcare",
+      "chapter-13-health-plans",
+      "chapter-14-medicare-advantage"
+    ]
+  },
+  {
+    "term": "Medicare Shared Savings Program",
+    "slug": "mssp",
+    "shortDef": "The primary ACO program in Traditional Medicare. ACOs earn a share of savings generated below a CMS benchmark.",
+    "category": "program",
+    "seeAlso": [
+      "aco",
+      "cms",
+      "benchmark",
+      "shared-savings"
+    ],
+    "chapters": [
+      "chapter-07-acos",
+      "chapter-11-cms-federal-programs"
+    ]
+  },
+  {
+    "term": "Minimum Savings Rate",
+    "slug": "minimum-savings-rate",
+    "shortDef": "The threshold of savings an ACO must exceed before receiving any shared savings payment.",
+    "category": "concept",
+    "seeAlso": [
+      "mssp",
+      "aco",
+      "shared-savings"
+    ],
+    "chapters": [
+      "chapter-15-how-contracts-flow"
+    ]
+  },
+  {
+    "term": "Optum",
+    "slug": "optum",
+    "shortDef": "The health services division of UnitedHealth Group \u2014 OptumHealth (care delivery), OptumRx (PBM), OptumInsight (analytics).",
+    "category": "company",
+    "seeAlso": [
+      "unitedhealth-group",
+      "pbm",
+      "mso"
+    ],
+    "chapters": [
+      "chapter-21-integrated-models"
+    ]
+  },
+  {
+    "term": "PACE",
+    "slug": "pace",
+    "shortDef": "Program of All-Inclusive Care for the Elderly \u2014 fully integrated care for frail seniors, capitated by both Medicare and Medicaid.",
+    "category": "program",
+    "seeAlso": [
+      "dual-eligible",
+      "capitation",
+      "global-capitation"
+    ],
+    "chapters": [
+      "chapter-11-cms-federal-programs"
+    ]
+  },
+  {
+    "term": "Payvider",
+    "slug": "payvider",
+    "shortDef": "An organization that both insures members and delivers their care \u2014 simultaneously operating as health plan and provider.",
+    "category": "organization-type",
+    "seeAlso": [
+      "vertical-integration",
+      "kaiser-permanente",
+      "alignment-health"
+    ],
+    "chapters": [
+      "chapter-19-risk-bearing-platforms",
+      "chapter-21-integrated-models"
+    ]
+  },
+  {
+    "term": "Per Member Per Month",
+    "slug": "pmpm",
+    "shortDef": "The fixed monthly payment per attributed patient in capitated arrangements, regardless of utilization.",
+    "category": "payment-model",
+    "seeAlso": [
+      "capitation",
+      "risk-adjustment",
+      "sub-capitation"
+    ],
+    "chapters": [
+      "chapter-14-medicare-advantage",
+      "chapter-16-how-money-flows"
+    ]
+  },
+  {
+    "term": "Pharmacy Benefit Manager",
+    "slug": "pbm",
+    "shortDef": "A company managing prescription drug benefits \u2014 negotiating rebates, managing formularies, processing pharmacy claims.",
+    "category": "organization-type",
+    "seeAlso": [
+      "formulary"
+    ],
+    "chapters": [
+      "chapter-13-health-plans"
+    ]
+  },
+  {
+    "term": "Population Health",
+    "slug": "population-health",
+    "shortDef": "Managing the health outcomes of a defined group \u2014 including those not recently seen \u2014 to improve outcomes and reduce avoidable utilization.",
+    "category": "concept",
+    "seeAlso": [
+      "aco",
+      "care-management",
+      "attribution"
+    ],
+    "chapters": [
+      "chapter-05-value-based-care",
+      "chapter-07-acos"
+    ]
+  },
+  {
+    "term": "Professional Corporation",
+    "slug": "professional-corporation",
+    "shortDef": "A physician-owned legal entity holding a medical license, used with MSOs to comply with CPOM laws.",
+    "category": "legal",
+    "seeAlso": [
+      "cpom",
+      "mso"
+    ],
+    "chapters": [
+      "chapter-09-msos",
+      "chapter-18-physician-led-models"
+    ]
+  },
+  {
+    "term": "Prospective Coding",
+    "slug": "prospective-coding",
+    "shortDef": "Identifying and documenting HCC-qualifying diagnoses before the measurement period ends, to complete RAF score calculations.",
+    "category": "function",
+    "seeAlso": [
+      "raf-score",
+      "hcc",
+      "risk-adjustment"
+    ],
+    "chapters": [
+      "chapter-14-medicare-advantage"
+    ]
+  },
+  {
+    "term": "RAF Score",
+    "slug": "raf-score",
+    "shortDef": "Risk Adjustment Factor \u2014 a numeric score per patient predicting their cost relative to an average Medicare beneficiary.",
+    "category": "concept",
+    "seeAlso": [
+      "hcc",
+      "risk-adjustment",
+      "pmpm",
+      "hra"
+    ],
+    "chapters": [
+      "chapter-14-medicare-advantage"
+    ]
+  },
+  {
+    "term": "Risk Adjustment",
+    "slug": "risk-adjustment",
+    "shortDef": "Modifying capitation payments based on predicted patient cost, to ensure adequate payment for complex populations.",
+    "category": "concept",
+    "seeAlso": [
+      "raf-score",
+      "hcc",
+      "medicare-advantage"
+    ],
+    "chapters": [
+      "chapter-14-medicare-advantage"
+    ]
+  },
+  {
+    "term": "Risk-Bearing Entity",
+    "slug": "risk-bearing-entity",
+    "shortDef": "An organization accepting financial responsibility for total cost of care in exchange for capitation.",
+    "category": "organization-type",
+    "seeAlso": [
+      "global-capitation",
+      "capitation",
+      "aco-reach"
+    ],
+    "chapters": [
+      "chapter-06-understanding-risk",
+      "chapter-19-risk-bearing-platforms"
+    ]
+  },
+  {
+    "term": "Risk Spectrum",
+    "slug": "risk-spectrum",
+    "shortDef": "The continuum from FFS (no provider risk) through shared savings, shared risk, to global capitation (maximum provider risk).",
+    "category": "concept",
+    "seeAlso": [
+      "fee-for-service",
+      "shared-savings",
+      "downside-risk",
+      "capitation"
+    ],
+    "chapters": [
+      "chapter-06-understanding-risk"
+    ]
+  },
+  {
+    "term": "SDOH",
+    "slug": "sdoh",
+    "shortDef": "Social Determinants of Health \u2014 non-clinical factors (housing, food, transport) that profoundly shape health outcomes.",
+    "category": "concept",
+    "seeAlso": [
+      "health-equity",
+      "care-management"
+    ],
+    "chapters": [
+      "chapter-17-how-data-flows"
+    ]
+  },
+  {
+    "term": "Self-Insured Employer",
+    "slug": "self-insured-employer",
+    "shortDef": "An employer paying employees' healthcare claims directly, typically using ASO administration.",
+    "category": "organization-type",
+    "seeAlso": [
+      "aso",
+      "health-plan"
+    ],
+    "chapters": [
+      "chapter-02-who-pays-for-healthcare"
+    ]
+  },
+  {
+    "term": "Shared Savings",
+    "slug": "shared-savings",
+    "shortDef": "An ACO's share (50-75%) of net savings when actual costs fall below the CMS benchmark and quality thresholds are met.",
+    "category": "payment-model",
+    "seeAlso": [
+      "aco",
+      "benchmark",
+      "reconciliation",
+      "mssp"
+    ],
+    "chapters": [
+      "chapter-07-acos",
+      "chapter-16-how-money-flows"
+    ]
+  },
+  {
+    "term": "Stars Rating",
+    "slug": "stars-rating",
+    "shortDef": "CMS's annual 1-5 star quality rating for MA plans. Plans rated 4+ stars receive a ~5% quality bonus payment.",
+    "category": "metric",
+    "seeAlso": [
+      "medicare-advantage",
+      "quality-measures",
+      "hedis"
+    ],
+    "chapters": [
+      "chapter-14-medicare-advantage"
+    ]
+  },
+  {
+    "term": "Stop-Loss",
+    "slug": "stop-loss",
+    "shortDef": "Insurance or contractual protection capping a provider's financial exposure from any single catastrophically expensive patient.",
+    "category": "concept",
+    "seeAlso": [
+      "downside-risk",
+      "capitation",
+      "risk-bearing-entity"
+    ],
+    "chapters": [
+      "chapter-15-how-contracts-flow"
+    ]
+  },
+  {
+    "term": "Sub-Capitation",
+    "slug": "sub-capitation",
+    "shortDef": "A capitation payment from an ACO or health plan to an IPA or physician group \u2014 a portion of the PMPM passed down the chain.",
+    "category": "payment-model",
+    "seeAlso": [
+      "capitation",
+      "ipa",
+      "aco",
+      "pmpm"
+    ],
+    "chapters": [
+      "chapter-16-how-money-flows"
+    ]
+  },
+  {
+    "term": "Total Cost of Care",
+    "slug": "total-cost-of-care",
+    "shortDef": "Complete healthcare spending for a defined population across all care settings \u2014 the primary accountability metric for ACOs.",
+    "category": "concept",
+    "seeAlso": [
+      "aco",
+      "benchmark",
+      "global-capitation"
+    ],
+    "chapters": [
+      "chapter-07-acos",
+      "chapter-11-cms-federal-programs"
+    ]
+  },
+  {
+    "term": "Traditional Medicare",
+    "slug": "traditional-medicare",
+    "shortDef": "Original Medicare administered directly by CMS on a fee-for-service basis.",
+    "category": "program",
+    "seeAlso": [
+      "medicare",
+      "cms",
+      "fee-for-service"
+    ],
+    "chapters": [
+      "chapter-11-cms-federal-programs"
+    ]
+  },
+  {
+    "term": "Triple Aim",
+    "slug": "triple-aim",
+    "shortDef": "The IHI framework (2008): better health outcomes, lower per-capita cost, better patient experience \u2014 all simultaneously.",
+    "category": "concept",
+    "seeAlso": [
+      "value-based-care",
+      "population-health"
+    ],
+    "chapters": [
+      "chapter-05-value-based-care"
+    ]
+  },
+  {
+    "term": "UnitedHealth Group",
+    "slug": "unitedhealth-group",
+    "shortDef": "The largest US healthcare company \u2014 UnitedHealthcare (insurance) and Optum (health services: delivery, pharmacy, analytics).",
+    "category": "company",
+    "seeAlso": [
+      "optum",
+      "vertical-integration"
+    ],
+    "chapters": [
+      "chapter-21-integrated-models"
+    ]
+  },
+  {
+    "term": "Value-Based Care",
+    "slug": "value-based-care",
+    "shortDef": "Payment and delivery models linking provider payment to quality and efficiency rather than volume of services.",
+    "category": "concept",
+    "seeAlso": [
+      "fee-for-service",
+      "triple-aim",
+      "population-health",
+      "aco"
+    ],
+    "chapters": [
+      "chapter-05-value-based-care"
+    ]
+  },
+  {
+    "term": "Vertical Integration",
+    "slug": "vertical-integration",
+    "shortDef": "Consolidation of multiple healthcare value chain layers \u2014 insurance, care delivery, pharmacy, technology \u2014 under a single organization.",
+    "category": "concept",
+    "seeAlso": [
+      "payvider",
+      "kaiser-permanente",
+      "unitedhealth-group"
+    ],
+    "chapters": [
+      "chapter-21-integrated-models"
+    ]
+  }
+]
