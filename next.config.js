@@ -10,6 +10,8 @@ const withMDX = require("@next/mdx")({
 
 const nextConfig = {
   output: "export",
+  basePath: "/us-healthcare-explained",
+  assetPrefix: "/us-healthcare-explained",
   pageExtensions: ["js", "jsx", "ts", "tsx", "md", "mdx"],
   images: {
     unoptimized: true,
