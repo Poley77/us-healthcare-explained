@@ -8,10 +8,15 @@ const withMDX = require("@next/mdx")({
   },
 });
 
+const BASE_PATH = "/us-healthcare-explained";
+
 const nextConfig = {
   output: "export",
-  basePath: "/us-healthcare-explained",
-  assetPrefix: "/us-healthcare-explained",
+  basePath: BASE_PATH,
+  assetPrefix: BASE_PATH,
+  env: {
+    NEXT_PUBLIC_BASE_PATH: BASE_PATH,
+  },
   pageExtensions: ["js", "jsx", "ts", "tsx", "md", "mdx"],
   images: {
     unoptimized: true,

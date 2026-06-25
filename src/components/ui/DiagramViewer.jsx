@@ -4,7 +4,7 @@ import { useState, useEffect } from "react";
 
 export default function DiagramViewer({ id, caption, alt }) {
   const [open, setOpen] = useState(false);
-  const src = `/diagrams/${id}.png`;
+  const src = `${process.env.NEXT_PUBLIC_BASE_PATH || ''}/diagrams/${id}.png`;
   const displayCaption = caption || id
     .replace(/^diagram\d+_/, "")
     .replace(/_/g, " ")
