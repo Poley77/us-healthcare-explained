@@ -62,13 +62,6 @@ export default function ChapterLayout({ chapter, children }) {
             {/* Header */}
             <header className="mb-10">
               <div className="flex items-center gap-3 mb-3">
-                <span
-                  className="text-xs font-bold uppercase tracking-widest"
-                  className="text-purple-600"
-                >
-                  {chapter.partTitle}
-                </span>
-                <span className="text-gray-300">·</span>
                 <span className="text-xs text-gray-400">
                   {chapter.readingTimeMinutes} min read
                 </span>
