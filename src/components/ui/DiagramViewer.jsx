@@ -1,14 +1,12 @@
 "use client";
 
 import { useState, useEffect } from "react";
+import diagramTitles from "@/data/diagramTitles";
 
 export default function DiagramViewer({ id, caption, alt }) {
   const [open, setOpen] = useState(false);
   const src = `${process.env.NEXT_PUBLIC_BASE_PATH || ''}/diagrams/${id}.png`;
-  const displayCaption = caption || id
-    .replace(/^diagram\d+_/, "")
-    .replace(/_/g, " ")
-    .replace(/\b\w/g, (l) => l.toUpperCase());
+  const displayCaption = caption || diagramTitles[id] || null;
 
   // Close on Escape
   useEffect(() => {
@@ -34,7 +32,7 @@ export default function DiagramViewer({ id, caption, alt }) {
             loading="lazy"
           />
           <div className="px-4 py-3 flex items-center justify-between border-t border-gray-100">
-            <span className="text-sm text-gray-500 italic">{displayCaption}</span>
+            <span className="text-sm text-gray-500 italic">{displayCaption || ''}</span>
             <span className="text-xs text-gray-400 group-hover:text-blue-500 transition-colors">
               Click to expand ↗
             </span>

@@ -1,52 +1,7 @@
 'use client'
 import { useState } from 'react'
 import chapters from '@/data/chapters.json'
-
-const diagramTitles = {
-  'ch02_img01': 'Who Pays for Healthcare — The Four Sources',
-  'ch02_img02': 'How Medicare Is Funded',
-  'ch02_img03': 'How Self-Insured Employers Work',
-  'ch02_img04': 'The ACA Marketplace',
-  'ch03_img01': 'Who Delivers Healthcare',
-  'ch04_img01': 'How Fee-for-Service Billing Works',
-  'ch04_img02': 'The Claims Lifecycle',
-  'ch05_img01': 'The Triple Aim',
-  'ch05_img02': 'Value-Based Care Models',
-  'ch06_img01': 'The Risk Spectrum — FFS to Full Capitation',
-  'ch07_img01': 'How ACOs Work — MSSP Structure',
-  'ch07_img02': 'Attribution, Benchmarks, and Shared Savings',
-  'ch08_img01': 'How an IPA Is Structured',
-  'ch08_img02': 'IPA Network Aggregation',
-  'ch09_img01': 'What MSOs Do — Eight Core Services',
-  'ch09_img02': 'The PC / MSO Legal Structure',
-  'ch10_img01': 'ACO vs. IPA vs. MSO — Key Differences',
-  'ch10_img02': 'How the Three Layers Work Together',
-  'ch10_img03': 'The Full VBC Stack',
-  'ch11_img01': 'The CMS Program Landscape',
-  'ch12_img01': 'Health Plan Types — Commercial, MA, Medicaid MCO',
-  'ch14_img01': 'How Medicare Advantage Is Funded',
-  'ch14_img02': 'How RAF Scores Are Calculated',
-  'ch14_img03': 'The Stars Rating System',
-  'ch15_img01': 'The Contract Chain — CMS to Physician',
-  'ch15_img02': 'Key Contract Terms in VBC',
-  'ch15_img03': 'The Timeline Problem in VBC Contracts',
-  'ch16_img01': 'How Money Flows — FFS vs. Capitation',
-  'ch16_img02': 'How a PMPM Breaks Down',
-  'ch16_img03': 'Five Revenue Streams in a VBC Practice',
-  'ch17_img01': 'The Five Sources of Clinical Data',
-  'ch17_img02': 'From Data to Intelligence — The Analytics Platform',
-  'ch18_img01': 'The Aledade Model',
-  'ch18_img02': 'The Privia Health Model',
-  'ch18_img03': 'Aledade vs. Privia — Two Philosophies',
-  'ch19_img01': 'The agilon Health Joint Venture Model',
-  'ch19_img02': 'The Alignment Health Payvider Model',
-  'ch19_img03': 'The Risk Spectrum — Four Models in Context',
-  'ch21_img01': 'Kaiser Permanente — Three Interlocking Parts',
-  'ch21_img02': 'UnitedHealth Group — Integration by Acquisition',
-  'ch21_img03': 'Kaiser vs. UnitedHealth — Two Integration Paths',
-  'ch_econ_img01': 'Stakeholder Economics — Who Does What and Why',
-  'ch_ecosystem_img01': 'The US Healthcare Ecosystem — A Complete Map',
-}
+import diagramTitles from '@/data/diagramTitles'
 
 const BASE = process.env.NEXT_PUBLIC_BASE_PATH || ''
 

@@ -1,6 +1,9 @@
 import Link from "next/link";
 import chapters from "@/data/chapters.json";
 import vocabulary from "@/data/vocabulary.json";
+import diagramTitles from "@/data/diagramTitles";
+
+const BASE = process.env.NEXT_PUBLIC_BASE_PATH || '';
 
 export default function ChapterLayout({ chapter, children }) {
   const currentIndex = chapters.findIndex((c) => c.slug === chapter.slug);
@@ -35,7 +38,7 @@ export default function ChapterLayout({ chapter, children }) {
           <span>›</span>
           <span
             className="font-medium"
-            style={{ color: chapter.layerColor }}
+            className="text-purple-600"
           >
             {chapter.partTitle}
           </span>
@@ -61,7 +64,7 @@ export default function ChapterLayout({ chapter, children }) {
               <div className="flex items-center gap-3 mb-3">
                 <span
                   className="text-xs font-bold uppercase tracking-widest"
-                  style={{ color: chapter.layerColor }}
+                  className="text-purple-600"
                 >
                   {chapter.partTitle}
                 </span>
@@ -169,16 +172,13 @@ export default function ChapterLayout({ chapter, children }) {
                     >
                       <div className="w-10 h-10 rounded bg-gray-100 overflow-hidden shrink-0">
                         <img
-                          src={`/diagrams/${id}.png`}
+                          src={`${BASE}/diagrams/${id}.png`}
                           alt=""
                           className="w-full h-full object-cover"
                         />
                       </div>
                       <span className="text-xs text-gray-500 group-hover:text-blue-600 transition-colors leading-snug">
-                        {id
-                          .replace(/^diagram\d+_/, "")
-                          .replace(/_/g, " ")
-                          .replace(/\b\w/g, (l) => l.toUpperCase())}
+                        {diagramTitles[id] || id}
                       </span>
                     </Link>
                   ))}
