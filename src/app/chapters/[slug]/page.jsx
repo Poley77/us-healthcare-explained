@@ -13,6 +13,18 @@ const mdxComponents = {
   Tooltip: ({ children, term }) => <Tooltip term={term}>{children}</Tooltip>,
   Diagram: ({ id, caption, alt }) => <DiagramViewer id={id} caption={caption} alt={alt} />,
   YouTube: (props) => <YouTube {...props} />,
+  a: ({ href, children, ...props }) => {
+    const isExternal = href?.startsWith('http')
+    return (
+      <a
+        href={href}
+        {...props}
+        {...(isExternal ? { target: '_blank', rel: 'noopener noreferrer' } : {})}
+      >
+        {children}
+      </a>
+    )
+  },
 }
 
 export async function generateStaticParams() {
