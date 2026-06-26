@@ -12,22 +12,20 @@ export default function HomePage() {
     <div className="min-h-screen">
       {/* Hero */}
       <section className="max-w-4xl mx-auto px-4 lg:px-8 pt-20 pb-16 text-center">
-        <div className="inline-block mb-5 px-3 py-1 rounded-full text-xs font-bold uppercase tracking-widest bg-blue-50 text-blue-700 font-sans">
-          Interactive Reference
-        </div>
         <h1 className="text-4xl lg:text-6xl font-bold text-gray-900 leading-tight mb-6 font-sans">
           Understanding the<br className="hidden sm:block" /> U.S. Healthcare System
         </h1>
         <p className="text-xl text-gray-500 leading-relaxed mb-10 max-w-2xl mx-auto">
-          A complete reference for professionals navigating Medicare, value-based care, risk, and the organizations that shape American healthcare.
+          A complete reference for professionals navigating Medicare,{' '}
+          <br className="hidden sm:block" />value-based care, risk, and the organizations that shape American healthcare.
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <Link href="/chapters"
-            className="inline-flex items-center justify-center gap-2 px-6 py-3 rounded-xl bg-[#2A5298] text-white font-semibold text-sm hover:bg-blue-800 transition-colors font-sans shadow-sm">
+            className="inline-flex items-center justify-center gap-2 px-6 py-3 rounded-xl bg-purple-600 text-white font-semibold text-sm hover:bg-purple-700 transition-colors font-sans shadow-sm">
             Start Reading →
           </Link>
           <Link href="/concepts"
-            className="inline-flex items-center justify-center gap-2 px-6 py-3 rounded-xl border border-[#E2E2DC] bg-white text-gray-700 font-semibold text-sm hover:border-blue-300 hover:text-blue-700 transition-colors font-sans">
+            className="inline-flex items-center justify-center gap-2 px-6 py-3 rounded-xl border-2 border-purple-600 bg-white text-gray-700 font-semibold text-sm hover:bg-purple-50 transition-colors font-sans">
             Browse Concepts
           </Link>
         </div>
