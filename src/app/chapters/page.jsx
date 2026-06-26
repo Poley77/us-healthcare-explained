@@ -23,14 +23,14 @@ export default function ChaptersPage() {
       <div className="flex flex-col gap-12">
         {parts.map(part => (
           <div key={part.title}>
-            <h2 className="text-xs font-bold uppercase tracking-widest text-gray-400 mb-4 font-sans border-b border-[#E2E2DC] pb-2">
+            <h2 className="text-xs font-bold uppercase tracking-widest text-purple-600 mb-4 font-sans border-b border-[#E2E2DC] pb-2">
               {part.title}
             </h2>
             <div className="flex flex-col gap-1">
               {part.chapters.map(chapter => (
                 <Link key={chapter.slug} href={`/chapters/${chapter.slug}`}
                   className="group flex items-start gap-4 p-4 rounded-xl border border-transparent hover:border-[#E2E2DC] hover:bg-white hover:shadow-sm transition-all">
-                  <div className="w-2 h-2 rounded-full mt-2 shrink-0" style={{ backgroundColor: chapter.layerColor }} />
+                  <div className="w-2 h-2 rounded-full mt-2 shrink-0 bg-gray-900" />
                   <div className="flex-1 min-w-0">
                     <div className="font-semibold text-gray-900 group-hover:text-blue-700 transition-colors font-sans text-sm leading-snug mb-1">
                       {chapter.title}

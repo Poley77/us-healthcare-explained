@@ -2,33 +2,6 @@ import Link from 'next/link'
 import chapters from '@/data/chapters.json'
 import vocabulary from '@/data/vocabulary.json'
 
-const readingPaths = [
-  {
-    label: 'New to Healthcare',
-    desc: 'Start with the fundamentals — who pays, who delivers, and how the system is structured.',
-    chapters: ['chapter-01-the-system-that-was-never-designed', 'chapter-02-who-pays-for-healthcare', 'chapter-03-who-delivers-healthcare'],
-    color: '#2A5298',
-  },
-  {
-    label: 'VBC Practitioner',
-    desc: 'Master risk, ACOs, IPAs, and MSOs — the full value-based care stack.',
-    chapters: ['chapter-06-understanding-risk', 'chapter-07-acos', 'chapter-08-ipas', 'chapter-09-msos'],
-    color: '#C05E0E',
-  },
-  {
-    label: 'Payer / Health Plan',
-    desc: 'Deep dive into CMS programs, health plan economics, and Medicare Advantage.',
-    chapters: ['chapter-11-cms-federal-programs', 'chapter-13-health-plans', 'chapter-14-medicare-advantage'],
-    color: '#1E6B3C',
-  },
-  {
-    label: 'Executive / Investor',
-    desc: 'Real-world organizations, integration models, and stakeholder economics.',
-    chapters: ['chapter-18-physician-led-models', 'chapter-19-risk-bearing-platforms', 'chapter-21-integrated-models', 'chapter-economics-incentives'],
-    color: '#5B3D9E',
-  },
-]
-
 const featuredSlugs = ['aco', 'medicare-advantage', 'raf-score', 'value-based-care', 'mso', 'ipa']
 
 export default function HomePage() {
@@ -75,37 +48,6 @@ export default function HomePage() {
               <div className="text-xs text-gray-500 uppercase tracking-wide mt-0.5">{label}</div>
             </div>
           ))}
-        </div>
-      </section>
-
-      {/* Reading Paths */}
-      <section className="max-w-5xl mx-auto px-4 lg:px-8 py-16">
-        <h2 className="text-2xl font-bold text-gray-900 mb-2 font-sans">Choose your path</h2>
-        <p className="text-gray-500 mb-8">Start where it matters most for your role.</p>
-        <div className="grid sm:grid-cols-2 gap-4">
-          {readingPaths.map(path => {
-            const pathChapters = path.chapters.map(s => chapters.find(c => c.slug === s)).filter(Boolean)
-            return (
-              <Link key={path.label} href={`/chapters/${path.chapters[0]}`}
-                className="group block rounded-2xl border border-[#E2E2DC] bg-white p-6 hover:border-blue-300 hover:shadow-md transition-all">
-                <div className="flex items-center gap-3 mb-3">
-                  <div className="w-3 h-3 rounded-full shrink-0" style={{ backgroundColor: path.color }} />
-                  <span className="font-bold text-gray-900 font-sans group-hover:text-blue-700 transition-colors text-sm">
-                    {path.label}
-                  </span>
-                </div>
-                <p className="text-sm text-gray-500 leading-relaxed mb-4">{path.desc}</p>
-                <div className="flex flex-col gap-1">
-                  {pathChapters.slice(0, 3).map(c => (
-                    <div key={c.slug} className="text-xs text-gray-400">→ {c.title}</div>
-                  ))}
-                  {path.chapters.length > 3 && (
-                    <div className="text-xs text-gray-400">+ {path.chapters.length - 3} more</div>
-                  )}
-                </div>
-              </Link>
-            )
-          })}
         </div>
       </section>
 
