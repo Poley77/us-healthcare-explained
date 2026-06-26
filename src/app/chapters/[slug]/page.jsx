@@ -4,6 +4,7 @@ import { MDXRemote } from 'next-mdx-remote/rsc'
 import ChapterLayout from '@/components/chapter/ChapterLayout'
 import Tooltip from '@/components/ui/Tooltip'
 import DiagramViewer from '@/components/ui/DiagramViewer'
+import YouTube from '@/components/ui/YouTube'
 import chapters from '@/data/chapters.json'
 import { notFound } from 'next/navigation'
 
@@ -11,6 +12,7 @@ const mdxComponents = {
   T: ({ children, term }) => <Tooltip term={term}>{children}</Tooltip>,
   Tooltip: ({ children, term }) => <Tooltip term={term}>{children}</Tooltip>,
   Diagram: ({ id, caption, alt }) => <DiagramViewer id={id} caption={caption} alt={alt} />,
+  YouTube: (props) => <YouTube {...props} />,
 }
 
 export async function generateStaticParams() {

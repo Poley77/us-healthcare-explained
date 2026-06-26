@@ -210,7 +210,8 @@
     "diagramIds": [
       "ch10_img01",
       "ch10_img02",
-      "ch10_img03"
+      "ch10_img03",
+      "ch10_img04"
     ],
     "readingTimeMinutes": 5,
     "summary": "How the three layers work together \u2014 accountability, network, and infrastructure \u2014 and why the lines between them blur."
@@ -235,7 +236,8 @@
       "bundled-payments"
     ],
     "diagramIds": [
-      "ch11_img01"
+      "ch11_img01",
+      "ch11_img02"
     ],
     "readingTimeMinutes": 9,
     "summary": "The full CMS program landscape \u2014 Medicare, MSSP, ACO REACH, CMMI, Medicaid, CHIP, PACE, and all major innovation models."
