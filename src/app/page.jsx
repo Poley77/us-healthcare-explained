@@ -40,7 +40,6 @@ export default function HomePage() {
             [String(chapters.length), 'Chapters'],
             [String(vocabulary.length), 'Concepts'],
             ['40+', 'Diagrams'],
-            ['8', 'Stakeholder Profiles'],
             [`~${totalReadingTime}m`, 'Reading Time'],
           ].map(([num, label]) => (
             <div key={label}>
