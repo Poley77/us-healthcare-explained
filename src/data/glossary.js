@@ -74,6 +74,13 @@ const glossary = [
   // C
   {
     letter: "C",
+    term: "Centers for Medicare & Medicaid Services (CMS)",
+    slug: "cms",
+    definition: "The federal agency within the Department of Health and Human Services that administers Medicare, sets federal Medicaid policy, and regulates private health insurance markets. The single largest payer in US healthcare, spending over $1.5 trillion annually. CMS operates the MSSP and ACO REACH programs and houses CMMI, the innovation center for alternative payment models.",
+    seeAlso: ["Medicare", "Medicaid", "Center for Medicare and Medicaid Innovation (CMMI)", "Medicare Shared Savings Program (MSSP)"],
+  },
+  {
+    letter: "C",
     term: "Capitation",
     slug: "capitation",
     definition: "A payment model in which a provider organization receives a fixed monthly amount per enrolled patient, regardless of how many services are used. The provider manages all care within that budget. Also called PMPM (per member per month).",
@@ -195,6 +202,13 @@ const glossary = [
   // E
   {
     letter: "E",
+    term: "Employed Physicians",
+    slug: "employed-physicians",
+    definition: "Physicians who work as salaried employees of a hospital, health system, or large medical group rather than as independent practice owners. Physician employment has grown significantly as health systems and payviders seek tighter clinical and economic alignment. Employed physicians are central to the payvider model.",
+    seeAlso: ["Physician Group", "Payvider", "Vertical Integration"],
+  },
+  {
+    letter: "E",
     term: "Electronic Health Record (EHR)",
     slug: "ehr",
     definition: "A digital record of a patient's medical history, diagnoses, medications, lab results, and care plans, maintained by a provider organization. EHRs are the primary source of near-real-time clinical data in VBC analytics platforms. Major vendors include Epic, Oracle Health, eClinicalWorks, and Athenahealth.",
@@ -259,6 +273,13 @@ const glossary = [
     seeAlso: ["Capitation", "Risk-Bearing Entity", "Sub-Capitation"],
   },
   // H
+  {
+    letter: "H",
+    term: "Hospital",
+    slug: "hospital",
+    definition: "A licensed inpatient care facility providing acute medical and surgical care, emergency services, and diagnostic testing. Hospitals are the highest-cost care setting in US healthcare, reimbursed primarily through DRG-based payments in Medicare and negotiated rates (typically 150–300% of Medicare) in commercial insurance. Reducing avoidable hospitalizations is a central goal of value-based care.",
+    seeAlso: ["Diagnosis Related Group (DRG)", "Fee-for-Service (FFS)", "Centers for Medicare & Medicaid Services (CMS)"],
+  },
   {
     letter: "H",
     term: "HCC (Hierarchical Condition Category)",
@@ -377,6 +398,13 @@ const glossary = [
   // M
   {
     letter: "M",
+    term: "Managed Care",
+    slug: "managed-care",
+    definition: "A system of organizing and financing healthcare that uses financial incentives, provider networks, and care management programs to improve quality and reduce unnecessary utilization. HMOs, PPOs, and Medicare Advantage plans are all forms of managed care. Contrasted with traditional fee-for-service, where payment is made regardless of outcomes or efficiency.",
+    seeAlso: ["Health Maintenance Organization (HMO)", "Health Plan", "Capitation"],
+  },
+  {
+    letter: "M",
     term: "Management Services Agreement (MSA)",
     slug: "msa",
     definition: "The contract between an MSO and a physician practice (or Professional Corporation) that defines the services the MSO provides, its fee, and the data and operational obligations of both parties. The legal foundation of the MSO business model.",
@@ -441,6 +469,13 @@ const glossary = [
   // N
   {
     letter: "N",
+    term: "NCQA (National Committee for Quality Assurance)",
+    slug: "ncqa",
+    definition: "A non-profit organization that develops healthcare quality standards, administers accreditation programs for health plans and medical groups, and maintains the HEDIS quality measurement framework. NCQA accreditation is a key credentialing benchmark for health plans and ACOs. Stars ratings for Medicare Advantage draw heavily on NCQA-developed measures.",
+    seeAlso: ["HEDIS", "Quality Measures", "Stars Rating"],
+  },
+  {
+    letter: "N",
     term: "Network Adequacy",
     slug: "network-adequacy",
     definition: "A regulatory requirement that a health plan or ACO maintains a sufficient number and type of providers to serve its enrolled population within reasonable geographic and time-access standards. Plans that fail network adequacy can face CMS sanctions.",
@@ -455,6 +490,13 @@ const glossary = [
     seeAlso: ["UnitedHealth Group (UHG)", "MSO", "Pharmacy Benefit Manager (PBM)"],
   },
   // P
+  {
+    letter: "P",
+    term: "Primary Care",
+    slug: "primary-care",
+    definition: "The first point of contact for patients in the healthcare system, provided by family medicine physicians, internists, pediatricians, and geriatricians. Primary care is the strategic center of value-based care: physician documentation drives RAF scores, chronic disease management drives quality measure performance, and patient relationships drive attribution. The entire infrastructure of VBC is designed to give primary care physicians the data and incentives to manage their populations more effectively.",
+    seeAlso: ["Attribution", "Care Management", "Population Health", "RAF Score (Risk Adjustment Factor)"],
+  },
   {
     letter: "P",
     term: "PACE",
@@ -548,6 +590,13 @@ const glossary = [
     seeAlso: ["HEDIS", "Stars Rating", "NCQA"],
   },
   // R
+  {
+    letter: "R",
+    term: "Revenue Cycle",
+    slug: "revenue-cycle",
+    definition: "The end-to-end administrative and financial process by which a healthcare provider bills for services and collects payment. Encompasses charge capture, clinical documentation, coding (ICD-10 and CPT), claims submission, payer adjudication, denial management, and collections. Revenue cycle management is a core MSO service and a major operational complexity in VBC, where providers simultaneously manage FFS billing and value-based payment streams.",
+    seeAlso: ["Claims", "Claims Adjudication", "Management Services Organization (MSO)"],
+  },
   {
     letter: "R",
     term: "RAF Score (Risk Adjustment Factor)",

@@ -2,19 +2,25 @@
 import { useState, useEffect, useRef } from 'react'
 import glossary, { letters } from '@/data/glossary'
 
-// Build a map from term name → slug for See Also links
-const termToSlug = {}
-glossary.forEach(t => {
-  termToSlug[t.term] = t.slug
-})
-
+// Build slug lookup with acronym and prefix matching
 function findSlug(name) {
-  // Exact match first
-  if (termToSlug[name]) return termToSlug[name]
-  // Fuzzy: find a term whose name starts with or contains the see-also string
   const lower = name.toLowerCase()
-  const match = glossary.find(t => t.term.toLowerCase() === lower)
-  return match ? match.slug : null
+  // 1. Exact match
+  const exact = glossary.find(t => t.term.toLowerCase() === lower)
+  if (exact) return exact.slug
+  // 2. Acronym match: "ACO" matches "Accountable Care Organization (ACO)"
+  const acronym = glossary.find(t => {
+    const m = t.term.match(/\(([^)]+)\)$/)
+    return m && m[1].toLowerCase() === lower
+  })
+  if (acronym) return acronym.slug
+  // 3. Prefix match: "Fee-for-Service" matches "Fee-for-Service (FFS)"
+  const prefix = glossary.find(t => t.term.toLowerCase().startsWith(lower + ' (') || t.term.toLowerCase().startsWith(lower + ','))
+  if (prefix) return prefix.slug
+  // 4. Term starts with the name (partial, e.g. "Medicare Advantage" → "Medicare Advantage (MA)")
+  const partial = glossary.find(t => t.term.toLowerCase().startsWith(lower))
+  if (partial) return partial.slug
+  return null
 }
 
 export default function GlossaryPage() {
