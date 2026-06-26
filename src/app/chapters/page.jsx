@@ -17,7 +17,6 @@ export default function ChaptersPage() {
   return (
     <div className="max-w-3xl mx-auto px-4 lg:px-8 py-12">
       <div className="mb-10">
-        <h1 className="text-3xl font-bold text-gray-900 mb-2 font-sans">Chapters</h1>
         <p className="text-gray-500 font-sans">{chapters.length} chapters · ~{totalTime} minutes total reading time</p>
       </div>
       <div className="flex flex-col gap-12">
