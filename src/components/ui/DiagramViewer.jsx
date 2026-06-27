@@ -31,7 +31,7 @@ export default function DiagramViewer({ id, caption, alt }) {
           <img
             src={src}
             alt={alt || displayCaption}
-            className="w-full h-auto"
+            className="max-w-full h-auto mx-auto block"
             loading="lazy"
           />
           <div className="px-4 py-3 flex items-center justify-between border-t border-gray-100">
