@@ -5,6 +5,18 @@ import diagramTitles from '@/data/diagramTitles'
 
 const BASE = process.env.NEXT_PUBLIC_BASE_PATH || ''
 
+function DiagramImg({ id, label, className }) {
+  const [ext, setExt] = useState('svg')
+  return (
+    <img
+      src={`${BASE}/diagrams/${id}.${ext}`}
+      alt={label}
+      className={className}
+      onError={() => { if (ext === 'svg') setExt('png') }}
+    />
+  )
+}
+
 function getAllDiagrams() {
   const seen = new Set()
   const diagrams = []
@@ -20,14 +32,8 @@ function getAllDiagrams() {
 }
 
 export default function DiagramsPage() {
-  const [lightboxSrc, setLightboxSrc] = useState(null)
-  const [lightboxLabel, setLightboxLabel] = useState('')
+  const [lightbox, setLightbox] = useState(null)
   const diagrams = getAllDiagrams()
-
-  const openLightbox = (id, label) => {
-    setLightboxSrc(`${BASE}/diagrams/${id}.png`)
-    setLightboxLabel(label)
-  }
 
   return (
     <div className="max-w-6xl mx-auto px-4 lg:px-8 py-12">
@@ -37,18 +43,10 @@ export default function DiagramsPage() {
       </div>
       <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
         {diagrams.map(({ id, chapter, label }) => (
-          <div key={id} onClick={() => openLightbox(id, label)}
+          <div key={id} onClick={() => setLightbox({ id, label })}
             className="group rounded-xl border border-[#E2E2DC] bg-white overflow-hidden hover:border-blue-300 hover:shadow-md transition-all cursor-zoom-in">
-            <div className="aspect-video bg-gray-50 flex items-center justify-center overflow-hidden relative">
-              <img
-                src={`${BASE}/diagrams/${id}.png`}
-                alt={label}
-                className="w-full h-full object-cover"
-                onError={e => { e.currentTarget.style.display = 'none'; e.currentTarget.nextSibling.style.display = 'flex' }}
-              />
-              <div className="hidden absolute inset-0 items-center justify-center text-gray-300 text-xs font-sans p-4 text-center">
-                {label}
-              </div>
+            <div className="aspect-video bg-gray-50 flex items-center justify-center overflow-hidden">
+              <DiagramImg id={id} label={label} className="w-full h-full object-contain" />
             </div>
             <div className="px-4 py-3">
               <div className="text-sm font-medium text-gray-800 font-sans mb-0.5 leading-snug">{label}</div>
@@ -61,16 +59,16 @@ export default function DiagramsPage() {
         ))}
       </div>
 
-      {lightboxSrc && (
+      {lightbox && (
         <div className="fixed inset-0 z-50 bg-black/80 flex items-center justify-center p-4 lg:p-8"
-          onClick={() => setLightboxSrc(null)}>
+          onClick={() => setLightbox(null)}>
           <div className="relative max-w-5xl w-full" onClick={e => e.stopPropagation()}>
             <div className="flex items-center justify-between mb-3">
-              <span className="text-white/80 text-sm font-sans">{lightboxLabel}</span>
-              <button onClick={() => setLightboxSrc(null)}
+              <span className="text-white/80 text-sm font-sans">{lightbox.label}</span>
+              <button onClick={() => setLightbox(null)}
                 className="text-white/70 hover:text-white font-sans text-sm">✕ Close</button>
             </div>
-            <img src={lightboxSrc} alt={lightboxLabel} className="w-full h-auto rounded-xl shadow-2xl" />
+            <DiagramImg id={lightbox.id} label={lightbox.label} className="w-full h-auto rounded-xl shadow-2xl" />
           </div>
         </div>
       )}
