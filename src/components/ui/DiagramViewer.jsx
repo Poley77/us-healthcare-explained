@@ -4,14 +4,19 @@ import { useState, useEffect } from "react";
 
 export default function DiagramViewer({ id, caption, alt }) {
   const [open, setOpen] = useState(false);
+  const [ext, setExt] = useState("svg");
   const basePath = process.env.NEXT_PUBLIC_BASE_PATH || "";
-  const src = `${basePath}/diagrams/${id}.png`;
+  const src = `${basePath}/diagrams/${id}.${ext}`;
+
+  const handleError = () => {
+    if (ext === "svg") setExt("png");
+  };
+
   const displayCaption = caption || id
     .replace(/^diagram\d+_/, "")
     .replace(/_/g, " ")
     .replace(/\b\w/g, (l) => l.toUpperCase());
 
-  // Close on Escape
   useEffect(() => {
     if (!open) return;
     const handler = (e) => { if (e.key === "Escape") setOpen(false); };
@@ -31,8 +36,9 @@ export default function DiagramViewer({ id, caption, alt }) {
           <img
             src={src}
             alt={alt || displayCaption}
-            className="max-w-full h-auto mx-auto block"
+            className="w-full h-auto"
             loading="lazy"
+            onError={handleError}
           />
           <div className="px-4 py-3 flex items-center justify-between border-t border-gray-100">
             <span className="text-sm text-gray-500 italic">{displayCaption}</span>
@@ -53,7 +59,6 @@ export default function DiagramViewer({ id, caption, alt }) {
             className="relative max-w-6xl w-full bg-white rounded-2xl overflow-hidden shadow-2xl"
             onClick={(e) => e.stopPropagation()}
           >
-            {/* Lightbox header */}
             <div className="flex items-center justify-between px-6 py-4 border-b border-gray-200">
               <span className="text-sm font-medium text-gray-700">
                 {displayCaption}
@@ -61,7 +66,7 @@ export default function DiagramViewer({ id, caption, alt }) {
               <div className="flex items-center gap-3">
                 <a
                   href={src}
-                  download={`${id}.png`}
+                  download={`${id}.${ext}`}
                   className="text-xs text-gray-400 hover:text-blue-600 transition-colors"
                   onClick={(e) => e.stopPropagation()}
                 >
@@ -76,13 +81,12 @@ export default function DiagramViewer({ id, caption, alt }) {
                 </button>
               </div>
             </div>
-
-            {/* Full image */}
             <div className="overflow-auto max-h-[80vh] p-4">
               <img
                 src={src}
                 alt={alt || displayCaption}
                 className="w-full h-auto"
+                onError={handleError}
               />
             </div>
           </div>

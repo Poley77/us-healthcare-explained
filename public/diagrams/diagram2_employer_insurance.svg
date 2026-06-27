@@ -1,0 +1,39 @@
+<svg viewBox="0 0 680 480" xmlns="http://www.w3.org/2000/svg" font-family="Inter, system-ui, -apple-system, sans-serif" role="img">
+  <title>How Employer-Sponsored Insurance Works</title>
+  <defs>
+    <marker id="arr" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#9ca3af"/>
+    </marker>
+  </defs>
+  <rect width="680" height="480" rx="14" fill="#f8f8f6" stroke="#e2e2dc" stroke-width="1"/>
+  <text x="340" y="44" text-anchor="middle" font-size="17" font-weight="700" fill="#111">How Employer-Sponsored Insurance Works</text>
+
+  <!-- Employee (amber) -->
+  <rect x="40" y="75" width="205" height="90" rx="10" fill="#fef3c7" stroke="#fcd34d" stroke-width="1.5"/>
+  <text x="142" y="110" text-anchor="middle" font-size="15" font-weight="700" fill="#78350f">Employee</text>
+  <text x="142" y="132" text-anchor="middle" font-size="12" fill="#92400e">pays their share</text>
+
+  <!-- Employer (green) -->
+  <rect x="320" y="75" width="320" height="90" rx="10" fill="#dcfce7" stroke="#86efac" stroke-width="1.5"/>
+  <text x="480" y="110" text-anchor="middle" font-size="15" font-weight="700" fill="#14532d">Employer</text>
+  <text x="480" y="132" text-anchor="middle" font-size="12" fill="#166534">pays most of the premium</text>
+
+  <!-- Arrow Employee → Health Plan -->
+  <line x1="155" y1="165" x2="265" y2="278" stroke="#9ca3af" stroke-width="1.5" marker-end="url(#arr)"/>
+
+  <!-- Arrow Employer → Health Plan -->
+  <line x1="480" y1="165" x2="390" y2="278" stroke="#9ca3af" stroke-width="1.5" marker-end="url(#arr)"/>
+
+  <!-- Health Plan (blue) -->
+  <rect x="100" y="280" width="480" height="85" rx="10" fill="#dbeafe" stroke="#93c5fd" stroke-width="1.5"/>
+  <text x="340" y="314" text-anchor="middle" font-size="15" font-weight="700" fill="#1e3a8a">Health Plan</text>
+  <text x="340" y="338" text-anchor="middle" font-size="12" fill="#1e40af">UnitedHealthcare · Aetna · Humana · etc.</text>
+
+  <!-- Arrow Health Plan → Doctors -->
+  <line x1="340" y1="365" x2="340" y2="400" stroke="#9ca3af" stroke-width="1.5" marker-end="url(#arr)"/>
+
+  <!-- Doctors (purple) -->
+  <rect x="60" y="402" width="560" height="60" rx="10" fill="#ede9fe" stroke="#c4b5fd" stroke-width="1.5"/>
+  <text x="340" y="429" text-anchor="middle" font-size="14" font-weight="700" fill="#4c1d95">Doctors · Hospitals · Pharmacies</text>
+  <text x="340" y="450" text-anchor="middle" font-size="11" fill="#6d28d9">paid per service by the health plan</text>
+</svg>
