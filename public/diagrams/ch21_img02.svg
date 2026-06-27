@@ -1,0 +1,81 @@
+<svg viewBox="0 0 780 340" xmlns="http://www.w3.org/2000/svg" font-family="Inter, system-ui, -apple-system, sans-serif" role="img">
+  <title>UnitedHealth Group — Conglomerate Integration</title>
+  <defs>
+    <marker id="arr" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#9ca3af"/>
+    </marker>
+  </defs>
+  <rect width="780" height="340" rx="14" fill="#f8f8f6" stroke="#e2e2dc" stroke-width="1"/>
+  <text x="390" y="26" text-anchor="middle" font-size="15" font-weight="700" fill="#111">UnitedHealth Group — Conglomerate Integration</text>
+  <text x="390" y="44" text-anchor="middle" font-size="11" fill="#6b7280">Two divisions, one strategy: insure members, then serve them across the entire care journey</text>
+
+  <!-- UnitedHealth Group -->
+  <rect x="280" y="54" width="220" height="40" rx="9" fill="#1e3a8a" stroke="#1e40af" stroke-width="1.5"/>
+  <text x="390" y="72" text-anchor="middle" font-size="13" font-weight="700" fill="#ffffff">UnitedHealth Group</text>
+  <text x="390" y="88" text-anchor="middle" font-size="10" fill="#bfdbfe">parent holding company</text>
+
+  <!-- Arrows left and right -->
+  <line x1="280" y1="74" x2="210" y2="114" stroke="#9ca3af" stroke-width="1.5" marker-end="url(#arr)"/>
+  <line x1="500" y1="74" x2="570" y2="114" stroke="#9ca3af" stroke-width="1.5" marker-end="url(#arr)"/>
+
+  <!-- UnitedHealthcare -->
+  <rect x="20" y="116" width="320" height="50" rx="9" fill="#dbeafe" stroke="#93c5fd" stroke-width="1.5"/>
+  <text x="180" y="138" text-anchor="middle" font-size="12" font-weight="700" fill="#1e3a8a">UnitedHealthcare</text>
+  <text x="180" y="156" text-anchor="middle" font-size="9.5" fill="#374151">health insurance division</text>
+  <text x="180" y="168" text-anchor="middle" font-size="9.5" fill="#374151">commercial · MA · Medicaid · employer</text>
+
+  <!-- Optum -->
+  <rect x="440" y="116" width="320" height="50" rx="9" fill="#dcfce7" stroke="#86efac" stroke-width="1.5"/>
+  <text x="600" y="138" text-anchor="middle" font-size="12" font-weight="700" fill="#14532d">Optum</text>
+  <text x="600" y="156" text-anchor="middle" font-size="9.5" fill="#374151">health services division</text>
+  <text x="600" y="168" text-anchor="middle" font-size="9.5" fill="#374151">analytics · pharmacy · care delivery</text>
+
+  <!-- Three UHC sub-items -->
+  <line x1="90" y1="166" x2="75" y2="190" stroke="#9ca3af" stroke-width="1" marker-end="url(#arr)"/>
+  <line x1="180" y1="166" x2="180" y2="190" stroke="#9ca3af" stroke-width="1" marker-end="url(#arr)"/>
+  <line x1="270" y1="166" x2="285" y2="190" stroke="#9ca3af" stroke-width="1" marker-end="url(#arr)"/>
+
+  <rect x="20" y="192" width="96" height="34" rx="6" fill="#eff6ff" stroke="#bfdbfe" stroke-width="1"/>
+  <text x="68" y="208" text-anchor="middle" font-size="9" font-weight="600" fill="#1e3a8a">Commercial</text>
+  <text x="68" y="221" text-anchor="middle" font-size="9" fill="#374151">employer plans</text>
+
+  <rect x="132" y="192" width="96" height="34" rx="6" fill="#eff6ff" stroke="#bfdbfe" stroke-width="1"/>
+  <text x="180" y="208" text-anchor="middle" font-size="9" font-weight="600" fill="#1e3a8a">Medicare</text>
+  <text x="180" y="221" text-anchor="middle" font-size="9" fill="#374151">MA plans</text>
+
+  <rect x="244" y="192" width="96" height="34" rx="6" fill="#eff6ff" stroke="#bfdbfe" stroke-width="1"/>
+  <text x="292" y="208" text-anchor="middle" font-size="9" font-weight="600" fill="#1e3a8a">Medicaid</text>
+  <text x="292" y="221" text-anchor="middle" font-size="9" fill="#374151">managed care</text>
+
+  <!-- Three Optum sub-items -->
+  <line x1="517" y1="166" x2="510" y2="190" stroke="#9ca3af" stroke-width="1" marker-end="url(#arr)"/>
+  <line x1="600" y1="166" x2="600" y2="190" stroke="#9ca3af" stroke-width="1" marker-end="url(#arr)"/>
+  <line x1="683" y1="166" x2="690" y2="190" stroke="#9ca3af" stroke-width="1" marker-end="url(#arr)"/>
+
+  <rect x="462" y="192" width="96" height="34" rx="6" fill="#f0fdf4" stroke="#bbf7d0" stroke-width="1"/>
+  <text x="510" y="208" text-anchor="middle" font-size="9" font-weight="600" fill="#14532d">OptumHealth</text>
+  <text x="510" y="221" text-anchor="middle" font-size="9" fill="#374151">care delivery</text>
+
+  <rect x="572" y="192" width="96" height="34" rx="6" fill="#f0fdf4" stroke="#bbf7d0" stroke-width="1"/>
+  <text x="620" y="208" text-anchor="middle" font-size="9" font-weight="600" fill="#14532d">OptumRx</text>
+  <text x="620" y="221" text-anchor="middle" font-size="9" fill="#374151">pharmacy / PBM</text>
+
+  <rect x="682" y="192" width="96" height="34" rx="6" fill="#f0fdf4" stroke="#bbf7d0" stroke-width="1"/>
+  <text x="730" y="208" text-anchor="middle" font-size="9" font-weight="600" fill="#14532d">OptumInsight</text>
+  <text x="730" y="221" text-anchor="middle" font-size="9" fill="#374151">data / analytics</text>
+
+  <!-- OptumHealth care delivery arm -->
+  <rect x="60" y="240" width="660" height="60" rx="9" fill="#fef3c7" stroke="#fcd34d" stroke-width="1.5"/>
+  <text x="390" y="258" text-anchor="middle" font-size="12" font-weight="700" fill="#78350f">OptumHealth — the care delivery arm (selected components)</text>
+  <line x1="70" y1="265" x2="710" y2="265" stroke="#fde68a" stroke-width="1"/>
+  <text x="150" y="280" text-anchor="middle" font-size="9.5" fill="#374151">Employed physician groups</text>
+  <text x="310" y="280" text-anchor="middle" font-size="9.5" fill="#374151">Surgical / specialty centers</text>
+  <text x="455" y="280" text-anchor="middle" font-size="9.5" fill="#374151">Behavioral health</text>
+  <text x="585" y="280" text-anchor="middle" font-size="9.5" fill="#374151">Home-based care</text>
+  <text x="710" y="280" text-anchor="middle" font-size="9.5" fill="#374151">VBC mgmt</text>
+  <text x="390" y="294" text-anchor="middle" font-size="9" fill="#6b7280">OptumHealth employs over 90,000 physicians — making UnitedHealth Group one of the largest physician employers in the US</text>
+
+  <!-- Footer -->
+  <rect x="60" y="308" width="660" height="24" rx="7" fill="#fef2f2" stroke="#fca5a5" stroke-width="1"/>
+  <text x="390" y="324" text-anchor="middle" font-size="9.5" fill="#7f1d1d">UHC (payer) and Optum (provider) serve many of the same patients — raising regulatory and conflict-of-interest questions</text>
+</svg>

@@ -1,0 +1,52 @@
+<svg viewBox="0 0 740 330" xmlns="http://www.w3.org/2000/svg" font-family="Inter, system-ui, -apple-system, sans-serif" role="img">
+  <title>Kaiser Permanente — Fully Integrated Model</title>
+  <defs>
+    <marker id="arr" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#9ca3af"/>
+    </marker>
+  </defs>
+  <rect width="740" height="330" rx="14" fill="#f8f8f6" stroke="#e2e2dc" stroke-width="1"/>
+  <text x="370" y="26" text-anchor="middle" font-size="15" font-weight="700" fill="#111">Kaiser Permanente — Fully Integrated Model</text>
+  <text x="370" y="44" text-anchor="middle" font-size="11" fill="#6b7280">The oldest and most complete integration of insurance and care delivery in the US</text>
+
+  <!-- Member / Employer -->
+  <rect x="250" y="54" width="240" height="40" rx="9" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="370" y="72" text-anchor="middle" font-size="12" font-weight="700" fill="#334155">Member / Employer</text>
+  <text x="370" y="88" text-anchor="middle" font-size="10" fill="#6b7280">pays premium · enrolls</text>
+
+  <line x1="370" y1="94" x2="370" y2="114" stroke="#9ca3af" stroke-width="1.5" marker-end="url(#arr)"/>
+
+  <!-- Kaiser Foundation Health Plan -->
+  <rect x="80" y="116" width="580" height="48" rx="9" fill="#1e3a8a" stroke="#1e40af" stroke-width="1.5"/>
+  <text x="370" y="138" text-anchor="middle" font-size="13" font-weight="700" fill="#ffffff">Kaiser Foundation Health Plan</text>
+  <text x="370" y="156" text-anchor="middle" font-size="10" fill="#bfdbfe">licensed insurer · collects premiums · holds insurance risk · manages benefits</text>
+
+  <!-- Two arrows down -->
+  <line x1="230" y1="164" x2="200" y2="186" stroke="#9ca3af" stroke-width="1.5" marker-end="url(#arr)"/>
+  <line x1="510" y1="164" x2="540" y2="186" stroke="#9ca3af" stroke-width="1.5" marker-end="url(#arr)"/>
+
+  <!-- Kaiser Foundation Hospitals -->
+  <rect x="30" y="188" width="310" height="56" rx="9" fill="#eff6ff" stroke="#93c5fd" stroke-width="1.5"/>
+  <text x="185" y="210" text-anchor="middle" font-size="12" font-weight="700" fill="#1e3a8a">Kaiser Foundation Hospitals</text>
+  <text x="185" y="226" text-anchor="middle" font-size="9.5" fill="#374151">nonprofit hospital system · inpatient · surgery · ER</text>
+  <text x="185" y="240" text-anchor="middle" font-size="9.5" fill="#374151">owned by the same parent organization</text>
+
+  <!-- Permanente Medical Groups -->
+  <rect x="400" y="188" width="310" height="56" rx="9" fill="#f0fdf4" stroke="#86efac" stroke-width="1.5"/>
+  <text x="555" y="210" text-anchor="middle" font-size="12" font-weight="700" fill="#14532d">Permanente Medical Groups</text>
+  <text x="555" y="226" text-anchor="middle" font-size="9.5" fill="#374151">physician-owned partnerships · employed physicians</text>
+  <text x="555" y="240" text-anchor="middle" font-size="9.5" fill="#374151">independent from KP but contracted exclusively</text>
+
+  <!-- Arrows to member care -->
+  <line x1="185" y1="244" x2="270" y2="262" stroke="#9ca3af" stroke-width="1.5" marker-end="url(#arr)"/>
+  <line x1="555" y1="244" x2="470" y2="262" stroke="#9ca3af" stroke-width="1.5" marker-end="url(#arr)"/>
+
+  <!-- Member Care Experience -->
+  <rect x="80" y="264" width="580" height="32" rx="8" fill="#fef3c7" stroke="#fcd34d" stroke-width="1.5"/>
+  <text x="370" y="278" text-anchor="middle" font-size="11" font-weight="700" fill="#78350f">Member Care Experience</text>
+  <text x="370" y="292" text-anchor="middle" font-size="10" fill="#374151">primary care · specialist · hospital · pharmacy · mental health — all under one roof</text>
+
+  <!-- Footer -->
+  <rect x="30" y="302" width="680" height="22" rx="7" fill="#1e3a8a"/>
+  <text x="370" y="317" text-anchor="middle" font-size="10" font-weight="600" fill="#ffffff">KP HealthConnect — Integrated EHR shared across all care settings</text>
+</svg>

@@ -1,0 +1,51 @@
+<svg viewBox="0 0 720 300" xmlns="http://www.w3.org/2000/svg" font-family="Inter, system-ui, -apple-system, sans-serif" role="img">
+  <title>Alignment Health — How It Works</title>
+  <defs>
+    <marker id="arr" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#9ca3af"/>
+    </marker>
+  </defs>
+  <rect width="720" height="300" rx="14" fill="#f8f8f6" stroke="#e2e2dc" stroke-width="1"/>
+  <text x="360" y="28" text-anchor="middle" font-size="15" font-weight="700" fill="#111">Alignment Health — How It Works</text>
+  <text x="360" y="46" text-anchor="middle" font-size="11" fill="#6b7280">Fully integrated MA plan + care delivery — the "payvider" model</text>
+
+  <!-- CMS -->
+  <rect x="250" y="56" width="220" height="44" rx="9" fill="#1e3a8a" stroke="#1e40af" stroke-width="1.5"/>
+  <text x="360" y="76" text-anchor="middle" font-size="13" font-weight="700" fill="#ffffff">CMS</text>
+  <text x="360" y="94" text-anchor="middle" font-size="10" fill="#bfdbfe">risk-adjusted PMPM · Stars-based quality bonus</text>
+
+  <line x1="360" y1="100" x2="360" y2="120" stroke="#9ca3af" stroke-width="1.5" marker-end="url(#arr)"/>
+
+  <!-- Alignment Health Plan -->
+  <rect x="100" y="122" width="520" height="44" rx="9" fill="#dbeafe" stroke="#93c5fd" stroke-width="1.5"/>
+  <text x="360" y="142" text-anchor="middle" font-size="12" font-weight="700" fill="#1e3a8a">Alignment Health Plan</text>
+  <text x="360" y="160" text-anchor="middle" font-size="10" fill="#374151">licensed MA insurer · collects CMS capitation · holds the insurance risk · Stars accountability</text>
+
+  <line x1="360" y1="166" x2="360" y2="186" stroke="#9ca3af" stroke-width="1.5" marker-end="url(#arr)"/>
+
+  <!-- Alignment Medical Group + Care Ops -->
+  <rect x="100" y="188" width="520" height="44" rx="9" fill="#fef3c7" stroke="#fcd34d" stroke-width="1.5"/>
+  <text x="360" y="208" text-anchor="middle" font-size="12" font-weight="700" fill="#78350f">Alignment Medical Group + Care Ops</text>
+  <text x="360" y="226" text-anchor="middle" font-size="10" fill="#374151">employed PCPs · care management · utilization management · specialist network</text>
+
+  <!-- Arrows to three delivery types -->
+  <line x1="210" y1="232" x2="180" y2="252" stroke="#9ca3af" stroke-width="1.5" marker-end="url(#arr)"/>
+  <line x1="360" y1="232" x2="360" y2="252" stroke="#9ca3af" stroke-width="1.5" marker-end="url(#arr)"/>
+  <line x1="510" y1="232" x2="540" y2="252" stroke="#9ca3af" stroke-width="1.5" marker-end="url(#arr)"/>
+
+  <!-- Three delivery channels -->
+  <rect x="30" y="254" width="195" height="38" rx="7" fill="#ede9fe" stroke="#c4b5fd" stroke-width="1.5"/>
+  <text x="128" y="271" text-anchor="middle" font-size="11" font-weight="600" fill="#4c1d95">Primary Care Clinics</text>
+  <text x="128" y="285" text-anchor="middle" font-size="9.5" fill="#6d28d9">owned or employed PCPs</text>
+
+  <rect x="263" y="254" width="195" height="38" rx="7" fill="#ede9fe" stroke="#c4b5fd" stroke-width="1.5"/>
+  <text x="361" y="271" text-anchor="middle" font-size="11" font-weight="600" fill="#4c1d95">Specialist Network</text>
+  <text x="361" y="285" text-anchor="middle" font-size="9.5" fill="#6d28d9">contracted specialists</text>
+
+  <rect x="496" y="254" width="195" height="38" rx="7" fill="#ede9fe" stroke="#c4b5fd" stroke-width="1.5"/>
+  <text x="594" y="271" text-anchor="middle" font-size="11" font-weight="600" fill="#4c1d95">Home Care / Telehealth</text>
+  <text x="594" y="285" text-anchor="middle" font-size="9.5" fill="#6d28d9">24/7 clinical access</text>
+
+  <!-- Footer note -->
+  <text x="360" y="300" text-anchor="middle" font-size="9" fill="#6b7280">Alignment both insures and delivers — the plan's financial interests and the care team's clinical interests are fully aligned</text>
+</svg>

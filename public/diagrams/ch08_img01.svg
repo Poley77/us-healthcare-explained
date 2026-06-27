@@ -1,0 +1,64 @@
+<svg viewBox="0 0 720 420" xmlns="http://www.w3.org/2000/svg" font-family="Inter, system-ui, -apple-system, sans-serif" role="img">
+  <title>How an IPA Is Structured</title>
+  <defs>
+    <marker id="arr" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#9ca3af"/>
+    </marker>
+    <marker id="arr-green" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#4ade80"/>
+    </marker>
+  </defs>
+  <rect width="720" height="420" rx="14" fill="#f8f8f6" stroke="#e2e2dc" stroke-width="1"/>
+  <text x="360" y="40" text-anchor="middle" font-size="17" font-weight="700" fill="#111">How an IPA Is Structured</text>
+
+  <!-- Health Plan / ACO (blue) -->
+  <rect x="185" y="62" width="350" height="68" rx="10" fill="#dbeafe" stroke="#93c5fd" stroke-width="1.5"/>
+  <text x="360" y="90" text-anchor="middle" font-size="14" font-weight="700" fill="#1e3a8a">Health Plan / ACO</text>
+  <text x="360" y="110" text-anchor="middle" font-size="11" fill="#1e40af">holds the VBC contract</text>
+  <text x="545" y="100" text-anchor="start" font-size="10" fill="#9ca3af">capitation / shared savings</text>
+
+  <!-- Arrow → IPA -->
+  <line x1="360" y1="130" x2="360" y2="162" stroke="#9ca3af" stroke-width="1.5" marker-end="url(#arr)"/>
+
+  <!-- IPA (blue) -->
+  <rect x="100" y="164" width="520" height="68" rx="10" fill="#dbeafe" stroke="#93c5fd" stroke-width="1.5"/>
+  <text x="360" y="192" text-anchor="middle" font-size="14" font-weight="700" fill="#1e3a8a">IPA</text>
+  <text x="360" y="212" text-anchor="middle" font-size="11" fill="#1e40af">single legal entity · contracts on behalf of all member physicians</text>
+
+  <!-- Arrows IPA → 5 practices -->
+  <line x1="175" y1="232" x2="82"  y2="290" stroke="#4ade80" stroke-width="1.5" marker-end="url(#arr-green)"/>
+  <line x1="255" y1="232" x2="224" y2="290" stroke="#4ade80" stroke-width="1.5" marker-end="url(#arr-green)"/>
+  <line x1="360" y1="232" x2="360" y2="290" stroke="#4ade80" stroke-width="1.5" marker-end="url(#arr-green)"/>
+  <line x1="465" y1="232" x2="496" y2="290" stroke="#4ade80" stroke-width="1.5" marker-end="url(#arr-green)"/>
+  <line x1="545" y1="232" x2="638" y2="290" stroke="#4ade80" stroke-width="1.5" marker-end="url(#arr-green)"/>
+
+  <!-- Practice A -->
+  <rect x="18" y="292" width="124" height="62" rx="8" fill="#dcfce7" stroke="#86efac" stroke-width="1.5"/>
+  <text x="80" y="316" text-anchor="middle" font-size="11" font-weight="700" fill="#14532d">Practice A</text>
+  <text x="80" y="334" text-anchor="middle" font-size="10" fill="#166534">solo physician</text>
+
+  <!-- Practice B -->
+  <rect x="154" y="292" width="124" height="62" rx="8" fill="#dcfce7" stroke="#86efac" stroke-width="1.5"/>
+  <text x="216" y="316" text-anchor="middle" font-size="11" font-weight="700" fill="#14532d">Practice B</text>
+  <text x="216" y="334" text-anchor="middle" font-size="10" fill="#166534">2-physician group</text>
+
+  <!-- Practice C -->
+  <rect x="290" y="292" width="140" height="62" rx="8" fill="#dcfce7" stroke="#86efac" stroke-width="1.5"/>
+  <text x="360" y="316" text-anchor="middle" font-size="11" font-weight="700" fill="#14532d">Practice C</text>
+  <text x="360" y="334" text-anchor="middle" font-size="10" fill="#166534">multi-specialty</text>
+
+  <!-- Practice D -->
+  <rect x="442" y="292" width="124" height="62" rx="8" fill="#dcfce7" stroke="#86efac" stroke-width="1.5"/>
+  <text x="504" y="316" text-anchor="middle" font-size="11" font-weight="700" fill="#14532d">Practice D</text>
+  <text x="504" y="334" text-anchor="middle" font-size="10" fill="#166534">primary care</text>
+
+  <!-- Practice E -->
+  <rect x="578" y="292" width="124" height="62" rx="8" fill="#dcfce7" stroke="#86efac" stroke-width="1.5"/>
+  <text x="640" y="316" text-anchor="middle" font-size="11" font-weight="700" fill="#14532d">Practice E</text>
+  <text x="640" y="334" text-anchor="middle" font-size="10" fill="#166534">specialist group</text>
+
+  <!-- Bottom note box -->
+  <rect x="18" y="368" width="684" height="38" rx="8" fill="#ede9fe" stroke="#c4b5fd" stroke-width="1"/>
+  <text x="360" y="383" text-anchor="middle" font-size="11" font-weight="700" fill="#4c1d95">Each physician stays independent — the IPA negotiates as one</text>
+  <text x="360" y="399" text-anchor="middle" font-size="10" fill="#6d28d9">Practices retain ownership, staff, and branding. The IPA is a contracting vehicle, not an employer.</text>
+</svg>

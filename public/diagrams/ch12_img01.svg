@@ -1,0 +1,72 @@
+<svg viewBox="0 0 760 340" xmlns="http://www.w3.org/2000/svg" font-family="Inter, system-ui, -apple-system, sans-serif" role="img">
+  <title>The Three Health Plan Markets</title>
+  <defs>
+    <marker id="arr" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#9ca3af"/>
+    </marker>
+  </defs>
+  <rect width="760" height="340" rx="14" fill="#f8f8f6" stroke="#e2e2dc" stroke-width="1"/>
+  <text x="380" y="34" text-anchor="middle" font-size="16" font-weight="700" fill="#111">The Three Health Plan Markets</text>
+  <text x="380" y="52" text-anchor="middle" font-size="11" fill="#6b7280">Same basic structure — different populations, rules, and economics</text>
+
+  <!-- Commercial Plan (blue) -->
+  <rect x="18" y="64" width="222" height="54" rx="10" fill="#dbeafe" stroke="#93c5fd" stroke-width="1.5"/>
+  <text x="129" y="87" text-anchor="middle" font-size="13" font-weight="700" fill="#1e3a8a">Commercial Plan</text>
+  <text x="129" y="107" text-anchor="middle" font-size="11" fill="#1e40af">employer-sponsored or individual</text>
+
+  <!-- Medicare Advantage (green center) -->
+  <rect x="269" y="64" width="222" height="54" rx="10" fill="#dcfce7" stroke="#86efac" stroke-width="1.5"/>
+  <text x="380" y="87" text-anchor="middle" font-size="13" font-weight="700" fill="#14532d">Medicare Advantage</text>
+  <text x="380" y="107" text-anchor="middle" font-size="11" fill="#166534">private Medicare · Part C</text>
+
+  <!-- Medicaid MCO (purple) -->
+  <rect x="520" y="64" width="222" height="54" rx="10" fill="#ede9fe" stroke="#c4b5fd" stroke-width="1.5"/>
+  <text x="631" y="87" text-anchor="middle" font-size="13" font-weight="700" fill="#4c1d95">Medicaid MCO</text>
+  <text x="631" y="107" text-anchor="middle" font-size="11" fill="#6d28d9">managed Medicaid · state contracts</text>
+
+  <!-- Arrows down -->
+  <line x1="129" y1="118" x2="129" y2="148" stroke="#9ca3af" stroke-width="1.5" marker-end="url(#arr)"/>
+  <line x1="380" y1="118" x2="380" y2="148" stroke="#9ca3af" stroke-width="1.5" marker-end="url(#arr)"/>
+  <line x1="631" y1="118" x2="631" y2="148" stroke="#9ca3af" stroke-width="1.5" marker-end="url(#arr)"/>
+
+  <!-- Funded by row -->
+  <rect x="18"  y="150" width="222" height="56" rx="8" fill="#f1f5f9" stroke="#e2e2dc" stroke-width="1"/>
+  <text x="129" y="172" text-anchor="middle" font-size="11" font-weight="600" fill="#374151">Funded by</text>
+  <text x="129" y="190" text-anchor="middle" font-size="10" fill="#6b7280">employer premiums</text>
+  <text x="129" y="204" text-anchor="middle" font-size="10" fill="#6b7280">+ employee share</text>
+
+  <rect x="269" y="150" width="222" height="56" rx="8" fill="#f0fdf4" stroke="#bbf7d0" stroke-width="1"/>
+  <text x="380" y="172" text-anchor="middle" font-size="11" font-weight="600" fill="#14532d">Funded by</text>
+  <text x="380" y="190" text-anchor="middle" font-size="10" fill="#166534">CMS capitation ·</text>
+  <text x="380" y="204" text-anchor="middle" font-size="10" fill="#166534">risk-adjusted PMPM</text>
+
+  <rect x="520" y="150" width="222" height="56" rx="8" fill="#f5f3ff" stroke="#ddd6fe" stroke-width="1"/>
+  <text x="631" y="172" text-anchor="middle" font-size="11" font-weight="600" fill="#4c1d95">Funded by</text>
+  <text x="631" y="190" text-anchor="middle" font-size="10" fill="#6d28d9">state + federal</text>
+  <text x="631" y="204" text-anchor="middle" font-size="10" fill="#6d28d9">Medicaid capitation</text>
+
+  <!-- Arrows down -->
+  <line x1="129" y1="206" x2="129" y2="234" stroke="#9ca3af" stroke-width="1.5" marker-end="url(#arr)"/>
+  <line x1="380" y1="206" x2="380" y2="234" stroke="#9ca3af" stroke-width="1.5" marker-end="url(#arr)"/>
+  <line x1="631" y1="206" x2="631" y2="234" stroke="#9ca3af" stroke-width="1.5" marker-end="url(#arr)"/>
+
+  <!-- Provider Contracts row -->
+  <rect x="18"  y="236" width="222" height="56" rx="8" fill="#f1f5f9" stroke="#e2e2dc" stroke-width="1"/>
+  <text x="129" y="258" text-anchor="middle" font-size="11" font-weight="600" fill="#374151">Provider Contracts</text>
+  <text x="129" y="276" text-anchor="middle" font-size="10" fill="#6b7280">negotiated FFS rates</text>
+
+  <rect x="269" y="236" width="222" height="56" rx="8" fill="#f0fdf4" stroke="#bbf7d0" stroke-width="1"/>
+  <text x="380" y="258" text-anchor="middle" font-size="11" font-weight="600" fill="#14532d">Provider Contracts</text>
+  <text x="380" y="274" text-anchor="middle" font-size="10" fill="#166534">VBC · capitation</text>
+  <text x="380" y="288" text-anchor="middle" font-size="10" fill="#166534">shared savings</text>
+
+  <rect x="520" y="236" width="222" height="56" rx="8" fill="#f5f3ff" stroke="#ddd6fe" stroke-width="1"/>
+  <text x="631" y="258" text-anchor="middle" font-size="11" font-weight="600" fill="#4c1d95">Provider Contracts</text>
+  <text x="631" y="274" text-anchor="middle" font-size="10" fill="#6d28d9">mostly FFS ·</text>
+  <text x="631" y="288" text-anchor="middle" font-size="10" fill="#6d28d9">some VBC emerging</text>
+
+  <!-- Population labels -->
+  <text x="129" y="316" text-anchor="middle" font-size="10" fill="#9ca3af">~160M Americans</text>
+  <text x="380" y="316" text-anchor="middle" font-size="10" fill="#9ca3af">~33M Americans</text>
+  <text x="631" y="316" text-anchor="middle" font-size="10" fill="#9ca3af">~80M Americans via MCOs</text>
+</svg>

@@ -1,0 +1,69 @@
+<svg viewBox="0 0 740 340" xmlns="http://www.w3.org/2000/svg" font-family="Inter, system-ui, -apple-system, sans-serif" role="img">
+  <title>ACO, IPA, and MSO — Side-by-Side Comparison</title>
+  <rect width="740" height="340" rx="14" fill="#f8f8f6" stroke="#e2e2dc" stroke-width="1"/>
+
+  <!-- Header row -->
+  <rect x="18" y="18" width="704" height="36" rx="6" fill="#f1f5f9"/>
+  <text x="120" y="41" text-anchor="middle" font-size="12" font-weight="600" fill="#6b7280"> </text>
+  <text x="330" y="41" text-anchor="middle" font-size="13" font-weight="700" fill="#1e3a8a">ACOs</text>
+  <text x="510" y="41" text-anchor="middle" font-size="13" font-weight="700" fill="#14532d">IPAs</text>
+  <text x="660" y="41" text-anchor="middle" font-size="13" font-weight="700" fill="#78350f">MSOs</text>
+
+  <!-- Vertical dividers -->
+  <line x1="210" y1="18" x2="210" y2="318" stroke="#e2e2dc" stroke-width="1"/>
+  <line x1="430" y1="18" x2="430" y2="318" stroke="#e2e2dc" stroke-width="1"/>
+  <line x1="590" y1="18" x2="590" y2="318" stroke="#e2e2dc" stroke-width="1"/>
+
+  <!-- Row 1 -->
+  <rect x="18" y="54" width="704" height="52" rx="0" fill="#eff6ff" opacity="0.4"/>
+  <text x="120" y="74" text-anchor="middle" font-size="11" font-weight="600" fill="#374151">Purpose</text>
+  <text x="320" y="70" text-anchor="middle" font-size="10" fill="#374151">Deliver high-quality,</text>
+  <text x="320" y="86" text-anchor="middle" font-size="10" fill="#374151">cost-effective care</text>
+  <text x="510" y="70" text-anchor="middle" font-size="10" fill="#374151">Enable independent</text>
+  <text x="510" y="86" text-anchor="middle" font-size="10" fill="#374151">practices to collaborate</text>
+  <text x="655" y="70" text-anchor="middle" font-size="10" fill="#374151">Provide administrative</text>
+  <text x="655" y="86" text-anchor="middle" font-size="10" fill="#374151">and operational support</text>
+
+  <!-- Row 2 -->
+  <text x="120" y="126" text-anchor="middle" font-size="11" font-weight="600" fill="#374151">Structure</text>
+  <text x="320" y="120" text-anchor="middle" font-size="10" fill="#374151">Legal entities with formal</text>
+  <text x="320" y="136" text-anchor="middle" font-size="10" fill="#374151">participation agreements</text>
+  <text x="510" y="120" text-anchor="middle" font-size="10" fill="#374151">Networks of independent</text>
+  <text x="510" y="136" text-anchor="middle" font-size="10" fill="#374151">physicians</text>
+  <text x="655" y="120" text-anchor="middle" font-size="10" fill="#374151">Business entities supporting</text>
+  <text x="655" y="136" text-anchor="middle" font-size="10" fill="#374151">health care organizations</text>
+
+  <!-- Row 3 -->
+  <rect x="18" y="152" width="704" height="52" rx="0" fill="#eff6ff" opacity="0.4"/>
+  <text x="120" y="172" text-anchor="middle" font-size="11" font-weight="600" fill="#374151">Financial</text>
+  <text x="120" y="187" text-anchor="middle" font-size="11" font-weight="600" fill="#374151">Model</text>
+  <text x="320" y="172" text-anchor="middle" font-size="10" fill="#374151">Value-based care with</text>
+  <text x="320" y="188" text-anchor="middle" font-size="10" fill="#374151">shared savings</text>
+  <text x="510" y="172" text-anchor="middle" font-size="10" fill="#374151">Contract negotiations</text>
+  <text x="510" y="188" text-anchor="middle" font-size="10" fill="#374151">with health plans</text>
+  <text x="655" y="172" text-anchor="middle" font-size="10" fill="#374151">Contract-based, often fee</text>
+  <text x="655" y="188" text-anchor="middle" font-size="10" fill="#374151">or % of revenue</text>
+
+  <!-- Row 4 -->
+  <text x="120" y="222" text-anchor="middle" font-size="11" font-weight="600" fill="#374151">Primary</text>
+  <text x="120" y="237" text-anchor="middle" font-size="11" font-weight="600" fill="#374151">Focus</text>
+  <text x="320" y="220" text-anchor="middle" font-size="10" fill="#374151">Clinical coordination and</text>
+  <text x="320" y="236" text-anchor="middle" font-size="10" fill="#374151">quality improvement</text>
+  <text x="510" y="220" text-anchor="middle" font-size="10" fill="#374151">Collective negotiation and</text>
+  <text x="510" y="236" text-anchor="middle" font-size="10" fill="#374151">resource sharing</text>
+  <text x="655" y="220" text-anchor="middle" font-size="10" fill="#374151">Streamlining operations</text>
+  <text x="655" y="236" text-anchor="middle" font-size="10" fill="#374151">and reducing overhead</text>
+
+  <!-- Row 5 -->
+  <rect x="18" y="252" width="704" height="52" rx="0" fill="#eff6ff" opacity="0.4"/>
+  <text x="120" y="269" text-anchor="middle" font-size="11" font-weight="600" fill="#374151">Role in Care</text>
+  <text x="120" y="284" text-anchor="middle" font-size="11" font-weight="600" fill="#374151">Delivery</text>
+  <text x="320" y="266" text-anchor="middle" font-size="10" fill="#374151">Impacting outcomes</text>
+  <text x="320" y="282" text-anchor="middle" font-size="10" fill="#374151">through data and care coord.</text>
+  <text x="510" y="266" text-anchor="middle" font-size="10" fill="#374151">Indirect through</text>
+  <text x="510" y="282" text-anchor="middle" font-size="10" fill="#374151">network collaboration</text>
+  <text x="655" y="266" text-anchor="middle" font-size="10" fill="#374151">Indirect through</text>
+  <text x="655" y="282" text-anchor="middle" font-size="10" fill="#374151">operational efficiency</text>
+
+  <rect x="18" y="18" width="704" height="286" rx="6" fill="none" stroke="#e2e2dc" stroke-width="1"/>
+</svg>

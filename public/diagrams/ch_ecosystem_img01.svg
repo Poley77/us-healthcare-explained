@@ -1,0 +1,298 @@
+<svg viewBox="0 0 1100 700" xmlns="http://www.w3.org/2000/svg" font-family="Inter, system-ui, -apple-system, sans-serif" role="img">
+  <title>The US Healthcare Ecosystem</title>
+  <rect width="1100" height="700" rx="14" fill="#f8f8f6" stroke="#e2e2dc" stroke-width="1"/>
+  <text x="550" y="26" text-anchor="middle" font-size="16" font-weight="700" fill="#111">The US Healthcare Ecosystem</text>
+  <text x="550" y="44" text-anchor="middle" font-size="11" fill="#6b7280">Overview of every major participant — simplified</text>
+
+  <!-- ===== ROW 1: FUNDERS ===== -->
+  <rect x="10" y="52" width="60" height="82" rx="6" fill="#374151"/>
+  <text x="40" y="90" text-anchor="middle" font-size="9" font-weight="700" fill="#fff" transform="rotate(-90, 40, 90)">FUNDERS</text>
+
+  <rect x="78" y="54" width="128" height="78" rx="7" fill="#1e3a8a" stroke="#1e40af" stroke-width="1.5"/>
+  <text x="142" y="72" text-anchor="middle" font-size="10" font-weight="700" fill="#fff">CMS</text>
+  <text x="142" y="86" text-anchor="middle" font-size="8.5" fill="#bfdbfe">Medicare / Medicaid</text>
+  <text x="142" y="99" text-anchor="middle" font-size="8.5" fill="#bfdbfe">CMS regulations</text>
+  <text x="142" y="112" text-anchor="middle" font-size="8.5" fill="#bfdbfe">~$1.5T annual spend</text>
+
+  <rect x="214" y="54" width="128" height="78" rx="7" fill="#1e3a8a" stroke="#1e40af" stroke-width="1.5"/>
+  <text x="278" y="72" text-anchor="middle" font-size="10" font-weight="700" fill="#fff">States</text>
+  <text x="278" y="86" text-anchor="middle" font-size="8.5" fill="#bfdbfe">Medicaid co-funding</text>
+  <text x="278" y="99" text-anchor="middle" font-size="8.5" fill="#bfdbfe">CHIP / regulations</text>
+  <text x="278" y="112" text-anchor="middle" font-size="8.5" fill="#bfdbfe">~Medicaid match</text>
+
+  <rect x="350" y="54" width="128" height="78" rx="7" fill="#374151" stroke="#4b5563" stroke-width="1.5"/>
+  <text x="414" y="72" text-anchor="middle" font-size="10" font-weight="700" fill="#fff">Employers</text>
+  <text x="414" y="86" text-anchor="middle" font-size="8.5" fill="#d1d5db">self-insured (ERISA)</text>
+  <text x="414" y="99" text-anchor="middle" font-size="8.5" fill="#d1d5db">fully-insured</text>
+  <text x="414" y="112" text-anchor="middle" font-size="8.5" fill="#d1d5db">~155M Americans</text>
+
+  <rect x="486" y="54" width="128" height="78" rx="7" fill="#374151" stroke="#4b5563" stroke-width="1.5"/>
+  <text x="550" y="72" text-anchor="middle" font-size="10" font-weight="700" fill="#fff">Individuals</text>
+  <text x="550" y="86" text-anchor="middle" font-size="8.5" fill="#d1d5db">ACA marketplace</text>
+  <text x="550" y="99" text-anchor="middle" font-size="8.5" fill="#d1d5db">out-of-pocket</text>
+  <text x="550" y="112" text-anchor="middle" font-size="8.5" fill="#d1d5db">~30M self-pay</text>
+
+  <rect x="622" y="54" width="128" height="78" rx="7" fill="#374151" stroke="#4b5563" stroke-width="1.5"/>
+  <text x="686" y="72" text-anchor="middle" font-size="10" font-weight="700" fill="#fff">ACA Marketplace</text>
+  <text x="686" y="86" text-anchor="middle" font-size="8.5" fill="#d1d5db">subsidized plans</text>
+  <text x="686" y="99" text-anchor="middle" font-size="8.5" fill="#d1d5db">state-level reform</text>
+  <text x="686" y="112" text-anchor="middle" font-size="8.5" fill="#d1d5db">~16M enrollees</text>
+
+  <rect x="758" y="54" width="128" height="78" rx="7" fill="#374151" stroke="#4b5563" stroke-width="1.5"/>
+  <text x="822" y="72" text-anchor="middle" font-size="10" font-weight="700" fill="#fff">Private Equity / VC</text>
+  <text x="822" y="86" text-anchor="middle" font-size="8.5" fill="#d1d5db">MSO · platforms</text>
+  <text x="822" y="99" text-anchor="middle" font-size="8.5" fill="#d1d5db">physician groups</text>
+
+  <rect x="894" y="54" width="196" height="78" rx="7" fill="#374151" stroke="#4b5563" stroke-width="1.5"/>
+  <text x="992" y="72" text-anchor="middle" font-size="10" font-weight="700" fill="#fff">Capital Markets</text>
+  <text x="992" y="86" text-anchor="middle" font-size="8.5" fill="#d1d5db">UHG · CVS · HUM</text>
+  <text x="992" y="99" text-anchor="middle" font-size="8.5" fill="#d1d5db">Privia · agilon</text>
+
+  <!-- ===== ROW 2: PAYERS ===== -->
+  <rect x="10" y="140" width="60" height="98" rx="6" fill="#2A5298"/>
+  <text x="40" y="186" text-anchor="middle" font-size="9" font-weight="700" fill="#fff" transform="rotate(-90, 40, 186)">PAYERS</text>
+
+  <rect x="78" y="142" width="128" height="94" rx="7" fill="#dbeafe" stroke="#93c5fd" stroke-width="1.5"/>
+  <text x="142" y="160" text-anchor="middle" font-size="10" font-weight="700" fill="#1e3a8a">Traditional Medicare</text>
+  <text x="142" y="175" text-anchor="middle" font-size="8.5" fill="#374151">Parts A · B · D</text>
+  <text x="142" y="188" text-anchor="middle" font-size="8.5" fill="#374151">FFS payment</text>
+  <text x="142" y="201" text-anchor="middle" font-size="8.5" fill="#374151">~36M beneficiaries</text>
+  <text x="142" y="214" text-anchor="middle" font-size="8.5" fill="#374151">Medicare Fee Schedule</text>
+  <text x="142" y="228" text-anchor="middle" font-size="8.5" fill="#374151">DRG payments</text>
+
+  <rect x="214" y="142" width="128" height="94" rx="7" fill="#dbeafe" stroke="#93c5fd" stroke-width="1.5"/>
+  <text x="278" y="160" text-anchor="middle" font-size="10" font-weight="700" fill="#1e3a8a">Medicare Advantage</text>
+  <text x="278" y="175" text-anchor="middle" font-size="8.5" fill="#374151">Part C — privatized</text>
+  <text x="278" y="188" text-anchor="middle" font-size="8.5" fill="#374151">risk-adjusted PMPM</text>
+  <text x="278" y="201" text-anchor="middle" font-size="8.5" fill="#374151">~32M enrolled</text>
+  <text x="278" y="214" text-anchor="middle" font-size="8.5" fill="#374151">Stars bonus payment</text>
+
+  <rect x="350" y="142" width="128" height="94" rx="7" fill="#dbeafe" stroke="#93c5fd" stroke-width="1.5"/>
+  <text x="414" y="160" text-anchor="middle" font-size="10" font-weight="700" fill="#1e3a8a">Medicaid</text>
+  <text x="414" y="175" text-anchor="middle" font-size="8.5" fill="#374151">State / federal</text>
+  <text x="414" y="188" text-anchor="middle" font-size="8.5" fill="#374151">FFS + MCO</text>
+  <text x="414" y="201" text-anchor="middle" font-size="8.5" fill="#374151">Eligance · BCBS</text>
+  <text x="414" y="214" text-anchor="middle" font-size="8.5" fill="#374151">~90M enrollees</text>
+
+  <rect x="486" y="142" width="128" height="94" rx="7" fill="#dbeafe" stroke="#93c5fd" stroke-width="1.5"/>
+  <text x="550" y="160" text-anchor="middle" font-size="10" font-weight="700" fill="#1e3a8a">Commercial Health Plans</text>
+  <text x="550" y="175" text-anchor="middle" font-size="8.5" fill="#374151">BCBS · Aetna · Cigna</text>
+  <text x="550" y="188" text-anchor="middle" font-size="8.5" fill="#374151">UHC · employer</text>
+  <text x="550" y="201" text-anchor="middle" font-size="8.5" fill="#374151">premium-funded</text>
+  <text x="550" y="214" text-anchor="middle" font-size="8.5" fill="#374151">FFS + VBC contracts</text>
+
+  <rect x="622" y="142" width="128" height="94" rx="7" fill="#dbeafe" stroke="#93c5fd" stroke-width="1.5"/>
+  <text x="686" y="160" text-anchor="middle" font-size="10" font-weight="700" fill="#1e3a8a">Medicare DSNP</text>
+  <text x="686" y="175" text-anchor="middle" font-size="8.5" fill="#374151">Dual eligible</text>
+  <text x="686" y="188" text-anchor="middle" font-size="8.5" fill="#374151">Medicare + Medicaid</text>
+  <text x="686" y="201" text-anchor="middle" font-size="8.5" fill="#374151">~12M dual eligibles</text>
+  <text x="686" y="214" text-anchor="middle" font-size="8.5" fill="#374151">Community plans</text>
+
+  <rect x="758" y="142" width="128" height="94" rx="7" fill="#dbeafe" stroke="#93c5fd" stroke-width="1.5"/>
+  <text x="822" y="160" text-anchor="middle" font-size="10" font-weight="700" fill="#1e3a8a">Plans / Carve-Outs</text>
+  <text x="822" y="175" text-anchor="middle" font-size="8.5" fill="#374151">Pharmacy · dental</text>
+  <text x="822" y="188" text-anchor="middle" font-size="8.5" fill="#374151">drug formulary</text>
+  <text x="822" y="201" text-anchor="middle" font-size="8.5" fill="#374151">analytics rebates</text>
+
+  <rect x="894" y="142" width="196" height="94" rx="7" fill="#dbeafe" stroke="#93c5fd" stroke-width="1.5"/>
+  <text x="992" y="160" text-anchor="middle" font-size="10" font-weight="700" fill="#1e3a8a">Kaiser Permanente</text>
+  <text x="992" y="175" text-anchor="middle" font-size="8.5" fill="#374151">Fully integrated insurer</text>
+  <text x="992" y="188" text-anchor="middle" font-size="8.5" fill="#374151">CMS + commercial</text>
+  <text x="992" y="201" text-anchor="middle" font-size="8.5" fill="#374151">~12M members</text>
+  <text x="992" y="214" text-anchor="middle" font-size="8.5" fill="#374151">Payvider model</text>
+
+  <!-- ===== ROW 3: RISK CONTRACTS ===== -->
+  <rect x="10" y="244" width="60" height="98" rx="6" fill="#C05E0E"/>
+  <text x="40" y="292" text-anchor="middle" font-size="9" font-weight="700" fill="#fff" transform="rotate(-90, 40, 292)">RISK CONTRACTS</text>
+
+  <rect x="78" y="246" width="196" height="94" rx="7" fill="#fff7ed" stroke="#fed7aa" stroke-width="1.5"/>
+  <text x="176" y="264" text-anchor="middle" font-size="10" font-weight="700" fill="#c2410c">MSSP / ACO REACH / ACOs</text>
+  <text x="176" y="279" text-anchor="middle" font-size="8.5" fill="#374151">shared savings / shared risk</text>
+  <text x="176" y="292" text-anchor="middle" font-size="8.5" fill="#374151">sub-capitation · PMPM</text>
+  <text x="176" y="305" text-anchor="middle" font-size="8.5" fill="#374151">CMS / MA plan contract</text>
+  <text x="176" y="318" text-anchor="middle" font-size="8.5" fill="#374151">Quality thresholds</text>
+  <text x="176" y="331" text-anchor="middle" font-size="8.5" fill="#374151">REACH ACOs model</text>
+
+  <rect x="282" y="246" width="164" height="94" rx="7" fill="#fff7ed" stroke="#fed7aa" stroke-width="1.5"/>
+  <text x="364" y="264" text-anchor="middle" font-size="10" font-weight="700" fill="#c2410c">MA Value-Based Contracts</text>
+  <text x="364" y="279" text-anchor="middle" font-size="8.5" fill="#374151">plan to ACO / IPA</text>
+  <text x="364" y="292" text-anchor="middle" font-size="8.5" fill="#374151">sub-capitation</text>
+  <text x="364" y="305" text-anchor="middle" font-size="8.5" fill="#374151">HEDIS improvement</text>
+  <text x="364" y="318" text-anchor="middle" font-size="8.5" fill="#374151">CMS-approved model</text>
+
+  <rect x="454" y="246" width="164" height="94" rx="7" fill="#fff7ed" stroke="#fed7aa" stroke-width="1.5"/>
+  <text x="536" y="264" text-anchor="middle" font-size="10" font-weight="700" fill="#c2410c">IPAs</text>
+  <text x="536" y="279" text-anchor="middle" font-size="8.5" fill="#374151">physician aggregation</text>
+  <text x="536" y="292" text-anchor="middle" font-size="8.5" fill="#374151">sub-cap risk-sharing</text>
+  <text x="536" y="305" text-anchor="middle" font-size="8.5" fill="#374151">HEDIS / quality mgmt</text>
+  <text x="536" y="318" text-anchor="middle" font-size="8.5" fill="#374151">ACO-owned model</text>
+
+  <rect x="626" y="246" width="164" height="94" rx="7" fill="#fff7ed" stroke="#fed7aa" stroke-width="1.5"/>
+  <text x="708" y="264" text-anchor="middle" font-size="10" font-weight="700" fill="#c2410c">Risk-Bearing Programs</text>
+  <text x="708" y="279" text-anchor="middle" font-size="8.5" fill="#374151">agilon · Global capitation</text>
+  <text x="708" y="292" text-anchor="middle" font-size="8.5" fill="#374151">Physician JV earns</text>
+  <text x="708" y="305" text-anchor="middle" font-size="8.5" fill="#374151">surplus from PMPM</text>
+  <text x="708" y="318" text-anchor="middle" font-size="8.5" fill="#374151">CMS risk model</text>
+
+  <rect x="798" y="246" width="292" height="94" rx="7" fill="#fff7ed" stroke="#fed7aa" stroke-width="1.5"/>
+  <text x="944" y="264" text-anchor="middle" font-size="10" font-weight="700" fill="#c2410c">PACE / Special Programs</text>
+  <text x="944" y="279" text-anchor="middle" font-size="8.5" fill="#374151">Program of All-Inclusive Care</text>
+  <text x="944" y="292" text-anchor="middle" font-size="8.5" fill="#374151">for the Elderly · full capitation</text>
+  <text x="944" y="305" text-anchor="middle" font-size="8.5" fill="#374151">Fee-for-service alternative</text>
+  <text x="944" y="318" text-anchor="middle" font-size="8.5" fill="#374151">sub-population contracts</text>
+  <text x="944" y="331" text-anchor="middle" font-size="8.5" fill="#374151">rural health clinics</text>
+
+  <!-- ===== ROW 4: ENABLEMENT ===== -->
+  <rect x="10" y="348" width="60" height="98" rx="6" fill="#5B3D9E"/>
+  <text x="40" y="394" text-anchor="middle" font-size="9" font-weight="700" fill="#fff" transform="rotate(-90, 40, 394)">ENABLEMENT</text>
+
+  <rect x="78" y="350" width="164" height="94" rx="7" fill="#f5f3ff" stroke="#ddd6fe" stroke-width="1.5"/>
+  <text x="160" y="368" text-anchor="middle" font-size="10" font-weight="700" fill="#4c1d95">MSOs</text>
+  <text x="160" y="383" text-anchor="middle" font-size="8.5" fill="#374151">Privia · OPTUM · Aledade</text>
+  <text x="160" y="396" text-anchor="middle" font-size="8.5" fill="#374151">analytics · billing</text>
+  <text x="160" y="409" text-anchor="middle" font-size="8.5" fill="#374151">care mgmt · quality</text>
+  <text x="160" y="422" text-anchor="middle" font-size="8.5" fill="#374151">practice mgmt</text>
+  <text x="160" y="435" text-anchor="middle" font-size="8.5" fill="#374151">enabler/partner model</text>
+
+  <rect x="250" y="350" width="164" height="94" rx="7" fill="#f5f3ff" stroke="#ddd6fe" stroke-width="1.5"/>
+  <text x="332" y="368" text-anchor="middle" font-size="10" font-weight="700" fill="#4c1d95">ACO Enablers</text>
+  <text x="332" y="383" text-anchor="middle" font-size="8.5" fill="#374151">Aledade · Navina</text>
+  <text x="332" y="396" text-anchor="middle" font-size="8.5" fill="#374151">Epic · HealthEC</text>
+  <text x="332" y="409" text-anchor="middle" font-size="8.5" fill="#374151">drive shared savings</text>
+  <text x="332" y="422" text-anchor="middle" font-size="8.5" fill="#374151">analytics platform</text>
+
+  <rect x="422" y="350" width="164" height="94" rx="7" fill="#f5f3ff" stroke="#ddd6fe" stroke-width="1.5"/>
+  <text x="504" y="368" text-anchor="middle" font-size="10" font-weight="700" fill="#4c1d95">EHR Vendors</text>
+  <text x="504" y="383" text-anchor="middle" font-size="8.5" fill="#374151">Epic · Cerner · Health</text>
+  <text x="504" y="396" text-anchor="middle" font-size="8.5" fill="#374151">allscripts · Harmony</text>
+  <text x="504" y="409" text-anchor="middle" font-size="8.5" fill="#374151">clinical data backbone</text>
+  <text x="504" y="422" text-anchor="middle" font-size="8.5" fill="#374151">Flash transparency</text>
+
+  <rect x="594" y="350" width="164" height="94" rx="7" fill="#f5f3ff" stroke="#ddd6fe" stroke-width="1.5"/>
+  <text x="676" y="368" text-anchor="middle" font-size="10" font-weight="700" fill="#4c1d95">Analytics / Data Platforms</text>
+  <text x="676" y="383" text-anchor="middle" font-size="8.5" fill="#374151">Optum Insight · Arcadia</text>
+  <text x="676" y="396" text-anchor="middle" font-size="8.5" fill="#374151">Innovaccer · Apixio</text>
+  <text x="676" y="409" text-anchor="middle" font-size="8.5" fill="#374151">HCC coding · RAF</text>
+  <text x="676" y="422" text-anchor="middle" font-size="8.5" fill="#374151">shared savings / RAP</text>
+
+  <rect x="766" y="350" width="324" height="94" rx="7" fill="#f5f3ff" stroke="#ddd6fe" stroke-width="1.5"/>
+  <text x="928" y="368" text-anchor="middle" font-size="10" font-weight="700" fill="#4c1d95">Risk Adjustment / Coding</text>
+  <text x="928" y="383" text-anchor="middle" font-size="8.5" fill="#374151">Episource · Inovalon · Apex</text>
+  <text x="928" y="396" text-anchor="middle" font-size="8.5" fill="#374151">HCC coding · RAF management</text>
+  <text x="928" y="409" text-anchor="middle" font-size="8.5" fill="#374151">shared savings / RAP</text>
+  <text x="928" y="422" text-anchor="middle" font-size="8.5" fill="#374151">practice support tools</text>
+
+  <!-- ===== ROW 5: CARE DELIVERY ===== -->
+  <rect x="10" y="452" width="60" height="98" rx="6" fill="#B02020"/>
+  <text x="40" y="498" text-anchor="middle" font-size="9" font-weight="700" fill="#fff" transform="rotate(-90, 40, 498)">CARE DELIVERY</text>
+
+  <rect x="78" y="454" width="164" height="94" rx="7" fill="#fef2f2" stroke="#fecaca" stroke-width="1.5"/>
+  <text x="160" y="472" text-anchor="middle" font-size="10" font-weight="700" fill="#7f1d1d">Primary Care</text>
+  <text x="160" y="487" text-anchor="middle" font-size="8.5" fill="#374151">independent · employed</text>
+  <text x="160" y="500" text-anchor="middle" font-size="8.5" fill="#374151">FFS → VBC transition</text>
+  <text x="160" y="513" text-anchor="middle" font-size="8.5" fill="#374151">ACO / IPA panel</text>
+  <text x="160" y="526" text-anchor="middle" font-size="8.5" fill="#374151">first point of care</text>
+  <text x="160" y="539" text-anchor="middle" font-size="8.5" fill="#374151">gate for risk coding</text>
+
+  <rect x="250" y="454" width="164" height="94" rx="7" fill="#fef2f2" stroke="#fecaca" stroke-width="1.5"/>
+  <text x="332" y="472" text-anchor="middle" font-size="10" font-weight="700" fill="#7f1d1d">Specialists</text>
+  <text x="332" y="487" text-anchor="middle" font-size="8.5" fill="#374151">cardiology · oncology</text>
+  <text x="332" y="500" text-anchor="middle" font-size="8.5" fill="#374151">referral network</text>
+  <text x="332" y="513" text-anchor="middle" font-size="8.5" fill="#374151">high-cost driver</text>
+  <text x="332" y="526" text-anchor="middle" font-size="8.5" fill="#374151">specialist networks</text>
+
+  <rect x="422" y="454" width="164" height="94" rx="7" fill="#fef2f2" stroke="#fecaca" stroke-width="1.5"/>
+  <text x="504" y="472" text-anchor="middle" font-size="10" font-weight="700" fill="#7f1d1d">Hospitals / Health Systems</text>
+  <text x="504" y="487" text-anchor="middle" font-size="8.5" fill="#374151">Inpatient · surgery · ED</text>
+  <text x="504" y="500" text-anchor="middle" font-size="8.5" fill="#374151">UHC /Novant · Mayo</text>
+  <text x="504" y="513" text-anchor="middle" font-size="8.5" fill="#374151">overnight acute setting</text>
+  <text x="504" y="526" text-anchor="middle" font-size="8.5" fill="#374151">high-cost per encounter</text>
+
+  <rect x="594" y="454" width="164" height="94" rx="7" fill="#fef2f2" stroke="#fecaca" stroke-width="1.5"/>
+  <text x="676" y="472" text-anchor="middle" font-size="10" font-weight="700" fill="#7f1d1d">Urgent Care / Retail</text>
+  <text x="676" y="487" text-anchor="middle" font-size="8.5" fill="#374151">CVS HealthHUB</text>
+  <text x="676" y="500" text-anchor="middle" font-size="8.5" fill="#374151">MinuteClinic</text>
+  <text x="676" y="513" text-anchor="middle" font-size="8.5" fill="#374151">expanding footprint</text>
+  <text x="676" y="526" text-anchor="middle" font-size="8.5" fill="#374151">lower-acuity care</text>
+
+  <rect x="766" y="454" width="164" height="94" rx="7" fill="#fef2f2" stroke="#fecaca" stroke-width="1.5"/>
+  <text x="848" y="472" text-anchor="middle" font-size="10" font-weight="700" fill="#7f1d1d">Behavioral Health</text>
+  <text x="848" y="487" text-anchor="middle" font-size="8.5" fill="#374151">mental health · (D · A)</text>
+  <text x="848" y="500" text-anchor="middle" font-size="8.5" fill="#374151">frequently integrated</text>
+  <text x="848" y="513" text-anchor="middle" font-size="8.5" fill="#374151">growing VBC inclusion</text>
+  <text x="848" y="526" text-anchor="middle" font-size="8.5" fill="#374151">major cost driver</text>
+
+  <rect x="938" y="454" width="152" height="94" rx="7" fill="#fef2f2" stroke="#fecaca" stroke-width="1.5"/>
+  <text x="1014" y="472" text-anchor="middle" font-size="10" font-weight="700" fill="#7f1d1d">Telehealth</text>
+  <text x="1014" y="487" text-anchor="middle" font-size="8.5" fill="#374151">Teladoc · Amwell</text>
+  <text x="1014" y="500" text-anchor="middle" font-size="8.5" fill="#374151">RPM · video</text>
+  <text x="1014" y="513" text-anchor="middle" font-size="8.5" fill="#374151">post-COVID growth</text>
+  <text x="1014" y="526" text-anchor="middle" font-size="8.5" fill="#374151">ACA/VBC growth</text>
+
+  <!-- ===== ROW 6: FACILITY / SUPPORT ===== -->
+  <rect x="10" y="556" width="60" height="134" rx="6" fill="#374151"/>
+  <text x="40" y="622" text-anchor="middle" font-size="8" font-weight="700" fill="#fff" transform="rotate(-90, 40, 622)">FACILITY / SUPPORT</text>
+
+  <rect x="78" y="558" width="175" height="130" rx="7" fill="#f9fafb" stroke="#e5e7eb" stroke-width="1.5"/>
+  <text x="166" y="576" text-anchor="middle" font-size="10" font-weight="700" fill="#111">Patient</text>
+  <line x1="88" y1="582" x2="243" y2="582" stroke="#e5e7eb" stroke-width="1"/>
+  <text x="166" y="596" text-anchor="middle" font-size="8.5" fill="#374151">The only one who</text>
+  <text x="166" y="609" text-anchor="middle" font-size="8.5" fill="#374151">experiences it all</text>
+  <text x="166" y="622" text-anchor="middle" font-size="8.5" fill="#374151">Copays · deductibles</text>
+  <text x="166" y="635" text-anchor="middle" font-size="8.5" fill="#374151">Networks confuse them</text>
+  <text x="166" y="648" text-anchor="middle" font-size="8.5" fill="#374151">Decisions shape</text>
+  <text x="166" y="661" text-anchor="middle" font-size="8.5" fill="#374151">cost and quality</text>
+  <text x="166" y="676" text-anchor="middle" font-size="8.5" fill="#374151">Actual consumer</text>
+
+  <rect x="261" y="558" width="175" height="130" rx="7" fill="#f9fafb" stroke="#e5e7eb" stroke-width="1.5"/>
+  <text x="349" y="576" text-anchor="middle" font-size="10" font-weight="700" fill="#111">Pharmacy / Lab</text>
+  <line x1="271" y1="582" x2="426" y2="582" stroke="#e5e7eb" stroke-width="1"/>
+  <text x="349" y="596" text-anchor="middle" font-size="8.5" fill="#374151">Retail · specialty Rx</text>
+  <text x="349" y="609" text-anchor="middle" font-size="8.5" fill="#374151">OptumRx · CVS</text>
+  <text x="349" y="622" text-anchor="middle" font-size="8.5" fill="#374151">lab network · Quest</text>
+  <text x="349" y="635" text-anchor="middle" font-size="8.5" fill="#374151">PBM rebates</text>
+  <text x="349" y="648" text-anchor="middle" font-size="8.5" fill="#374151">Imaging devices</text>
+  <text x="349" y="661" text-anchor="middle" font-size="8.5" fill="#374151">ACHD/REMS data source</text>
+
+  <rect x="444" y="558" width="175" height="130" rx="7" fill="#f9fafb" stroke="#e5e7eb" stroke-width="1.5"/>
+  <text x="532" y="576" text-anchor="middle" font-size="10" font-weight="700" fill="#111">Care Management</text>
+  <line x1="454" y1="582" x2="609" y2="582" stroke="#e5e7eb" stroke-width="1"/>
+  <text x="532" y="596" text-anchor="middle" font-size="8.5" fill="#374151">Disease mgmt</text>
+  <text x="532" y="609" text-anchor="middle" font-size="8.5" fill="#374151">Transitional care</text>
+  <text x="532" y="622" text-anchor="middle" font-size="8.5" fill="#374151">Nurse navigators</text>
+  <text x="532" y="635" text-anchor="middle" font-size="8.5" fill="#374151">Transportation</text>
+  <text x="532" y="648" text-anchor="middle" font-size="8.5" fill="#374151">Social determinants</text>
+  <text x="532" y="661" text-anchor="middle" font-size="8.5" fill="#374151">ACO REACH roles</text>
+
+  <rect x="627" y="558" width="175" height="130" rx="7" fill="#f9fafb" stroke="#e5e7eb" stroke-width="1.5"/>
+  <text x="715" y="576" text-anchor="middle" font-size="10" font-weight="700" fill="#111">SDOH / Community</text>
+  <line x1="637" y1="582" x2="792" y2="582" stroke="#e5e7eb" stroke-width="1"/>
+  <text x="715" y="596" text-anchor="middle" font-size="8.5" fill="#374151">Housing programs</text>
+  <text x="715" y="609" text-anchor="middle" font-size="8.5" fill="#374151">Food insecurity</text>
+  <text x="715" y="622" text-anchor="middle" font-size="8.5" fill="#374151">Transportation access</text>
+  <text x="715" y="635" text-anchor="middle" font-size="8.5" fill="#374151">Social screening tools</text>
+  <text x="715" y="648" text-anchor="middle" font-size="8.5" fill="#374151">Community health</text>
+  <text x="715" y="661" text-anchor="middle" font-size="8.5" fill="#374151">CHW programs</text>
+
+  <rect x="810" y="558" width="136" height="130" rx="7" fill="#f9fafb" stroke="#e5e7eb" stroke-width="1.5"/>
+  <text x="878" y="576" text-anchor="middle" font-size="10" font-weight="700" fill="#111">Regulators</text>
+  <line x1="820" y1="582" x2="936" y2="582" stroke="#e5e7eb" stroke-width="1"/>
+  <text x="878" y="596" text-anchor="middle" font-size="8.5" fill="#374151">CMS oversight</text>
+  <text x="878" y="609" text-anchor="middle" font-size="8.5" fill="#374151">State DOIs</text>
+  <text x="878" y="622" text-anchor="middle" font-size="8.5" fill="#374151">NCQA / HEDIS</text>
+  <text x="878" y="635" text-anchor="middle" font-size="8.5" fill="#374151">Stars ratings CMS</text>
+  <text x="878" y="648" text-anchor="middle" font-size="8.5" fill="#374151">Credentialing</text>
+
+  <rect x="954" y="558" width="136" height="130" rx="7" fill="#f9fafb" stroke="#e5e7eb" stroke-width="1.5"/>
+  <text x="1022" y="576" text-anchor="middle" font-size="10" font-weight="700" fill="#111">Quality / Standards</text>
+  <line x1="964" y1="582" x2="1080" y2="582" stroke="#e5e7eb" stroke-width="1"/>
+  <text x="1022" y="596" text-anchor="middle" font-size="8.5" fill="#374151">HEDIS measures</text>
+  <text x="1022" y="609" text-anchor="middle" font-size="8.5" fill="#374151">Stars ratings</text>
+  <text x="1022" y="622" text-anchor="middle" font-size="8.5" fill="#374151">HL7 / FHIR</text>
+  <text x="1022" y="635" text-anchor="middle" font-size="8.5" fill="#374151">NCQA certification</text>
+  <text x="1022" y="648" text-anchor="middle" font-size="8.5" fill="#374151">OES · GPRO</text>
+  <text x="1022" y="661" text-anchor="middle" font-size="8.5" fill="#374151">data = measurement</text>
+
+  <!-- Bottom note -->
+  <text x="550" y="694" text-anchor="middle" font-size="9.5" fill="#6b7280">Every dollar that flows through this ecosystem passes through multiple hands before reaching care — VBC realigns who gains when patients stay healthy</text>
+</svg>

@@ -1,0 +1,63 @@
+<svg viewBox="0 0 800 360" xmlns="http://www.w3.org/2000/svg" font-family="Inter, system-ui, -apple-system, sans-serif" role="img">
+  <title>Where the Money Goes in a Capitated MA Arrangement</title>
+  <rect width="800" height="360" rx="14" fill="#f8f8f6" stroke="#e2e2dc" stroke-width="1"/>
+  <text x="400" y="30" text-anchor="middle" font-size="15" font-weight="700" fill="#111">Where the Money Goes in a Capitated MA Arrangement</text>
+  <text x="400" y="48" text-anchor="middle" font-size="10" fill="#6b7280">Illustrative PMPM breakdown — how $1,000/member/month gets allocated</text>
+
+  <!-- CMS pays MA Plan header -->
+  <rect x="18" y="58" width="764" height="44" rx="8" fill="#1e3a8a"/>
+  <text x="400" y="77" text-anchor="middle" font-size="13" font-weight="700" fill="#ffffff">CMS pays MA Plan</text>
+  <text x="400" y="94" text-anchor="middle" font-size="11" fill="#bfdbfe">~$1,000 PMPM (risk-adjusted benchmark · varies by county and RAF score)</text>
+
+  <!-- Allocation bar -->
+  <rect x="18"  y="112" width="76"  height="40" rx="4" fill="#fef3c7" stroke="#fcd34d" stroke-width="1"/>
+  <text x="56"  y="129" text-anchor="middle" font-size="10" font-weight="600" fill="#78350f">Plan admin</text>
+  <text x="56"  y="145" text-anchor="middle" font-size="10" fill="#92400e">~15% (~$150)</text>
+
+  <rect x="100" y="112" width="30"  height="40" rx="4" fill="#fbbf24"/>
+  <text x="115" y="136" text-anchor="middle" font-size="9" fill="#78350f">Stars</text>
+
+  <rect x="136" y="112" width="168" height="40" rx="4" fill="#dcfce7" stroke="#86efac" stroke-width="1"/>
+  <text x="220" y="129" text-anchor="middle" font-size="10" font-weight="600" fill="#14532d">Primary care</text>
+  <text x="220" y="145" text-anchor="middle" font-size="10" fill="#166534">~20% (~$200 PMPM)</text>
+
+  <rect x="310" y="112" width="200" height="40" rx="4" fill="#dbeafe" stroke="#93c5fd" stroke-width="1"/>
+  <text x="410" y="129" text-anchor="middle" font-size="10" font-weight="600" fill="#1e3a8a">Specialist / outpatient</text>
+  <text x="410" y="145" text-anchor="middle" font-size="10" fill="#1e40af">~25% (~$250)</text>
+
+  <rect x="516" y="112" width="180" height="40" rx="4" fill="#ede9fe" stroke="#c4b5fd" stroke-width="1"/>
+  <text x="606" y="129" text-anchor="middle" font-size="10" font-weight="600" fill="#4c1d95">Hospital / inpatient</text>
+  <text x="606" y="145" text-anchor="middle" font-size="10" fill="#6d28d9">~30% (~$300)</text>
+
+  <rect x="702" y="112" width="80"  height="40" rx="4" fill="#fef3c7" stroke="#fcd34d" stroke-width="1"/>
+  <text x="742" y="129" text-anchor="middle" font-size="10" font-weight="600" fill="#78350f">Pharmacy</text>
+  <text x="742" y="145" text-anchor="middle" font-size="10" fill="#92400e">~10% (~$100)</text>
+
+  <!-- Primary Care PMPM breakdown -->
+  <rect x="18" y="164" width="380" height="108" rx="8" fill="#f0fdf4" stroke="#86efac" stroke-width="1"/>
+  <text x="208" y="182" text-anchor="middle" font-size="12" font-weight="700" fill="#14532d">Primary Care PMPM — where it goes (~$200)</text>
+  <rect x="28" y="190" width="80" height="70" rx="6" fill="#dcfce7" stroke="#86efac" stroke-width="1"/>
+  <text x="68" y="212" text-anchor="middle" font-size="11" font-weight="700" fill="#14532d">Physician fee</text>
+  <text x="68" y="230" text-anchor="middle" font-size="11" fill="#166534">~$90</text>
+  <rect x="118" y="190" width="80" height="70" rx="6" fill="#dcfce7" stroke="#86efac" stroke-width="1"/>
+  <text x="158" y="212" text-anchor="middle" font-size="11" font-weight="700" fill="#14532d">MSO fee</text>
+  <text x="158" y="230" text-anchor="middle" font-size="11" fill="#166534">~$40–60</text>
+  <rect x="208" y="190" width="84" height="70" rx="6" fill="#dcfce7" stroke="#86efac" stroke-width="1"/>
+  <text x="250" y="212" text-anchor="middle" font-size="11" font-weight="700" fill="#14532d">Care mgmt</text>
+  <text x="250" y="230" text-anchor="middle" font-size="11" fill="#166534">~$20–40</text>
+  <rect x="302" y="190" width="84" height="70" rx="6" fill="#fef3c7" stroke="#fcd34d" stroke-width="1"/>
+  <text x="344" y="212" text-anchor="middle" font-size="11" font-weight="700" fill="#78350f">Risk reserve</text>
+  <text x="344" y="230" text-anchor="middle" font-size="11" fill="#92400e">~$20–30</text>
+
+  <!-- Shared Savings box -->
+  <rect x="410" y="164" width="372" height="108" rx="8" fill="#f0fdf4" stroke="#86efac" stroke-width="1.5"/>
+  <text x="596" y="186" text-anchor="middle" font-size="13" font-weight="700" fill="#14532d">Shared Savings</text>
+  <text x="596" y="206" text-anchor="middle" font-size="11" fill="#374151">Paid 9–15 months after year end</text>
+  <text x="596" y="224" text-anchor="middle" font-size="11" fill="#374151">ACO earns 50–75% of net savings</text>
+  <text x="596" y="242" text-anchor="middle" font-size="11" fill="#374151">if quality thresholds are met</text>
+
+  <!-- Footer notes -->
+  <text x="400" y="288" text-anchor="middle" font-size="10" fill="#6b7280">If year-end costs &lt; PMPM received → shared savings distributed up the chain</text>
+  <text x="400" y="304" text-anchor="middle" font-size="10" fill="#6b7280">If costs &gt; PMPM → provider absorbs loss (up to stop-loss threshold)</text>
+  <text x="400" y="320" text-anchor="middle" font-size="10" fill="#6b7280">Care management fee may also be paid separately as a flat monthly amount</text>
+</svg>

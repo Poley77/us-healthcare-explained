@@ -1,0 +1,64 @@
+<svg viewBox="0 0 780 220" xmlns="http://www.w3.org/2000/svg" font-family="Inter, system-ui, -apple-system, sans-serif" role="img">
+  <title>Revenue Streams a Provider Organization May Hold Simultaneously</title>
+  <rect width="780" height="220" rx="14" fill="#f8f8f6" stroke="#e2e2dc" stroke-width="1"/>
+  <text x="390" y="30" text-anchor="middle" font-size="14" font-weight="700" fill="#111">Revenue Streams a Provider Organization May Hold Simultaneously</text>
+  <text x="390" y="48" text-anchor="middle" font-size="11" fill="#6b7280">Most VBC organizations layer multiple payment types — not all-or-nothing</text>
+
+  <!-- FFS Claims (blue) -->
+  <rect x="14" y="60" width="136" height="120" rx="10" fill="#eff6ff" stroke="#93c5fd" stroke-width="1.5"/>
+  <text x="82" y="82" text-anchor="middle" font-size="12" font-weight="700" fill="#1e3a8a">FFS Claims</text>
+  <line x1="24" y1="90" x2="140" y2="90" stroke="#bfdbfe" stroke-width="1"/>
+  <text x="82" y="106" text-anchor="middle" font-size="10" fill="#374151">Per service</text>
+  <text x="82" y="120" text-anchor="middle" font-size="10" fill="#374151">14–90 day</text>
+  <text x="82" y="134" text-anchor="middle" font-size="10" fill="#374151">payment</text>
+  <text x="82" y="150" text-anchor="middle" font-size="10" fill="#374151">Baseline for</text>
+  <text x="82" y="164" text-anchor="middle" font-size="10" fill="#374151">most practices</text>
+  <text x="82" y="178" text-anchor="middle" font-size="9" fill="#6b7280">Timing: immediate</text>
+
+  <!-- Sub-Cap PMPM (green) -->
+  <rect x="160" y="60" width="136" height="120" rx="10" fill="#f0fdf4" stroke="#86efac" stroke-width="1.5"/>
+  <text x="228" y="82" text-anchor="middle" font-size="12" font-weight="700" fill="#14532d">Sub-Cap PMPM</text>
+  <line x1="170" y1="90" x2="286" y2="90" stroke="#bbf7d0" stroke-width="1"/>
+  <text x="228" y="106" text-anchor="middle" font-size="10" fill="#374151">Fixed monthly</text>
+  <text x="228" y="120" text-anchor="middle" font-size="10" fill="#374151">per attributed</text>
+  <text x="228" y="134" text-anchor="middle" font-size="10" fill="#374151">patient</text>
+  <text x="228" y="150" text-anchor="middle" font-size="10" fill="#374151">From ACO or</text>
+  <text x="228" y="164" text-anchor="middle" font-size="10" fill="#374151">health plan</text>
+  <text x="228" y="178" text-anchor="middle" font-size="9" fill="#6b7280">Timing: monthly</text>
+
+  <!-- Care Mgmt Fee (amber) -->
+  <rect x="306" y="60" width="136" height="120" rx="10" fill="#fffbeb" stroke="#fde68a" stroke-width="1.5"/>
+  <text x="374" y="82" text-anchor="middle" font-size="12" font-weight="700" fill="#78350f">Care Mgmt Fee</text>
+  <line x1="316" y1="90" x2="432" y2="90" stroke="#fde68a" stroke-width="1"/>
+  <text x="374" y="106" text-anchor="middle" font-size="10" fill="#374151">Flat fee for</text>
+  <text x="374" y="120" text-anchor="middle" font-size="10" fill="#374151">managing complex</text>
+  <text x="374" y="134" text-anchor="middle" font-size="10" fill="#374151">or chronic patients</text>
+  <text x="374" y="150" text-anchor="middle" font-size="10" fill="#374151">From payer or</text>
+  <text x="374" y="164" text-anchor="middle" font-size="10" fill="#374151">ACO contract</text>
+  <text x="374" y="178" text-anchor="middle" font-size="9" fill="#6b7280">Timing: monthly</text>
+
+  <!-- Shared Savings (green) -->
+  <rect x="452" y="60" width="152" height="120" rx="10" fill="#f0fdf4" stroke="#86efac" stroke-width="1.5"/>
+  <text x="528" y="82" text-anchor="middle" font-size="12" font-weight="700" fill="#14532d">Shared Savings</text>
+  <line x1="462" y1="90" x2="594" y2="90" stroke="#bbf7d0" stroke-width="1"/>
+  <text x="528" y="106" text-anchor="middle" font-size="10" fill="#374151">% of savings</text>
+  <text x="528" y="120" text-anchor="middle" font-size="10" fill="#374151">vs. benchmark</text>
+  <text x="528" y="134" text-anchor="middle" font-size="10" fill="#374151">if quality met</text>
+  <text x="528" y="150" text-anchor="middle" font-size="10" fill="#374151">From ACO /</text>
+  <text x="528" y="164" text-anchor="middle" font-size="10" fill="#374151">CMS</text>
+  <text x="528" y="178" text-anchor="middle" font-size="9" fill="#6b7280">Timing: 9–15 months</text>
+
+  <!-- Quality Bonus (purple) -->
+  <rect x="614" y="60" width="152" height="120" rx="10" fill="#f5f3ff" stroke="#ddd6fe" stroke-width="1.5"/>
+  <text x="690" y="82" text-anchor="middle" font-size="12" font-weight="700" fill="#4c1d95">Quality Bonus</text>
+  <line x1="624" y1="90" x2="756" y2="90" stroke="#ddd6fe" stroke-width="1"/>
+  <text x="690" y="106" text-anchor="middle" font-size="10" fill="#374151">Pay-for-</text>
+  <text x="690" y="120" text-anchor="middle" font-size="10" fill="#374151">performance</text>
+  <text x="690" y="134" text-anchor="middle" font-size="10" fill="#374151">on HEDIS / Stars</text>
+  <text x="690" y="150" text-anchor="middle" font-size="10" fill="#374151">From plan or</text>
+  <text x="690" y="164" text-anchor="middle" font-size="10" fill="#374151">ACO contract</text>
+  <text x="690" y="178" text-anchor="middle" font-size="9" fill="#6b7280">Timing: quarterly / annual</text>
+
+  <!-- Footer -->
+  <text x="390" y="200" text-anchor="middle" font-size="10" fill="#6b7280">A single primary-care practice may receive all five simultaneously — understanding the mix is essential to financial planning</text>
+</svg>

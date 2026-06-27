@@ -1,0 +1,53 @@
+<svg viewBox="0 0 680 440" xmlns="http://www.w3.org/2000/svg" font-family="Inter, system-ui, -apple-system, sans-serif" role="img">
+  <title>What an MSO Provides</title>
+  <defs>
+    <marker id="arr" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#9ca3af"/>
+    </marker>
+  </defs>
+  <rect width="680" height="440" rx="14" fill="#f8f8f6" stroke="#e2e2dc" stroke-width="1"/>
+  <text x="340" y="36" text-anchor="middle" font-size="17" font-weight="700" fill="#111">What an MSO Provides</text>
+  <text x="340" y="56" text-anchor="middle" font-size="11" fill="#6b7280">The operating infrastructure behind a physician network or ACO</text>
+
+  <!-- MSO header box -->
+  <rect x="120" y="68" width="440" height="44" rx="10" fill="#dbeafe" stroke="#93c5fd" stroke-width="1.5"/>
+  <text x="340" y="95" text-anchor="middle" font-size="13" font-weight="700" fill="#1e3a8a">MSO — Management Services Organization</text>
+  <line x1="340" y1="112" x2="340" y2="130" stroke="#9ca3af" stroke-width="1.5" marker-end="url(#arr)"/>
+
+  <!-- 8 service boxes in 2 columns -->
+  <!-- Row 1 -->
+  <rect x="18"  y="132" width="306" height="56" rx="8" fill="#eff6ff" stroke="#bfdbfe" stroke-width="1.5"/>
+  <text x="171" y="156" text-anchor="middle" font-size="12" font-weight="700" fill="#1e3a8a">Data &amp; Analytics</text>
+  <text x="171" y="174" text-anchor="middle" font-size="10" fill="#1e40af">population dashboards · risk scores · care gaps</text>
+
+  <rect x="356" y="132" width="306" height="56" rx="8" fill="#f0fdf4" stroke="#bbf7d0" stroke-width="1.5"/>
+  <text x="509" y="156" text-anchor="middle" font-size="12" font-weight="700" fill="#14532d">Care Management</text>
+  <text x="509" y="174" text-anchor="middle" font-size="10" fill="#166534">nurse navigators · chronic disease programs</text>
+
+  <!-- Row 2 -->
+  <rect x="18"  y="198" width="306" height="56" rx="8" fill="#fef9ec" stroke="#fde68a" stroke-width="1.5"/>
+  <text x="171" y="222" text-anchor="middle" font-size="12" font-weight="700" fill="#78350f">Billing &amp; Coding</text>
+  <text x="171" y="240" text-anchor="middle" font-size="10" fill="#92400e">claims submission · revenue cycle · RAF coding</text>
+
+  <rect x="356" y="198" width="306" height="56" rx="8" fill="#f0fdf4" stroke="#bbf7d0" stroke-width="1.5"/>
+  <text x="509" y="222" text-anchor="middle" font-size="12" font-weight="700" fill="#14532d">Quality Programs</text>
+  <text x="509" y="240" text-anchor="middle" font-size="10" fill="#166534">HEDIS tracking · quality measure reporting</text>
+
+  <!-- Row 3 -->
+  <rect x="18"  y="264" width="306" height="56" rx="8" fill="#fef9ec" stroke="#fde68a" stroke-width="1.5"/>
+  <text x="171" y="288" text-anchor="middle" font-size="12" font-weight="700" fill="#78350f">Technology</text>
+  <text x="171" y="306" text-anchor="middle" font-size="10" fill="#92400e">EHR integration · data platforms · reporting tools</text>
+
+  <rect x="356" y="264" width="306" height="56" rx="8" fill="#f0fdf4" stroke="#bbf7d0" stroke-width="1.5"/>
+  <text x="509" y="288" text-anchor="middle" font-size="12" font-weight="700" fill="#14532d">Contracting</text>
+  <text x="509" y="306" text-anchor="middle" font-size="10" fill="#166534">payer negotiations · VBC contract management</text>
+
+  <!-- Row 4 -->
+  <rect x="18"  y="330" width="306" height="56" rx="8" fill="#fef9ec" stroke="#fde68a" stroke-width="1.5"/>
+  <text x="171" y="354" text-anchor="middle" font-size="12" font-weight="700" fill="#78350f">Staffing &amp; HR</text>
+  <text x="171" y="372" text-anchor="middle" font-size="10" fill="#92400e">recruiting · credentialing · compliance training</text>
+
+  <rect x="356" y="330" width="306" height="56" rx="8" fill="#f0fdf4" stroke="#bbf7d0" stroke-width="1.5"/>
+  <text x="509" y="354" text-anchor="middle" font-size="12" font-weight="700" fill="#14532d">Finance &amp; Reporting</text>
+  <text x="509" y="372" text-anchor="middle" font-size="10" fill="#166534">savings distribution · performance reporting</text>
+</svg>

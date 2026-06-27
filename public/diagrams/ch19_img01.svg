@@ -1,0 +1,50 @@
+<svg viewBox="0 0 760 300" xmlns="http://www.w3.org/2000/svg" font-family="Inter, system-ui, -apple-system, sans-serif" role="img">
+  <title>agilon health — How It Works</title>
+  <defs>
+    <marker id="arr" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#9ca3af"/>
+    </marker>
+  </defs>
+  <rect width="760" height="300" rx="14" fill="#f8f8f6" stroke="#e2e2dc" stroke-width="1"/>
+  <text x="380" y="26" text-anchor="middle" font-size="15" font-weight="700" fill="#111">agilon health — How It Works</text>
+  <text x="380" y="44" text-anchor="middle" font-size="11" fill="#6b7280">Global capitation platform — becomes the risk-bearing partner to physician groups</text>
+
+  <!-- Medicare Advantage Plans -->
+  <rect x="180" y="54" width="400" height="46" rx="9" fill="#1e3a8a" stroke="#1e40af" stroke-width="1.5"/>
+  <text x="380" y="74" text-anchor="middle" font-size="13" font-weight="700" fill="#ffffff">Medicare Advantage Plans</text>
+  <text x="380" y="92" text-anchor="middle" font-size="10" fill="#bfdbfe">pays global capitation PMPM · risk-adjusted</text>
+
+  <line x1="380" y1="100" x2="380" y2="122" stroke="#9ca3af" stroke-width="1.5" marker-end="url(#arr)"/>
+  <text x="500" y="114" text-anchor="start" font-size="9" fill="#9ca3af">Full global capitation — plan pays agilon fixed PMPM</text>
+
+  <!-- agilon health (Risk-Bearing Entity) -->
+  <rect x="60" y="124" width="640" height="72" rx="10" fill="#fef2f2" stroke="#fca5a5" stroke-width="2"/>
+  <text x="380" y="148" text-anchor="middle" font-size="13" font-weight="700" fill="#7f1d1d">agilon health (Risk-Bearing Entity)</text>
+  <text x="380" y="166" text-anchor="middle" font-size="10" fill="#374151">accepts total cost of care risk · builds joint venture with local physician group</text>
+  <text x="380" y="182" text-anchor="middle" font-size="10" fill="#374151">provides capital, MSO platform, analytics, care management infrastructure</text>
+
+  <!-- Arrows to three physician groups -->
+  <line x1="200" y1="196" x2="170" y2="220" stroke="#9ca3af" stroke-width="1.5" marker-end="url(#arr)"/>
+  <line x1="380" y1="196" x2="380" y2="220" stroke="#9ca3af" stroke-width="1.5" marker-end="url(#arr)"/>
+  <line x1="560" y1="196" x2="590" y2="220" stroke="#9ca3af" stroke-width="1.5" marker-end="url(#arr)"/>
+
+  <!-- Three Physician Groups -->
+  <rect x="30" y="222" width="210" height="48" rx="8" fill="#dcfce7" stroke="#86efac" stroke-width="1.5"/>
+  <text x="135" y="242" text-anchor="middle" font-size="11" font-weight="600" fill="#14532d">Physician Group A</text>
+  <text x="135" y="258" text-anchor="middle" font-size="9.5" fill="#166534">local market partner</text>
+  <text x="135" y="268" text-anchor="middle" font-size="9" fill="#166534">JV with agilon · keeps independence</text>
+
+  <rect x="275" y="222" width="210" height="48" rx="8" fill="#dcfce7" stroke="#86efac" stroke-width="1.5"/>
+  <text x="380" y="242" text-anchor="middle" font-size="11" font-weight="600" fill="#14532d">Physician Group B</text>
+  <text x="380" y="258" text-anchor="middle" font-size="9.5" fill="#166534">local market partner</text>
+  <text x="380" y="268" text-anchor="middle" font-size="9" fill="#166534">JV with agilon · keeps independence</text>
+
+  <rect x="520" y="222" width="210" height="48" rx="8" fill="#dcfce7" stroke="#86efac" stroke-width="1.5"/>
+  <text x="625" y="242" text-anchor="middle" font-size="11" font-weight="600" fill="#14532d">Physician Group C</text>
+  <text x="625" y="258" text-anchor="middle" font-size="9.5" fill="#166534">local market partner</text>
+  <text x="625" y="268" text-anchor="middle" font-size="9" fill="#166534">JV with agilon · keeps independence</text>
+
+  <!-- Footer -->
+  <rect x="30" y="278" width="700" height="16" rx="5" fill="#fef2f2" stroke="#fca5a5" stroke-width="1"/>
+  <text x="380" y="290" text-anchor="middle" font-size="9" fill="#7f1d1d">agilon is the risk-bearing entity between the MA plan and the physician group — profit is capitation received minus total cost of care</text>
+</svg>

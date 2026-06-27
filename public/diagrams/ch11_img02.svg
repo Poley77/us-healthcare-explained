@@ -1,0 +1,29 @@
+<svg viewBox="0 0 700 220" xmlns="http://www.w3.org/2000/svg" font-family="Inter, system-ui, -apple-system, sans-serif" role="img">
+  <title>What CMS Covers</title>
+  <rect width="700" height="220" rx="14" fill="#1e3a8a"/>
+  <text x="350" y="42" text-anchor="middle" font-size="17" font-weight="700" fill="#ffffff">What does CMS cover?</text>
+
+  <!-- Medicare -->
+  <rect x="40" y="65" width="140" height="110" rx="10" fill="#2563eb" stroke="#60a5fa" stroke-width="1.5"/>
+  <text x="110" y="105" text-anchor="middle" font-size="28" fill="#bfdbfe">⚕</text>
+  <text x="110" y="138" text-anchor="middle" font-size="13" font-weight="700" fill="#ffffff">Medicare</text>
+  <text x="110" y="156" text-anchor="middle" font-size="10" fill="#bfdbfe">65+ and disabled</text>
+
+  <!-- Medicaid -->
+  <rect x="200" y="65" width="140" height="110" rx="10" fill="#2563eb" stroke="#60a5fa" stroke-width="1.5"/>
+  <text x="270" y="105" text-anchor="middle" font-size="28" fill="#bfdbfe">🏥</text>
+  <text x="270" y="138" text-anchor="middle" font-size="13" font-weight="700" fill="#ffffff">Medicaid</text>
+  <text x="270" y="156" text-anchor="middle" font-size="10" fill="#bfdbfe">Low-income adults</text>
+
+  <!-- CHIP -->
+  <rect x="360" y="65" width="140" height="110" rx="10" fill="#2563eb" stroke="#60a5fa" stroke-width="1.5"/>
+  <text x="430" y="105" text-anchor="middle" font-size="28" fill="#bfdbfe">👶</text>
+  <text x="430" y="138" text-anchor="middle" font-size="13" font-weight="700" fill="#ffffff">CHIP</text>
+  <text x="430" y="156" text-anchor="middle" font-size="10" fill="#bfdbfe">Children's coverage</text>
+
+  <!-- Health Insurance Marketplace -->
+  <rect x="520" y="65" width="140" height="110" rx="10" fill="#2563eb" stroke="#60a5fa" stroke-width="1.5"/>
+  <text x="590" y="105" text-anchor="middle" font-size="28" fill="#bfdbfe">🏛</text>
+  <text x="590" y="138" text-anchor="middle" font-size="13" font-weight="700" fill="#ffffff">Marketplace</text>
+  <text x="590" y="156" text-anchor="middle" font-size="10" fill="#bfdbfe">ACA exchanges</text>
+</svg>

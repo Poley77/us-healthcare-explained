@@ -1,0 +1,111 @@
+<svg viewBox="0 0 820 460" xmlns="http://www.w3.org/2000/svg" font-family="Inter, system-ui, -apple-system, sans-serif" role="img">
+  <title>CMS — Programs and Payment Models</title>
+  <defs>
+    <marker id="arr" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#9ca3af"/>
+    </marker>
+    <linearGradient id="riskGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#93c5fd"/>
+      <stop offset="100%" stop-color="#f87171"/>
+    </linearGradient>
+  </defs>
+  <rect width="820" height="460" rx="14" fill="#f8f8f6" stroke="#e2e2dc" stroke-width="1"/>
+  <text x="410" y="30" text-anchor="middle" font-size="16" font-weight="700" fill="#111">CMS — Programs and Payment Models</text>
+  <text x="410" y="48" text-anchor="middle" font-size="11" fill="#6b7280">The federal architecture behind Medicare and Medicaid value-based care</text>
+
+  <!-- CMS top box -->
+  <rect x="305" y="58" width="210" height="44" rx="8" fill="#dbeafe" stroke="#93c5fd" stroke-width="1.5"/>
+  <text x="410" y="78" text-anchor="middle" font-size="12" font-weight="700" fill="#1e3a8a">CMS</text>
+  <text x="410" y="94" text-anchor="middle" font-size="10" fill="#1e40af">Centers for Medicare &amp; Medicaid Services</text>
+
+  <!-- Arrows to 4 columns -->
+  <line x1="340" y1="102" x2="120" y2="126" stroke="#9ca3af" stroke-width="1.2" marker-end="url(#arr)"/>
+  <line x1="375" y1="102" x2="295" y2="126" stroke="#9ca3af" stroke-width="1.2" marker-end="url(#arr)"/>
+  <line x1="445" y1="102" x2="535" y2="126" stroke="#9ca3af" stroke-width="1.2" marker-end="url(#arr)"/>
+  <line x1="480" y1="102" x2="700" y2="126" stroke="#9ca3af" stroke-width="1.2" marker-end="url(#arr)"/>
+
+  <!-- Col 1: Traditional Medicare (blue) -->
+  <rect x="18" y="128" width="194" height="54" rx="8" fill="#dbeafe" stroke="#93c5fd" stroke-width="1.5"/>
+  <text x="115" y="150" text-anchor="middle" font-size="11" font-weight="700" fill="#1e3a8a">Traditional Medicare</text>
+  <text x="115" y="168" text-anchor="middle" font-size="10" fill="#1e40af">Parts A, B, D · FFS · est. 1965</text>
+
+  <!-- Col 2: VBC / ACO (blue) -->
+  <rect x="224" y="128" width="194" height="54" rx="8" fill="#dbeafe" stroke="#93c5fd" stroke-width="1.5"/>
+  <text x="321" y="150" text-anchor="middle" font-size="11" font-weight="700" fill="#1e3a8a">VBC / ACO Programs</text>
+  <text x="321" y="168" text-anchor="middle" font-size="10" fill="#1e40af">MSSP · ACO REACH · MA (Part C)</text>
+
+  <!-- Col 3: Medicaid (green) -->
+  <rect x="430" y="128" width="194" height="54" rx="8" fill="#dcfce7" stroke="#86efac" stroke-width="1.5"/>
+  <text x="527" y="150" text-anchor="middle" font-size="11" font-weight="700" fill="#14532d">Medicaid &amp; Other</text>
+  <text x="527" y="168" text-anchor="middle" font-size="10" fill="#166534">Medicaid · CHIP · PACE</text>
+
+  <!-- Col 4: CMMI (amber) -->
+  <rect x="636" y="128" width="166" height="54" rx="8" fill="#fef3c7" stroke="#fcd34d" stroke-width="1.5"/>
+  <text x="719" y="150" text-anchor="middle" font-size="11" font-weight="700" fill="#78350f">CMMI</text>
+  <text x="719" y="168" text-anchor="middle" font-size="10" fill="#92400e">Innovation models · est. 2010</text>
+
+  <!-- Sub-rows -->
+  <!-- Col 1 sub -->
+  <line x1="75"  y1="182" x2="55"  y2="206" stroke="#9ca3af" stroke-width="1" marker-end="url(#arr)"/>
+  <line x1="115" y1="182" x2="115" y2="206" stroke="#9ca3af" stroke-width="1" marker-end="url(#arr)"/>
+  <rect x="18"  y="208" width="82" height="36" rx="6" fill="#eff6ff" stroke="#bfdbfe" stroke-width="1"/>
+  <text x="59"  y="225" text-anchor="middle" font-size="10" font-weight="600" fill="#1e3a8a">Part A</text>
+  <text x="59"  y="238" text-anchor="middle" font-size="9" fill="#1e40af">Hospital / SNF</text>
+  <rect x="108" y="208" width="100" height="36" rx="6" fill="#eff6ff" stroke="#bfdbfe" stroke-width="1"/>
+  <text x="158" y="225" text-anchor="middle" font-size="10" font-weight="600" fill="#1e3a8a">Part B + D</text>
+  <text x="158" y="238" text-anchor="middle" font-size="9" fill="#1e40af">Outpatient / Rx</text>
+
+  <!-- Col 2 sub -->
+  <line x1="285" y1="182" x2="265" y2="206" stroke="#9ca3af" stroke-width="1" marker-end="url(#arr)"/>
+  <line x1="358" y1="182" x2="358" y2="206" stroke="#9ca3af" stroke-width="1" marker-end="url(#arr)"/>
+  <rect x="224" y="208" width="90" height="36" rx="6" fill="#eff6ff" stroke="#bfdbfe" stroke-width="1"/>
+  <text x="269" y="225" text-anchor="middle" font-size="10" font-weight="600" fill="#1e3a8a">MSSP / ACO</text>
+  <text x="269" y="238" text-anchor="middle" font-size="9" fill="#1e40af">shared savings ACOs</text>
+  <rect x="322" y="208" width="96" height="36" rx="6" fill="#eff6ff" stroke="#bfdbfe" stroke-width="1"/>
+  <text x="370" y="225" text-anchor="middle" font-size="10" font-weight="600" fill="#1e3a8a">ACO REACH</text>
+  <text x="370" y="238" text-anchor="middle" font-size="9" fill="#1e40af">capitation · equity</text>
+
+  <!-- Col 3 sub -->
+  <line x1="490" y1="182" x2="470" y2="206" stroke="#9ca3af" stroke-width="1" marker-end="url(#arr)"/>
+  <line x1="560" y1="182" x2="560" y2="206" stroke="#9ca3af" stroke-width="1" marker-end="url(#arr)"/>
+  <rect x="430" y="208" width="108" height="36" rx="6" fill="#f0fdf4" stroke="#bbf7d0" stroke-width="1"/>
+  <text x="484" y="225" text-anchor="middle" font-size="10" font-weight="600" fill="#14532d">Medicaid / CHIP</text>
+  <text x="484" y="238" text-anchor="middle" font-size="9" fill="#166534">low-income · children</text>
+  <rect x="546" y="208" width="78" height="36" rx="6" fill="#f0fdf4" stroke="#bbf7d0" stroke-width="1"/>
+  <text x="585" y="225" text-anchor="middle" font-size="10" font-weight="600" fill="#14532d">PACE</text>
+  <text x="585" y="238" text-anchor="middle" font-size="9" fill="#166534">fully integrated</text>
+
+  <!-- Col 4 sub -->
+  <line x1="686" y1="182" x2="665" y2="206" stroke="#9ca3af" stroke-width="1" marker-end="url(#arr)"/>
+  <line x1="750" y1="182" x2="750" y2="206" stroke="#9ca3af" stroke-width="1" marker-end="url(#arr)"/>
+  <rect x="636" y="208" width="76" height="36" rx="6" fill="#fffbeb" stroke="#fde68a" stroke-width="1"/>
+  <text x="674" y="225" text-anchor="middle" font-size="10" font-weight="600" fill="#78350f">Bundled</text>
+  <text x="674" y="238" text-anchor="middle" font-size="9" fill="#92400e">BPCI-A</text>
+  <rect x="720" y="208" width="82" height="36" rx="6" fill="#fffbeb" stroke="#fde68a" stroke-width="1"/>
+  <text x="761" y="225" text-anchor="middle" font-size="10" font-weight="600" fill="#78350f">Specialty</text>
+  <text x="761" y="238" text-anchor="middle" font-size="9" fill="#92400e">EOW / KCC</text>
+
+  <!-- Risk progression bar -->
+  <text x="410" y="272" text-anchor="middle" font-size="11" font-weight="600" fill="#374151">Risk progression across CMS programs</text>
+  <rect x="18" y="280" width="784" height="10" rx="5" fill="url(#riskGrad)"/>
+  <text x="18"  y="306" font-size="9" fill="#6b7280">Traditional FFS</text>
+  <text x="18"  y="318" font-size="9" fill="#6b7280">no provider risk</text>
+  <text x="200" y="306" font-size="9" fill="#6b7280">MSSP basic</text>
+  <text x="200" y="318" font-size="9" fill="#6b7280">upside only</text>
+  <text x="360" y="306" font-size="9" fill="#6b7280">MSSP enhanced</text>
+  <text x="360" y="318" font-size="9" fill="#6b7280">two-sided risk</text>
+  <text x="540" y="306" font-size="9" fill="#6b7280">ACO REACH</text>
+  <text x="540" y="318" font-size="9" fill="#6b7280">global capitation</text>
+  <text x="710" y="306" font-size="9" fill="#6b7280">PACE</text>
+  <text x="710" y="318" font-size="9" fill="#6b7280">full integration</text>
+
+  <!-- CMMI models -->
+  <rect x="18" y="332" width="784" height="62" rx="8" fill="#fef9ec" stroke="#fde68a" stroke-width="1"/>
+  <text x="410" y="352" text-anchor="middle" font-size="11" font-weight="600" fill="#78350f">Selected CMMI models — not exhaustive (50+ launched since 2010)</text>
+  <text x="100" y="374" text-anchor="middle" font-size="10" fill="#374151">BPCI-A (bundled)</text>
+  <text x="255" y="374" text-anchor="middle" font-size="10" fill="#374151">Primary Care First</text>
+  <text x="400" y="374" text-anchor="middle" font-size="10" fill="#374151">CPC+ (ended 2021)</text>
+  <text x="545" y="374" text-anchor="middle" font-size="10" fill="#374151">Kidney Care (KCC)</text>
+  <text x="680" y="374" text-anchor="middle" font-size="10" fill="#374151">Oncology (EOW)</text>
+  <text x="410" y="390" text-anchor="middle" font-size="9" fill="#9ca3af">Results vary — some models expanded nationally; others ended early or are still under evaluation</text>
+</svg>

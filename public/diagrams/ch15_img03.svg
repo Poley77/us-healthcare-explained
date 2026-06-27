@@ -1,0 +1,75 @@
+<svg viewBox="0 0 820 280" xmlns="http://www.w3.org/2000/svg" font-family="Inter, system-ui, -apple-system, sans-serif" role="img">
+  <title>What Each Party Wants from a VBC Contract</title>
+  <rect width="820" height="280" rx="14" fill="#f8f8f6" stroke="#e2e2dc" stroke-width="1"/>
+  <text x="410" y="34" text-anchor="middle" font-size="16" font-weight="700" fill="#111">What Each Party Wants from a VBC Contract</text>
+
+  <!-- Payer / CMS (blue) -->
+  <rect x="14" y="50" width="150" height="192" rx="10" fill="#eff6ff" stroke="#93c5fd" stroke-width="1.5"/>
+  <text x="89" y="72" text-anchor="middle" font-size="12" font-weight="700" fill="#1e3a8a">Payer / CMS</text>
+  <line x1="24" y1="80" x2="154" y2="80" stroke="#bfdbfe" stroke-width="1"/>
+  <text x="89" y="96" text-anchor="middle" font-size="9.5" fill="#374151">Cost below benchmark</text>
+  <text x="89" y="112" text-anchor="middle" font-size="9.5" fill="#374151">Quality scores met</text>
+  <text x="89" y="128" text-anchor="middle" font-size="9.5" fill="#374151">Accurate risk coding</text>
+  <text x="89" y="144" text-anchor="middle" font-size="9.5" fill="#374151">Clean attribution rules</text>
+  <text x="89" y="160" text-anchor="middle" font-size="9.5" fill="#374151">Network adequacy</text>
+  <text x="89" y="176" text-anchor="middle" font-size="9.5" fill="#374151">Stars rating ≥ 4</text>
+  <text x="89" y="192" text-anchor="middle" font-size="9.5" fill="#374151">Reporting compliance</text>
+  <text x="89" y="228" text-anchor="middle" font-size="9" font-style="italic" fill="#6b7280">Predictable cost,</text>
+  <text x="89" y="240" text-anchor="middle" font-size="9" font-style="italic" fill="#6b7280">quality, compliance</text>
+
+  <!-- ACO (green) -->
+  <rect x="176" y="50" width="150" height="192" rx="10" fill="#f0fdf4" stroke="#86efac" stroke-width="1.5"/>
+  <text x="251" y="72" text-anchor="middle" font-size="12" font-weight="700" fill="#14532d">ACO</text>
+  <line x1="186" y1="80" x2="316" y2="80" stroke="#bbf7d0" stroke-width="1"/>
+  <text x="251" y="96" text-anchor="middle" font-size="9.5" fill="#374151">Achievable benchmark</text>
+  <text x="251" y="112" text-anchor="middle" font-size="9.5" fill="#374151">High savings share %</text>
+  <text x="251" y="128" text-anchor="middle" font-size="9.5" fill="#374151">Upside-only to start</text>
+  <text x="251" y="144" text-anchor="middle" font-size="9.5" fill="#374151">Clean attribution rules</text>
+  <text x="251" y="160" text-anchor="middle" font-size="9.5" fill="#374151">Timely data feeds</text>
+  <text x="251" y="176" text-anchor="middle" font-size="9.5" fill="#374151">Performance bonus</text>
+  <text x="251" y="192" text-anchor="middle" font-size="9.5" fill="#374151">Manageable quality wt</text>
+  <text x="251" y="228" text-anchor="middle" font-size="9" font-style="italic" fill="#6b7280">Upside without</text>
+  <text x="251" y="240" text-anchor="middle" font-size="9" font-style="italic" fill="#6b7280">catastrophic downside</text>
+
+  <!-- IPA / Provider (amber) -->
+  <rect x="338" y="50" width="150" height="192" rx="10" fill="#fffbeb" stroke="#fde68a" stroke-width="1.5"/>
+  <text x="413" y="72" text-anchor="middle" font-size="12" font-weight="700" fill="#78350f">IPA / Provider</text>
+  <line x1="348" y1="80" x2="478" y2="80" stroke="#fde68a" stroke-width="1"/>
+  <text x="413" y="96" text-anchor="middle" font-size="9.5" fill="#374151">Achievable benchmark</text>
+  <text x="413" y="112" text-anchor="middle" font-size="9.5" fill="#374151">Clear risk parameters</text>
+  <text x="413" y="128" text-anchor="middle" font-size="9.5" fill="#374151">Data to manage panel</text>
+  <text x="413" y="144" text-anchor="middle" font-size="9.5" fill="#374151">Obtainable payment</text>
+  <text x="413" y="160" text-anchor="middle" font-size="9.5" fill="#374151">Performance bonus</text>
+  <text x="413" y="176" text-anchor="middle" font-size="9.5" fill="#374151">No clawback surprises</text>
+  <text x="413" y="192" text-anchor="middle" font-size="9.5" fill="#374151">Stop-loss protection</text>
+  <text x="413" y="228" text-anchor="middle" font-size="9" font-style="italic" fill="#6b7280">Fair payment and</text>
+  <text x="413" y="240" text-anchor="middle" font-size="9" font-style="italic" fill="#6b7280">manageable risk</text>
+
+  <!-- MSO (purple) -->
+  <rect x="500" y="50" width="150" height="192" rx="10" fill="#f5f3ff" stroke="#ddd6fe" stroke-width="1.5"/>
+  <text x="575" y="72" text-anchor="middle" font-size="12" font-weight="700" fill="#4c1d95">MSO</text>
+  <line x1="510" y1="80" x2="640" y2="80" stroke="#ddd6fe" stroke-width="1"/>
+  <text x="575" y="96" text-anchor="middle" font-size="9.5" fill="#374151">Long-term MSA contract</text>
+  <text x="575" y="112" text-anchor="middle" font-size="9.5" fill="#374151">% of revenue or flat fee</text>
+  <text x="575" y="128" text-anchor="middle" font-size="9.5" fill="#374151">Data access rights</text>
+  <text x="575" y="144" text-anchor="middle" font-size="9.5" fill="#374151">Exclusive service scope</text>
+  <text x="575" y="160" text-anchor="middle" font-size="9.5" fill="#374151">Tech platform control</text>
+  <text x="575" y="176" text-anchor="middle" font-size="9.5" fill="#374151">Performance upside</text>
+  <text x="575" y="192" text-anchor="middle" font-size="9.5" fill="#374151">Practice loyalty / lock-in</text>
+  <text x="575" y="228" text-anchor="middle" font-size="9" font-style="italic" fill="#6b7280">Recurring revenue and</text>
+  <text x="575" y="240" text-anchor="middle" font-size="9" font-style="italic" fill="#6b7280">scale across practices</text>
+
+  <!-- Physician Practice (red) -->
+  <rect x="662" y="50" width="144" height="192" rx="10" fill="#fef2f2" stroke="#fca5a5" stroke-width="1.5"/>
+  <text x="734" y="68" text-anchor="middle" font-size="11" font-weight="700" fill="#7f1d1d">Physician Practice</text>
+  <line x1="672" y1="78" x2="796" y2="78" stroke="#fca5a5" stroke-width="1"/>
+  <text x="734" y="94" text-anchor="middle" font-size="9.5" fill="#374151">Stable base revenue</text>
+  <text x="734" y="110" text-anchor="middle" font-size="9.5" fill="#374151">Upside for quality</text>
+  <text x="734" y="126" text-anchor="middle" font-size="9.5" fill="#374151">Low admin burden</text>
+  <text x="734" y="142" text-anchor="middle" font-size="9.5" fill="#374151">Care mgmt support</text>
+  <text x="734" y="158" text-anchor="middle" font-size="9.5" fill="#374151">Reasonable panel size</text>
+  <text x="734" y="174" text-anchor="middle" font-size="9.5" fill="#374151">No clawback surprises</text>
+  <text x="734" y="190" text-anchor="middle" font-size="9.5" fill="#374151">Clinical autonomy</text>
+  <text x="734" y="226" text-anchor="middle" font-size="9" font-style="italic" fill="#6b7280">Income stability and</text>
+  <text x="734" y="238" text-anchor="middle" font-size="9" font-style="italic" fill="#6b7280">clinical autonomy</text>
+</svg>

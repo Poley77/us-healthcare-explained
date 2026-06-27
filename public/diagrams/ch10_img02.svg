@@ -1,0 +1,56 @@
+<svg viewBox="0 0 740 300" xmlns="http://www.w3.org/2000/svg" font-family="Inter, system-ui, -apple-system, sans-serif" role="img">
+  <title>ACO vs. IPA vs. MSO — Side by Side</title>
+  <rect width="740" height="300" rx="14" fill="#f8f8f6" stroke="#e2e2dc" stroke-width="1"/>
+  <text x="370" y="36" text-anchor="middle" font-size="16" font-weight="700" fill="#111">ACO vs. IPA vs. MSO — Side by Side</text>
+
+  <!-- Header row -->
+  <rect x="18" y="50" width="704" height="34" rx="6" fill="#f1f5f9"/>
+  <text x="110" y="72" text-anchor="middle" font-size="12" font-weight="600" fill="#374151">Question</text>
+  <text x="295" y="72" text-anchor="middle" font-size="12" font-weight="700" fill="#1e3a8a">ACO</text>
+  <text x="460" y="72" text-anchor="middle" font-size="12" font-weight="700" fill="#14532d">IPA</text>
+  <text x="625" y="72" text-anchor="middle" font-size="12" font-weight="700" fill="#78350f">MSO</text>
+
+  <!-- Vertical dividers -->
+  <line x1="200" y1="50" x2="200" y2="250" stroke="#e2e2dc" stroke-width="1"/>
+  <line x1="380" y1="50" x2="380" y2="250" stroke="#e2e2dc" stroke-width="1"/>
+  <line x1="545" y1="50" x2="545" y2="250" stroke="#e2e2dc" stroke-width="1"/>
+
+  <!-- Row 1 -->
+  <text x="110" y="105" text-anchor="middle" font-size="11" fill="#6b7280">Primary role</text>
+  <text x="295" y="105" text-anchor="middle" font-size="11" fill="#374151">Hold accountability</text>
+  <text x="460" y="105" text-anchor="middle" font-size="11" fill="#374151">Organize network</text>
+  <text x="625" y="105" text-anchor="middle" font-size="11" fill="#374151">Run operations</text>
+
+  <!-- Row 2 -->
+  <rect x="18" y="114" width="704" height="28" rx="0" fill="#f8fafc"/>
+  <text x="110" y="133" text-anchor="middle" font-size="11" fill="#6b7280">Holds payer contract?</text>
+  <text x="295" y="133" text-anchor="middle" font-size="11" fill="#374151">Yes</text>
+  <text x="460" y="133" text-anchor="middle" font-size="11" fill="#374151">Sometimes</text>
+  <text x="625" y="133" text-anchor="middle" font-size="11" fill="#dc2626">No</text>
+
+  <!-- Row 3 -->
+  <text x="110" y="161" text-anchor="middle" font-size="11" fill="#6b7280">Bears financial risk?</text>
+  <text x="295" y="161" text-anchor="middle" font-size="11" fill="#374151">Yes</text>
+  <text x="460" y="161" text-anchor="middle" font-size="11" fill="#374151">~ Passes through</text>
+  <text x="625" y="161" text-anchor="middle" font-size="11" fill="#dc2626">No</text>
+
+  <!-- Row 4 -->
+  <rect x="18" y="170" width="704" height="28" rx="0" fill="#f8fafc"/>
+  <text x="110" y="189" text-anchor="middle" font-size="11" fill="#6b7280">Employs physicians?</text>
+  <text x="295" y="189" text-anchor="middle" font-size="11" fill="#374151">~ Sometimes</text>
+  <text x="460" y="189" text-anchor="middle" font-size="11" fill="#374151">No</text>
+  <text x="625" y="189" text-anchor="middle" font-size="11" fill="#dc2626">No (CPOM)</text>
+
+  <!-- Row 5 -->
+  <text x="110" y="217" text-anchor="middle" font-size="11" fill="#6b7280">Provides data/analytics?</text>
+  <text x="295" y="217" text-anchor="middle" font-size="11" fill="#374151">~ Sometimes</text>
+  <text x="460" y="217" text-anchor="middle" font-size="11" fill="#374151">Rarely</text>
+  <text x="625" y="217" text-anchor="middle" font-size="11" fill="#14532d">Core function</text>
+
+  <!-- Border around table -->
+  <rect x="18" y="50" width="704" height="172" rx="6" fill="none" stroke="#e2e2dc" stroke-width="1"/>
+
+  <!-- Footer -->
+  <text x="370" y="260" text-anchor="middle" font-size="10" fill="#6b7280">Can one org do all three?   Yes — many organizations layer multiple functions.</text>
+  <text x="370" y="278" text-anchor="middle" font-size="10" fill="#6b7280">A single company may operate as MSO, run an IPA, and hold an ACO contract simultaneously.</text>
+</svg>

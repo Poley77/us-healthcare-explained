@@ -1,0 +1,41 @@
+<svg viewBox="0 0 720 280" xmlns="http://www.w3.org/2000/svg" font-family="Inter, system-ui, -apple-system, sans-serif" role="img">
+  <title>Three Roles. One Ecosystem.</title>
+  <rect width="720" height="280" rx="14" fill="#f8f8f6" stroke="#e2e2dc" stroke-width="1"/>
+  <text x="360" y="36" text-anchor="middle" font-size="17" font-weight="700" fill="#111">Three Roles. One Ecosystem.</text>
+
+  <!-- ACO (blue) -->
+  <rect x="18" y="54" width="210" height="210" rx="12" fill="#eff6ff" stroke="#93c5fd" stroke-width="1.5"/>
+  <text x="123" y="82" text-anchor="middle" font-size="16" font-weight="700" fill="#1e3a8a">ACO</text>
+  <text x="123" y="102" text-anchor="middle" font-size="12" fill="#3b82f6">Accountability</text>
+  <line x1="38" y1="112" x2="208" y2="112" stroke="#bfdbfe" stroke-width="1"/>
+  <text x="123" y="132" text-anchor="middle" font-size="11" fill="#374151">Holds the contract</text>
+  <text x="123" y="150" text-anchor="middle" font-size="11" fill="#374151">with CMS or payer</text>
+  <text x="123" y="170" text-anchor="middle" font-size="11" fill="#374151">Accountable for quality</text>
+  <text x="123" y="188" text-anchor="middle" font-size="11" fill="#374151">and total cost of care</text>
+  <text x="123" y="208" text-anchor="middle" font-size="11" fill="#374151">Distributes shared savings</text>
+  <text x="123" y="226" text-anchor="middle" font-size="11" fill="#374151">to the network</text>
+
+  <!-- IPA (green) -->
+  <rect x="254" y="54" width="210" height="210" rx="12" fill="#f0fdf4" stroke="#86efac" stroke-width="1.5"/>
+  <text x="359" y="82" text-anchor="middle" font-size="16" font-weight="700" fill="#14532d">IPA</text>
+  <text x="359" y="102" text-anchor="middle" font-size="12" fill="#16a34a">Network</text>
+  <line x1="274" y1="112" x2="444" y2="112" stroke="#bbf7d0" stroke-width="1"/>
+  <text x="359" y="132" text-anchor="middle" font-size="11" fill="#374151">Organizes independent</text>
+  <text x="359" y="150" text-anchor="middle" font-size="11" fill="#374151">physicians into one</text>
+  <text x="359" y="170" text-anchor="middle" font-size="11" fill="#374151">contracting entity</text>
+  <text x="359" y="190" text-anchor="middle" font-size="11" fill="#374151">Negotiates rates and</text>
+  <text x="359" y="210" text-anchor="middle" font-size="11" fill="#374151">risk arrangements</text>
+  <text x="359" y="228" text-anchor="middle" font-size="11" fill="#374151">on their behalf</text>
+
+  <!-- MSO (amber) -->
+  <rect x="490" y="54" width="212" height="210" rx="12" fill="#fef9ec" stroke="#fde68a" stroke-width="1.5"/>
+  <text x="596" y="82" text-anchor="middle" font-size="16" font-weight="700" fill="#78350f">MSO</text>
+  <text x="596" y="102" text-anchor="middle" font-size="12" fill="#d97706">Infrastructure</text>
+  <line x1="510" y1="112" x2="682" y2="112" stroke="#fde68a" stroke-width="1"/>
+  <text x="596" y="132" text-anchor="middle" font-size="11" fill="#374151">Provides the operational</text>
+  <text x="596" y="150" text-anchor="middle" font-size="11" fill="#374151">backbone: data, billing,</text>
+  <text x="596" y="170" text-anchor="middle" font-size="11" fill="#374151">care management, tech</text>
+  <text x="596" y="190" text-anchor="middle" font-size="11" fill="#374151">Does not hold clinical</text>
+  <text x="596" y="210" text-anchor="middle" font-size="11" fill="#374151">risk or employ</text>
+  <text x="596" y="228" text-anchor="middle" font-size="11" fill="#374151">physicians directly</text>
+</svg>

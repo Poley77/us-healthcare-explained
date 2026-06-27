@@ -1,0 +1,56 @@
+<svg viewBox="0 0 760 200" xmlns="http://www.w3.org/2000/svg" font-family="Inter, system-ui, -apple-system, sans-serif" role="img">
+  <title>A Typical VBC Contract Year</title>
+  <defs>
+    <marker id="arr" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#9ca3af"/>
+    </marker>
+    <marker id="arr-orange" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#f97316"/>
+    </marker>
+  </defs>
+  <rect width="760" height="200" rx="14" fill="#f8f8f6" stroke="#e2e2dc" stroke-width="1"/>
+  <text x="380" y="34" text-anchor="middle" font-size="16" font-weight="700" fill="#111">A Typical VBC Contract Year</text>
+  <text x="380" y="52" text-anchor="middle" font-size="11" fill="#6b7280">Most CMS programs run on a January–December performance period</text>
+
+  <!-- Timeline line -->
+  <line x1="50" y1="100" x2="710" y2="100" stroke="#d1d5db" stroke-width="2" marker-end="url(#arr)"/>
+
+  <!-- Point 1: Oct-Nov -->
+  <circle cx="80" cy="100" r="8" fill="#3b82f6"/>
+  <text x="80" y="78" text-anchor="middle" font-size="10" font-weight="600" fill="#374151">Oct–Nov</text>
+  <text x="80" y="120" text-anchor="middle" font-size="10" fill="#6b7280">Contract</text>
+  <text x="80" y="133" text-anchor="middle" font-size="10" fill="#6b7280">signed / bid</text>
+  <text x="80" y="146" text-anchor="middle" font-size="10" fill="#6b7280">submitted</text>
+
+  <!-- Point 2: Jan 1 -->
+  <circle cx="230" cy="100" r="8" fill="#22c55e"/>
+  <text x="230" y="78" text-anchor="middle" font-size="10" font-weight="600" fill="#374151">Jan 1</text>
+  <text x="230" y="120" text-anchor="middle" font-size="10" fill="#6b7280">Performance</text>
+  <text x="230" y="133" text-anchor="middle" font-size="10" fill="#6b7280">year begins,</text>
+  <text x="230" y="146" text-anchor="middle" font-size="10" fill="#6b7280">attribution set</text>
+
+  <!-- Point 3: Ongoing -->
+  <circle cx="390" cy="100" r="8" fill="#3b82f6"/>
+  <text x="390" y="78" text-anchor="middle" font-size="10" font-weight="600" fill="#374151">Ongoing</text>
+  <text x="390" y="120" text-anchor="middle" font-size="10" fill="#6b7280">Quarterly data</text>
+  <text x="390" y="133" text-anchor="middle" font-size="10" fill="#6b7280">reports · quality</text>
+  <text x="390" y="146" text-anchor="middle" font-size="10" fill="#6b7280">monitoring</text>
+
+  <!-- Point 4: Dec 31 -->
+  <circle cx="560" cy="100" r="8" fill="#f97316"/>
+  <text x="560" y="78" text-anchor="middle" font-size="10" font-weight="600" fill="#374151">Dec 31</text>
+  <text x="560" y="120" text-anchor="middle" font-size="10" fill="#6b7280">Performance</text>
+  <text x="560" y="133" text-anchor="middle" font-size="10" fill="#6b7280">year ends,</text>
+  <text x="560" y="146" text-anchor="middle" font-size="10" fill="#6b7280">data locked</text>
+
+  <!-- Point 5: +6-12 mo -->
+  <circle cx="700" cy="100" r="8" fill="#f97316"/>
+  <text x="700" y="78" text-anchor="middle" font-size="10" font-weight="600" fill="#374151">+6–12 mo</text>
+  <text x="700" y="120" text-anchor="middle" font-size="10" fill="#6b7280">Reconciliation:</text>
+  <text x="700" y="133" text-anchor="middle" font-size="10" fill="#6b7280">savings / penalty</text>
+  <text x="700" y="146" text-anchor="middle" font-size="10" fill="#6b7280">paid out</text>
+
+  <!-- Footer -->
+  <rect x="100" y="168" width="560" height="22" rx="6" fill="#f1f5f9" stroke="#e2e2dc" stroke-width="1"/>
+  <text x="380" y="183" text-anchor="middle" font-size="10" fill="#6b7280">The lag between year-end and reconciliation is a key financial planning challenge — providers may wait 12–18 months to see their savings payment</text>
+</svg>

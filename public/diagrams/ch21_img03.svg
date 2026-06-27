@@ -1,0 +1,56 @@
+<svg viewBox="0 0 720 270" xmlns="http://www.w3.org/2000/svg" font-family="Inter, system-ui, -apple-system, sans-serif" role="img">
+  <title>Two Integration Architectures</title>
+  <rect width="720" height="270" rx="14" fill="#f8f8f6" stroke="#e2e2dc" stroke-width="1"/>
+  <text x="360" y="28" text-anchor="middle" font-size="14" font-weight="700" fill="#111">Two Integration Architectures</text>
+  <text x="360" y="46" text-anchor="middle" font-size="10.5" fill="#6b7280">Kaiser built integration from the start. UHG assembled it through acquisition and expansion.</text>
+
+  <!-- Column headers -->
+  <rect x="14" y="56" width="200" height="32" rx="6" fill="#f1f5f9" stroke="#e2e8f0" stroke-width="1"/>
+  <text x="114" y="77" text-anchor="middle" font-size="11" font-weight="700" fill="#374151">Dimension</text>
+
+  <rect x="222" y="56" width="228" height="32" rx="6" fill="#dbeafe" stroke="#93c5fd" stroke-width="1.5"/>
+  <text x="336" y="77" text-anchor="middle" font-size="11" font-weight="700" fill="#1e3a8a">Kaiser Permanente</text>
+
+  <rect x="458" y="56" width="248" height="32" rx="6" fill="#dcfce7" stroke="#86efac" stroke-width="1.5"/>
+  <text x="582" y="77" text-anchor="middle" font-size="11" font-weight="700" fill="#14532d">UnitedHealth Group</text>
+
+  <!-- Row 1: Structure -->
+  <rect x="14" y="94" width="200" height="28" rx="4" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1"/>
+  <text x="114" y="113" text-anchor="middle" font-size="10" fill="#374151">Structure</text>
+  <rect x="222" y="94" width="228" height="28" rx="4" fill="#eff6ff" stroke="#dbeafe" stroke-width="1"/>
+  <text x="336" y="113" text-anchor="middle" font-size="10" fill="#1e3a8a">Purpose-built integrated system</text>
+  <rect x="458" y="94" width="248" height="28" rx="4" fill="#f0fdf4" stroke="#dcfce7" stroke-width="1"/>
+  <text x="582" y="113" text-anchor="middle" font-size="10" fill="#14532d">Conglomerate assembled via M&amp;A</text>
+
+  <!-- Row 2: Insurance arm -->
+  <rect x="14" y="128" width="200" height="28" rx="4" fill="#f1f5f9" stroke="#e2e8f0" stroke-width="1"/>
+  <text x="114" y="147" text-anchor="middle" font-size="10" fill="#374151">Insurance arm</text>
+  <rect x="222" y="128" width="228" height="28" rx="4" fill="#eff6ff" stroke="#dbeafe" stroke-width="1"/>
+  <text x="336" y="147" text-anchor="middle" font-size="10" fill="#1e3a8a">Kaiser Foundation Health Plan</text>
+  <rect x="458" y="128" width="248" height="28" rx="4" fill="#f0fdf4" stroke="#dcfce7" stroke-width="1"/>
+  <text x="582" y="147" text-anchor="middle" font-size="10" fill="#14532d">UnitedHealthcare (all segments)</text>
+
+  <!-- Row 3: Care delivery -->
+  <rect x="14" y="162" width="200" height="28" rx="4" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1"/>
+  <text x="114" y="181" text-anchor="middle" font-size="10" fill="#374151">Care delivery</text>
+  <rect x="222" y="162" width="228" height="28" rx="4" fill="#eff6ff" stroke="#dbeafe" stroke-width="1"/>
+  <text x="336" y="181" text-anchor="middle" font-size="10" fill="#1e3a8a">Kaiser hospitals + Permanente MDs</text>
+  <rect x="458" y="162" width="248" height="28" rx="4" fill="#f0fdf4" stroke="#dcfce7" stroke-width="1"/>
+  <text x="582" y="181" text-anchor="middle" font-size="10" fill="#14532d">OptumHealth (90,000+ physicians)</text>
+
+  <!-- Row 4: Data / tech -->
+  <rect x="14" y="196" width="200" height="28" rx="4" fill="#f1f5f9" stroke="#e2e8f0" stroke-width="1"/>
+  <text x="114" y="215" text-anchor="middle" font-size="10" fill="#374151">Data / tech</text>
+  <rect x="222" y="196" width="228" height="28" rx="4" fill="#eff6ff" stroke="#dbeafe" stroke-width="1"/>
+  <text x="336" y="215" text-anchor="middle" font-size="10" fill="#1e3a8a">KP HealthConnect (single EHR)</text>
+  <rect x="458" y="196" width="248" height="28" rx="4" fill="#f0fdf4" stroke="#dcfce7" stroke-width="1"/>
+  <text x="582" y="215" text-anchor="middle" font-size="10" fill="#14532d">OptumInsight + multiple platforms</text>
+
+  <!-- Row 5: Geographic scope -->
+  <rect x="14" y="230" width="200" height="28" rx="4" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1"/>
+  <text x="114" y="249" text-anchor="middle" font-size="10" fill="#374151">Geographic scope</text>
+  <rect x="222" y="230" width="228" height="28" rx="4" fill="#eff6ff" stroke="#dbeafe" stroke-width="1"/>
+  <text x="336" y="249" text-anchor="middle" font-size="10" fill="#1e3a8a">8 US regions · ~12M members</text>
+  <rect x="458" y="230" width="248" height="28" rx="4" fill="#f0fdf4" stroke="#dcfce7" stroke-width="1"/>
+  <text x="582" y="249" text-anchor="middle" font-size="10" fill="#14532d">National · ~50M+ members</text>
+</svg>

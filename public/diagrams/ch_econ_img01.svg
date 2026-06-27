@@ -1,0 +1,305 @@
+<svg viewBox="0 0 1100 520" xmlns="http://www.w3.org/2000/svg" font-family="Inter, system-ui, -apple-system, sans-serif" role="img">
+  <title>Economics at a Glance — Every Major Stakeholder</title>
+  <rect width="1100" height="520" rx="14" fill="#f8f8f6" stroke="#e2e2dc" stroke-width="1"/>
+  <text x="550" y="26" text-anchor="middle" font-size="15" font-weight="700" fill="#111">Economics at a Glance — Every Major Stakeholder</text>
+
+  <!-- Column widths: label=110, then 7 cols of ~138 each -->
+  <!-- Col positions: 110, 248, 386, 524, 662, 800, 938, 1076 -->
+
+  <!-- Header row -->
+  <rect x="10" y="34" width="110" height="30" rx="4" fill="#374151"/>
+  <text x="65" y="54" text-anchor="middle" font-size="10" font-weight="700" fill="#f9fafb">Dimension</text>
+
+  <rect x="124" y="34" width="134" height="30" rx="4" fill="#1e3a8a"/>
+  <text x="191" y="54" text-anchor="middle" font-size="10" font-weight="700" fill="#ffffff">CMS</text>
+
+  <rect x="262" y="34" width="134" height="30" rx="4" fill="#2a5298"/>
+  <text x="329" y="54" text-anchor="middle" font-size="10" font-weight="700" fill="#ffffff">Health Plans</text>
+
+  <rect x="400" y="34" width="134" height="30" rx="4" fill="#2a5298"/>
+  <text x="467" y="54" text-anchor="middle" font-size="10" font-weight="700" fill="#ffffff">MA Plans</text>
+
+  <rect x="538" y="34" width="134" height="30" rx="4" fill="#1e6b3c"/>
+  <text x="605" y="54" text-anchor="middle" font-size="10" font-weight="700" fill="#ffffff">ACOs</text>
+
+  <rect x="676" y="34" width="134" height="30" rx="4" fill="#1e6b3c"/>
+  <text x="743" y="54" text-anchor="middle" font-size="10" font-weight="700" fill="#ffffff">IPAs</text>
+
+  <rect x="814" y="34" width="134" height="30" rx="4" fill="#5b3d9e"/>
+  <text x="881" y="54" text-anchor="middle" font-size="10" font-weight="700" fill="#ffffff">MSOs</text>
+
+  <rect x="952" y="34" width="138" height="30" rx="4" fill="#b02020"/>
+  <text x="1021" y="54" text-anchor="middle" font-size="10" font-weight="700" fill="#ffffff">Primary Care</text>
+
+  <!-- Row 1: How they make money -->
+  <rect x="10" y="68" width="110" height="84" rx="4" fill="#f1f5f9" stroke="#e2e8f0" stroke-width="1"/>
+  <text x="65" y="88" text-anchor="middle" font-size="9.5" font-weight="700" fill="#374151">How they</text>
+  <text x="65" y="101" text-anchor="middle" font-size="9.5" font-weight="700" fill="#374151">make money</text>
+
+  <rect x="124" y="68" width="134" height="84" rx="4" fill="#eff6ff" stroke="#dbeafe" stroke-width="1"/>
+  <text x="191" y="84" text-anchor="middle" font-size="8.5" fill="#1e40af">Tax revenue</text>
+  <text x="191" y="97" text-anchor="middle" font-size="8.5" fill="#1e40af">+ payroll taxes</text>
+  <text x="191" y="110" text-anchor="middle" font-size="8.5" fill="#1e40af">Sets payment</text>
+  <text x="191" y="123" text-anchor="middle" font-size="8.5" fill="#1e40af">rates for all</text>
+  <text x="191" y="136" text-anchor="middle" font-size="8.5" fill="#1e40af">CMS programs</text>
+  <text x="191" y="149" text-anchor="middle" font-size="8.5" fill="#1e40af">FY ~$1.5T budget</text>
+
+  <rect x="262" y="68" width="134" height="84" rx="4" fill="#eff6ff" stroke="#dbeafe" stroke-width="1"/>
+  <text x="329" y="84" text-anchor="middle" font-size="8.5" fill="#1e40af">Premiums minus</text>
+  <text x="329" y="97" text-anchor="middle" font-size="8.5" fill="#1e40af">claims paid</text>
+  <text x="329" y="110" text-anchor="middle" font-size="8.5" fill="#1e40af">Investment income</text>
+  <text x="329" y="123" text-anchor="middle" font-size="8.5" fill="#1e40af">ASO admin fees</text>
+  <text x="329" y="136" text-anchor="middle" font-size="8.5" fill="#1e40af">MLR target: 80–85%</text>
+
+  <rect x="400" y="68" width="134" height="84" rx="4" fill="#eff6ff" stroke="#dbeafe" stroke-width="1"/>
+  <text x="467" y="84" text-anchor="middle" font-size="8.5" fill="#1e40af">CMS risk-adjusted</text>
+  <text x="467" y="97" text-anchor="middle" font-size="8.5" fill="#1e40af">PMPM benchmark</text>
+  <text x="467" y="110" text-anchor="middle" font-size="8.5" fill="#1e40af">Stars bonuses</text>
+  <text x="467" y="123" text-anchor="middle" font-size="8.5" fill="#1e40af">Profit = capitation</text>
+  <text x="467" y="136" text-anchor="middle" font-size="8.5" fill="#1e40af">minus actual costs</text>
+
+  <rect x="538" y="68" width="134" height="84" rx="4" fill="#f0fdf4" stroke="#dcfce7" stroke-width="1"/>
+  <text x="605" y="84" text-anchor="middle" font-size="8.5" fill="#166534">Shared savings</text>
+  <text x="605" y="97" text-anchor="middle" font-size="8.5" fill="#166534">(50–75% of net</text>
+  <text x="605" y="110" text-anchor="middle" font-size="8.5" fill="#166534">savings vs. benchmark)</text>
+  <text x="605" y="123" text-anchor="middle" font-size="8.5" fill="#166534">Quality bonuses</text>
+  <text x="605" y="136" text-anchor="middle" font-size="8.5" fill="#166534">Sub-cap PMPM</text>
+
+  <rect x="676" y="68" width="134" height="84" rx="4" fill="#f0fdf4" stroke="#dcfce7" stroke-width="1"/>
+  <text x="743" y="84" text-anchor="middle" font-size="8.5" fill="#166534">Sub-capitation</text>
+  <text x="743" y="97" text-anchor="middle" font-size="8.5" fill="#166534">PMPM from ACO</text>
+  <text x="743" y="110" text-anchor="middle" font-size="8.5" fill="#166534">or payer</text>
+  <text x="743" y="123" text-anchor="middle" font-size="8.5" fill="#166534">Shared savings</text>
+  <text x="743" y="136" text-anchor="middle" font-size="8.5" fill="#166534">pass-through</text>
+  <text x="743" y="149" text-anchor="middle" font-size="8.5" fill="#166534">Quality bonuses</text>
+
+  <rect x="814" y="68" width="134" height="84" rx="4" fill="#f5f3ff" stroke="#ede9fe" stroke-width="1"/>
+  <text x="881" y="84" text-anchor="middle" font-size="8.5" fill="#6d28d9">% of revenue</text>
+  <text x="881" y="97" text-anchor="middle" font-size="8.5" fill="#6d28d9">or flat PMPM fee</text>
+  <text x="881" y="110" text-anchor="middle" font-size="8.5" fill="#6d28d9">Tech platform fees</text>
+  <text x="881" y="123" text-anchor="middle" font-size="8.5" fill="#6d28d9">Performance upside</text>
+  <text x="881" y="136" text-anchor="middle" font-size="8.5" fill="#6d28d9">Shared savings</text>
+  <text x="881" y="149" text-anchor="middle" font-size="8.5" fill="#6d28d9">participation</text>
+
+  <rect x="952" y="68" width="138" height="84" rx="4" fill="#fef2f2" stroke="#fecaca" stroke-width="1"/>
+  <text x="1021" y="84" text-anchor="middle" font-size="8.5" fill="#991b1b">FFS claims (CPT)</text>
+  <text x="1021" y="97" text-anchor="middle" font-size="8.5" fill="#991b1b">Sub-cap PMPM</text>
+  <text x="1021" y="110" text-anchor="middle" font-size="8.5" fill="#991b1b">Care mgmt fee</text>
+  <text x="1021" y="123" text-anchor="middle" font-size="8.5" fill="#991b1b">Shared savings</text>
+  <text x="1021" y="136" text-anchor="middle" font-size="8.5" fill="#991b1b">Quality bonus</text>
+
+  <!-- Row 2: Risks they face -->
+  <rect x="10" y="156" width="110" height="84" rx="4" fill="#f1f5f9" stroke="#e2e8f0" stroke-width="1"/>
+  <text x="65" y="178" text-anchor="middle" font-size="9.5" font-weight="700" fill="#374151">Risks they face</text>
+
+  <rect x="124" y="156" width="134" height="84" rx="4" fill="#eff6ff" stroke="#dbeafe" stroke-width="1"/>
+  <text x="191" y="172" text-anchor="middle" font-size="8.5" fill="#1e40af">Political / budget</text>
+  <text x="191" y="185" text-anchor="middle" font-size="8.5" fill="#1e40af">pressure</text>
+  <text x="191" y="198" text-anchor="middle" font-size="8.5" fill="#1e40af">Fraud / waste</text>
+  <text x="191" y="211" text-anchor="middle" font-size="8.5" fill="#1e40af">Market gaming</text>
+  <text x="191" y="224" text-anchor="middle" font-size="8.5" fill="#1e40af">Regulatory capture</text>
+
+  <rect x="262" y="156" width="134" height="84" rx="4" fill="#eff6ff" stroke="#dbeafe" stroke-width="1"/>
+  <text x="329" y="172" text-anchor="middle" font-size="8.5" fill="#1e40af">High-cost claimants</text>
+  <text x="329" y="185" text-anchor="middle" font-size="8.5" fill="#1e40af">Adverse selection</text>
+  <text x="329" y="198" text-anchor="middle" font-size="8.5" fill="#1e40af">Premium inadequacy</text>
+  <text x="329" y="211" text-anchor="middle" font-size="8.5" fill="#1e40af">Regulatory changes</text>
+  <text x="329" y="224" text-anchor="middle" font-size="8.5" fill="#1e40af">Stars rating drops</text>
+
+  <rect x="400" y="156" width="134" height="84" rx="4" fill="#eff6ff" stroke="#dbeafe" stroke-width="1"/>
+  <text x="467" y="172" text-anchor="middle" font-size="8.5" fill="#1e40af">RAF miscoding</text>
+  <text x="467" y="185" text-anchor="middle" font-size="8.5" fill="#1e40af">benchmark errors</text>
+  <text x="467" y="198" text-anchor="middle" font-size="8.5" fill="#1e40af">High-cost members</text>
+  <text x="467" y="211" text-anchor="middle" font-size="8.5" fill="#1e40af">Stars rating decline</text>
+  <text x="467" y="224" text-anchor="middle" font-size="8.5" fill="#1e40af">Provider adequacy</text>
+
+  <rect x="538" y="156" width="134" height="84" rx="4" fill="#f0fdf4" stroke="#dcfce7" stroke-width="1"/>
+  <text x="605" y="172" text-anchor="middle" font-size="8.5" fill="#166534">Cost overruns vs.</text>
+  <text x="605" y="185" text-anchor="middle" font-size="8.5" fill="#166534">benchmark</text>
+  <text x="605" y="198" text-anchor="middle" font-size="8.5" fill="#166534">Quality failures</text>
+  <text x="605" y="211" text-anchor="middle" font-size="8.5" fill="#166534">Attribution disputes</text>
+  <text x="605" y="224" text-anchor="middle" font-size="8.5" fill="#166534">Data quality issues</text>
+
+  <rect x="676" y="156" width="134" height="84" rx="4" fill="#f0fdf4" stroke="#dcfce7" stroke-width="1"/>
+  <text x="743" y="172" text-anchor="middle" font-size="8.5" fill="#166534">Cost overruns</text>
+  <text x="743" y="185" text-anchor="middle" font-size="8.5" fill="#166534">Loss clawback</text>
+  <text x="743" y="198" text-anchor="middle" font-size="8.5" fill="#166534">Physician attrition</text>
+  <text x="743" y="211" text-anchor="middle" font-size="8.5" fill="#166534">Quality performance</text>
+  <text x="743" y="224" text-anchor="middle" font-size="8.5" fill="#166534">Stop-loss costs</text>
+
+  <rect x="814" y="156" width="134" height="84" rx="4" fill="#f5f3ff" stroke="#ede9fe" stroke-width="1"/>
+  <text x="881" y="172" text-anchor="middle" font-size="8.5" fill="#6d28d9">Practice attrition</text>
+  <text x="881" y="185" text-anchor="middle" font-size="8.5" fill="#6d28d9">Revenue decline</text>
+  <text x="881" y="198" text-anchor="middle" font-size="8.5" fill="#6d28d9">Tech commoditization</text>
+  <text x="881" y="211" text-anchor="middle" font-size="8.5" fill="#6d28d9">Regulatory scrutiny</text>
+  <text x="881" y="224" text-anchor="middle" font-size="8.5" fill="#6d28d9">(CPOM violations)</text>
+
+  <rect x="952" y="156" width="138" height="84" rx="4" fill="#fef2f2" stroke="#fecaca" stroke-width="1"/>
+  <text x="1021" y="172" text-anchor="middle" font-size="8.5" fill="#991b1b">Payer denials</text>
+  <text x="1021" y="185" text-anchor="middle" font-size="8.5" fill="#991b1b">Coding errors</text>
+  <text x="1021" y="198" text-anchor="middle" font-size="8.5" fill="#991b1b">Cost overruns vs.</text>
+  <text x="1021" y="211" text-anchor="middle" font-size="8.5" fill="#991b1b">sub-cap PMPM</text>
+  <text x="1021" y="224" text-anchor="middle" font-size="8.5" fill="#991b1b">Quality penalties</text>
+
+  <!-- Row 3: Key metrics -->
+  <rect x="10" y="244" width="110" height="84" rx="4" fill="#f1f5f9" stroke="#e2e8f0" stroke-width="1"/>
+  <text x="65" y="266" text-anchor="middle" font-size="9.5" font-weight="700" fill="#374151">Key metrics</text>
+
+  <rect x="124" y="244" width="134" height="84" rx="4" fill="#eff6ff" stroke="#dbeafe" stroke-width="1"/>
+  <text x="191" y="260" text-anchor="middle" font-size="8.5" fill="#1e40af">Per-capita spending</text>
+  <text x="191" y="273" text-anchor="middle" font-size="8.5" fill="#1e40af">MLR across programs</text>
+  <text x="191" y="286" text-anchor="middle" font-size="8.5" fill="#1e40af">Quality HEDIS targets</text>
+  <text x="191" y="299" text-anchor="middle" font-size="8.5" fill="#1e40af">ACO participation rate</text>
+  <text x="191" y="312" text-anchor="middle" font-size="8.5" fill="#1e40af">Stars distribution</text>
+
+  <rect x="262" y="244" width="134" height="84" rx="4" fill="#eff6ff" stroke="#dbeafe" stroke-width="1"/>
+  <text x="329" y="260" text-anchor="middle" font-size="8.5" fill="#1e40af">MLR (≤ 85%)</text>
+  <text x="329" y="273" text-anchor="middle" font-size="8.5" fill="#1e40af">Stars rating</text>
+  <text x="329" y="286" text-anchor="middle" font-size="8.5" fill="#1e40af">Medical loss ratio</text>
+  <text x="329" y="299" text-anchor="middle" font-size="8.5" fill="#1e40af">Enrollment growth</text>
+  <text x="329" y="312" text-anchor="middle" font-size="8.5" fill="#1e40af">Admin expense %</text>
+
+  <rect x="400" y="244" width="134" height="84" rx="4" fill="#eff6ff" stroke="#dbeafe" stroke-width="1"/>
+  <text x="467" y="260" text-anchor="middle" font-size="8.5" fill="#1e40af">RAF score accuracy</text>
+  <text x="467" y="273" text-anchor="middle" font-size="8.5" fill="#1e40af">Stars rating ≥ 4</text>
+  <text x="467" y="286" text-anchor="middle" font-size="8.5" fill="#1e40af">Medical cost ratio</text>
+  <text x="467" y="299" text-anchor="middle" font-size="8.5" fill="#1e40af">HEDIS quality metrics</text>
+  <text x="467" y="312" text-anchor="middle" font-size="8.5" fill="#1e40af">MA penetration</text>
+
+  <rect x="538" y="244" width="134" height="84" rx="4" fill="#f0fdf4" stroke="#dcfce7" stroke-width="1"/>
+  <text x="605" y="260" text-anchor="middle" font-size="8.5" fill="#166534">Cost vs. benchmark</text>
+  <text x="605" y="273" text-anchor="middle" font-size="8.5" fill="#166534">HEDIS quality scores</text>
+  <text x="605" y="286" text-anchor="middle" font-size="8.5" fill="#166534">Savings distribution $</text>
+  <text x="605" y="299" text-anchor="middle" font-size="8.5" fill="#166534">Attribution accuracy</text>
+  <text x="605" y="312" text-anchor="middle" font-size="8.5" fill="#166534">AWV completion rate</text>
+
+  <rect x="676" y="244" width="134" height="84" rx="4" fill="#f0fdf4" stroke="#dcfce7" stroke-width="1"/>
+  <text x="743" y="260" text-anchor="middle" font-size="8.5" fill="#166534">PMPM adequacy</text>
+  <text x="743" y="273" text-anchor="middle" font-size="8.5" fill="#166534">HEDIS quality scores</text>
+  <text x="743" y="286" text-anchor="middle" font-size="8.5" fill="#166534">Physician retention</text>
+  <text x="743" y="299" text-anchor="middle" font-size="8.5" fill="#166534">Per-member utilization</text>
+  <text x="743" y="312" text-anchor="middle" font-size="8.5" fill="#166534">Panel size</text>
+
+  <rect x="814" y="244" width="134" height="84" rx="4" fill="#f5f3ff" stroke="#ede9fe" stroke-width="1"/>
+  <text x="881" y="260" text-anchor="middle" font-size="8.5" fill="#6d28d9">Revenue per physician</text>
+  <text x="881" y="273" text-anchor="middle" font-size="8.5" fill="#6d28d9">Contract retention</text>
+  <text x="881" y="286" text-anchor="middle" font-size="8.5" fill="#6d28d9">Quality scores of</text>
+  <text x="881" y="299" text-anchor="middle" font-size="8.5" fill="#6d28d9">client practices</text>
+  <text x="881" y="312" text-anchor="middle" font-size="8.5" fill="#6d28d9">Platform NPS</text>
+
+  <rect x="952" y="244" width="138" height="84" rx="4" fill="#fef2f2" stroke="#fecaca" stroke-width="1"/>
+  <text x="1021" y="260" text-anchor="middle" font-size="8.5" fill="#991b1b">Panel size (1,500–2,500)</text>
+  <text x="1021" y="273" text-anchor="middle" font-size="8.5" fill="#991b1b">Revenue per visit</text>
+  <text x="1021" y="286" text-anchor="middle" font-size="8.5" fill="#991b1b">AWV / HCC coding rate</text>
+  <text x="1021" y="299" text-anchor="middle" font-size="8.5" fill="#991b1b">HEDIS / Stars</text>
+  <text x="1021" y="312" text-anchor="middle" font-size="8.5" fill="#991b1b">FFS collection rate</text>
+
+  <!-- Row 4: What keeps them up at night -->
+  <rect x="10" y="332" width="110" height="84" rx="4" fill="#f1f5f9" stroke="#e2e8f0" stroke-width="1"/>
+  <text x="65" y="349" text-anchor="middle" font-size="9.5" font-weight="700" fill="#374151">What keeps</text>
+  <text x="65" y="362" text-anchor="middle" font-size="9.5" font-weight="700" fill="#374151">them up</text>
+  <text x="65" y="375" text-anchor="middle" font-size="9.5" font-weight="700" fill="#374151">at night</text>
+
+  <rect x="124" y="332" width="134" height="84" rx="4" fill="#eff6ff" stroke="#dbeafe" stroke-width="1"/>
+  <text x="191" y="348" text-anchor="middle" font-size="8.5" fill="#1e40af">Rising per-capita cost</text>
+  <text x="191" y="361" text-anchor="middle" font-size="8.5" fill="#1e40af">Congress budget cuts</text>
+  <text x="191" y="374" text-anchor="middle" font-size="8.5" fill="#1e40af">MA overpayment</text>
+  <text x="191" y="387" text-anchor="middle" font-size="8.5" fill="#1e40af">scrutiny</text>
+  <text x="191" y="400" text-anchor="middle" font-size="8.5" fill="#1e40af">Quality stagnation</text>
+
+  <rect x="262" y="332" width="134" height="84" rx="4" fill="#eff6ff" stroke="#dbeafe" stroke-width="1"/>
+  <text x="329" y="348" text-anchor="middle" font-size="8.5" fill="#1e40af">Sicker-than-expected</text>
+  <text x="329" y="361" text-anchor="middle" font-size="8.5" fill="#1e40af">enrollment</text>
+  <text x="329" y="374" text-anchor="middle" font-size="8.5" fill="#1e40af">Premium rate denials</text>
+  <text x="329" y="387" text-anchor="middle" font-size="8.5" fill="#1e40af">Regulatory changes</text>
+  <text x="329" y="400" text-anchor="middle" font-size="8.5" fill="#1e40af">Price transparency</text>
+
+  <rect x="400" y="332" width="134" height="84" rx="4" fill="#eff6ff" stroke="#dbeafe" stroke-width="1"/>
+  <text x="467" y="348" text-anchor="middle" font-size="8.5" fill="#1e40af">CMS rate changes</text>
+  <text x="467" y="361" text-anchor="middle" font-size="8.5" fill="#1e40af">Coding crackdowns</text>
+  <text x="467" y="374" text-anchor="middle" font-size="8.5" fill="#1e40af">Stars decline</text>
+  <text x="467" y="387" text-anchor="middle" font-size="8.5" fill="#1e40af">High-cost outliers</text>
+  <text x="467" y="400" text-anchor="middle" font-size="8.5" fill="#1e40af">Provider retention</text>
+
+  <rect x="538" y="332" width="134" height="84" rx="4" fill="#f0fdf4" stroke="#dcfce7" stroke-width="1"/>
+  <text x="605" y="348" text-anchor="middle" font-size="8.5" fill="#166534">Low savings year</text>
+  <text x="605" y="361" text-anchor="middle" font-size="8.5" fill="#166534">losing two-sided risk</text>
+  <text x="605" y="374" text-anchor="middle" font-size="8.5" fill="#166534">Benchmark resets</text>
+  <text x="605" y="387" text-anchor="middle" font-size="8.5" fill="#166534">Data latency hurting</text>
+  <text x="605" y="400" text-anchor="middle" font-size="8.5" fill="#166534">performance</text>
+
+  <rect x="676" y="332" width="134" height="84" rx="4" fill="#f0fdf4" stroke="#dcfce7" stroke-width="1"/>
+  <text x="743" y="348" text-anchor="middle" font-size="8.5" fill="#166534">Sub-cap inadequacy</text>
+  <text x="743" y="361" text-anchor="middle" font-size="8.5" fill="#166534">Clawback surprises</text>
+  <text x="743" y="374" text-anchor="middle" font-size="8.5" fill="#166534">Physician burnout</text>
+  <text x="743" y="387" text-anchor="middle" font-size="8.5" fill="#166534">ACO terminating</text>
+  <text x="743" y="400" text-anchor="middle" font-size="8.5" fill="#166534">contract</text>
+
+  <rect x="814" y="332" width="134" height="84" rx="4" fill="#f5f3ff" stroke="#ede9fe" stroke-width="1"/>
+  <text x="881" y="348" text-anchor="middle" font-size="8.5" fill="#6d28d9">Major practice</text>
+  <text x="881" y="361" text-anchor="middle" font-size="8.5" fill="#6d28d9">canceling MSA</text>
+  <text x="881" y="374" text-anchor="middle" font-size="8.5" fill="#6d28d9">Competitor MSO</text>
+  <text x="881" y="387" text-anchor="middle" font-size="8.5" fill="#6d28d9">undercutting price</text>
+  <text x="881" y="400" text-anchor="middle" font-size="8.5" fill="#6d28d9">CPOM enforcement</text>
+
+  <rect x="952" y="332" width="138" height="84" rx="4" fill="#fef2f2" stroke="#fecaca" stroke-width="1"/>
+  <text x="1021" y="348" text-anchor="middle" font-size="8.5" fill="#991b1b">Payer prior auth</text>
+  <text x="1021" y="361" text-anchor="middle" font-size="8.5" fill="#991b1b">denials increasing</text>
+  <text x="1021" y="374" text-anchor="middle" font-size="8.5" fill="#991b1b">Admin burden</text>
+  <text x="1021" y="387" text-anchor="middle" font-size="8.5" fill="#991b1b">rising</text>
+  <text x="1021" y="400" text-anchor="middle" font-size="8.5" fill="#991b1b">Physician shortage</text>
+
+  <!-- Row 5: Contracts with -->
+  <rect x="10" y="420" width="110" height="84" rx="4" fill="#f1f5f9" stroke="#e2e8f0" stroke-width="1"/>
+  <text x="65" y="445" text-anchor="middle" font-size="9.5" font-weight="700" fill="#374151">Contracts with</text>
+
+  <rect x="124" y="420" width="134" height="84" rx="4" fill="#eff6ff" stroke="#dbeafe" stroke-width="1"/>
+  <text x="191" y="436" text-anchor="middle" font-size="8.5" fill="#1e40af">MA plans (contracts)</text>
+  <text x="191" y="449" text-anchor="middle" font-size="8.5" fill="#1e40af">ACOs (MSSP/REACH)</text>
+  <text x="191" y="462" text-anchor="middle" font-size="8.5" fill="#1e40af">Hospital systems</text>
+  <text x="191" y="475" text-anchor="middle" font-size="8.5" fill="#1e40af">(DRG payments)</text>
+  <text x="191" y="488" text-anchor="middle" font-size="8.5" fill="#1e40af">Physicians (fee schedules)</text>
+
+  <rect x="262" y="420" width="134" height="84" rx="4" fill="#eff6ff" stroke="#dbeafe" stroke-width="1"/>
+  <text x="329" y="436" text-anchor="middle" font-size="8.5" fill="#1e40af">CMS (MA contract)</text>
+  <text x="329" y="449" text-anchor="middle" font-size="8.5" fill="#1e40af">Employers (ASO)</text>
+  <text x="329" y="462" text-anchor="middle" font-size="8.5" fill="#1e40af">ACOs / IPAs</text>
+  <text x="329" y="475" text-anchor="middle" font-size="8.5" fill="#1e40af">Hospitals (DRG)</text>
+  <text x="329" y="488" text-anchor="middle" font-size="8.5" fill="#1e40af">Physicians (network)</text>
+
+  <rect x="400" y="420" width="134" height="84" rx="4" fill="#eff6ff" stroke="#dbeafe" stroke-width="1"/>
+  <text x="467" y="436" text-anchor="middle" font-size="8.5" fill="#1e40af">CMS (benchmark)</text>
+  <text x="467" y="449" text-anchor="middle" font-size="8.5" fill="#1e40af">ACOs (VBC deals)</text>
+  <text x="467" y="462" text-anchor="middle" font-size="8.5" fill="#1e40af">Provider networks</text>
+  <text x="467" y="475" text-anchor="middle" font-size="8.5" fill="#1e40af">MSOs (admin)</text>
+
+  <rect x="538" y="420" width="134" height="84" rx="4" fill="#f0fdf4" stroke="#dcfce7" stroke-width="1"/>
+  <text x="605" y="436" text-anchor="middle" font-size="8.5" fill="#166534">CMS (MSSP/REACH)</text>
+  <text x="605" y="449" text-anchor="middle" font-size="8.5" fill="#166534">MA plans (VBC)</text>
+  <text x="605" y="462" text-anchor="middle" font-size="8.5" fill="#166534">IPAs (sub-cap)</text>
+  <text x="605" y="475" text-anchor="middle" font-size="8.5" fill="#166534">MSOs (services)</text>
+  <text x="605" y="488" text-anchor="middle" font-size="8.5" fill="#166534">Physician practices</text>
+
+  <rect x="676" y="420" width="134" height="84" rx="4" fill="#f0fdf4" stroke="#dcfce7" stroke-width="1"/>
+  <text x="743" y="436" text-anchor="middle" font-size="8.5" fill="#166534">ACO (participation)</text>
+  <text x="743" y="449" text-anchor="middle" font-size="8.5" fill="#166534">Payers (VBC)</text>
+  <text x="743" y="462" text-anchor="middle" font-size="8.5" fill="#166534">MSOs (services)</text>
+  <text x="743" y="475" text-anchor="middle" font-size="8.5" fill="#166534">Member physicians</text>
+
+  <rect x="814" y="420" width="134" height="84" rx="4" fill="#f5f3ff" stroke="#ede9fe" stroke-width="1"/>
+  <text x="881" y="436" text-anchor="middle" font-size="8.5" fill="#6d28d9">Physician practices</text>
+  <text x="881" y="449" text-anchor="middle" font-size="8.5" fill="#6d28d9">(MSA)</text>
+  <text x="881" y="462" text-anchor="middle" font-size="8.5" fill="#6d28d9">ACOs / IPAs</text>
+  <text x="881" y="475" text-anchor="middle" font-size="8.5" fill="#6d28d9">Health plans</text>
+  <text x="881" y="488" text-anchor="middle" font-size="8.5" fill="#6d28d9">Vendors / tech partners</text>
+
+  <rect x="952" y="420" width="138" height="84" rx="4" fill="#fef2f2" stroke="#fecaca" stroke-width="1"/>
+  <text x="1021" y="436" text-anchor="middle" font-size="8.5" fill="#991b1b">Payers (participation)</text>
+  <text x="1021" y="449" text-anchor="middle" font-size="8.5" fill="#991b1b">ACO / IPA</text>
+  <text x="1021" y="462" text-anchor="middle" font-size="8.5" fill="#991b1b">(membership)</text>
+  <text x="1021" y="475" text-anchor="middle" font-size="8.5" fill="#991b1b">MSO (services)</text>
+  <text x="1021" y="488" text-anchor="middle" font-size="8.5" fill="#991b1b">Patients (care)</text>
+
+  <!-- Bottom note -->
+  <text x="550" y="512" text-anchor="middle" font-size="9" fill="#6b7280">Every stakeholder's economics are shaped by the contract chain above them and the care decisions below them</text>
+</svg>
