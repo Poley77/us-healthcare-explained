@@ -1,0 +1,56 @@
+<svg viewBox="0 0 680 440" xmlns="http://www.w3.org/2000/svg" font-family="Inter, system-ui, -apple-system, sans-serif" role="img">
+  <title>The Care Delivery Chain</title>
+  <defs>
+    <marker id="arr" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#9ca3af"/>
+    </marker>
+    <marker id="arr-blue" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#60a5fa"/>
+    </marker>
+  </defs>
+  <rect width="680" height="440" rx="14" fill="#f8f8f6" stroke="#e2e2dc" stroke-width="1"/>
+  <text x="340" y="42" text-anchor="middle" font-size="17" font-weight="700" fill="#111">The Care Delivery Chain</text>
+
+  <!-- Patient (amber) -->
+  <rect x="230" y="62" width="220" height="72" rx="10" fill="#fef3c7" stroke="#fcd34d" stroke-width="1.5"/>
+  <text x="340" y="94" text-anchor="middle" font-size="15" font-weight="700" fill="#78350f">Patient</text>
+  <text x="340" y="116" text-anchor="middle" font-size="12" fill="#92400e">seeks care</text>
+
+  <!-- Arrow Patient → Primary Care -->
+  <line x1="340" y1="134" x2="340" y2="168" stroke="#9ca3af" stroke-width="1.5" marker-end="url(#arr)"/>
+
+  <!-- Primary Care (blue, wide) -->
+  <rect x="150" y="170" width="380" height="72" rx="10" fill="#dbeafe" stroke="#93c5fd" stroke-width="1.5"/>
+  <text x="340" y="202" text-anchor="middle" font-size="15" font-weight="700" fill="#1e3a8a">Primary Care</text>
+  <text x="340" y="224" text-anchor="middle" font-size="12" fill="#1e40af">first point of contact</text>
+
+  <!-- Arrows Primary Care → 4 boxes -->
+  <line x1="210" y1="242" x2="100" y2="306" stroke="#60a5fa" stroke-width="1.5" marker-end="url(#arr-blue)"/>
+  <line x1="295" y1="242" x2="268" y2="306" stroke="#60a5fa" stroke-width="1.5" marker-end="url(#arr-blue)"/>
+  <line x1="385" y1="242" x2="412" y2="306" stroke="#60a5fa" stroke-width="1.5" marker-end="url(#arr-blue)"/>
+  <line x1="470" y1="242" x2="580" y2="306" stroke="#60a5fa" stroke-width="1.5" marker-end="url(#arr-blue)"/>
+
+  <!-- Specialists (green) -->
+  <rect x="22" y="308" width="160" height="72" rx="10" fill="#dcfce7" stroke="#86efac" stroke-width="1.5"/>
+  <text x="102" y="338" text-anchor="middle" font-size="13" font-weight="700" fill="#14532d">Specialists</text>
+  <text x="102" y="358" text-anchor="middle" font-size="11" fill="#166534">cardiology, oncology…</text>
+
+  <!-- Labs (green) -->
+  <rect x="196" y="308" width="148" height="72" rx="10" fill="#dcfce7" stroke="#86efac" stroke-width="1.5"/>
+  <text x="270" y="338" text-anchor="middle" font-size="13" font-weight="700" fill="#14532d">Labs</text>
+  <text x="270" y="358" text-anchor="middle" font-size="11" fill="#166534">diagnostics</text>
+
+  <!-- Imaging (green) -->
+  <rect x="358" y="308" width="148" height="72" rx="10" fill="#dcfce7" stroke="#86efac" stroke-width="1.5"/>
+  <text x="432" y="338" text-anchor="middle" font-size="13" font-weight="700" fill="#14532d">Imaging</text>
+  <text x="432" y="358" text-anchor="middle" font-size="11" fill="#166534">X-ray, MRI…</text>
+
+  <!-- Hospital (purple) -->
+  <rect x="520" y="308" width="138" height="72" rx="10" fill="#ede9fe" stroke="#c4b5fd" stroke-width="1.5"/>
+  <text x="589" y="338" text-anchor="middle" font-size="13" font-weight="700" fill="#4c1d95">Hospital</text>
+  <text x="589" y="358" text-anchor="middle" font-size="11" fill="#6d28d9">acute care</text>
+
+  <!-- Caption -->
+  <text x="340" y="406" text-anchor="middle" font-size="11" fill="#9ca3af">Independent practices, medical groups, and health systems</text>
+  <text x="340" y="424" text-anchor="middle" font-size="11" fill="#9ca3af">all sit behind these roles — organized differently, paid the same way</text>
+</svg>

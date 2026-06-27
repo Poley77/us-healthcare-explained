@@ -1,0 +1,39 @@
+<svg viewBox="0 0 760 320" xmlns="http://www.w3.org/2000/svg" font-family="Inter, system-ui, -apple-system, sans-serif" role="img">
+  <title>The Fee-for-Service Incentive</title>
+  <defs>
+    <marker id="arr-orange" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#d97706"/>
+    </marker>
+  </defs>
+  <rect width="760" height="320" rx="14" fill="#f8f8f6" stroke="#e2e2dc" stroke-width="1"/>
+  <text x="380" y="44" text-anchor="middle" font-size="18" font-weight="700" fill="#111">The Fee-for-Service Incentive</text>
+
+  <!-- More services box -->
+  <rect x="30" y="80" width="200" height="90" rx="10" fill="#fef3c7" stroke="#d97706" stroke-width="2"/>
+  <text x="130" y="118" text-anchor="middle" font-size="15" font-weight="700" fill="#78350f">More services</text>
+  <text x="130" y="140" text-anchor="middle" font-size="13" fill="#92400e">delivered</text>
+
+  <!-- Arrow 1 (orange) -->
+  <line x1="232" y1="125" x2="278" y2="125" stroke="#d97706" stroke-width="2.5" marker-end="url(#arr-orange)"/>
+
+  <!-- More claims box -->
+  <rect x="280" y="80" width="200" height="90" rx="10" fill="#fef3c7" stroke="#d97706" stroke-width="2"/>
+  <text x="380" y="118" text-anchor="middle" font-size="15" font-weight="700" fill="#78350f">More claims</text>
+  <text x="380" y="140" text-anchor="middle" font-size="13" fill="#92400e">submitted</text>
+
+  <!-- Arrow 2 (orange) -->
+  <line x1="482" y1="125" x2="528" y2="125" stroke="#d97706" stroke-width="2.5" marker-end="url(#arr-orange)"/>
+
+  <!-- More revenue box -->
+  <rect x="530" y="80" width="200" height="90" rx="10" fill="#fef9ec" stroke="#d97706" stroke-width="2"/>
+  <text x="630" y="118" text-anchor="middle" font-size="15" font-weight="700" fill="#78350f">More</text>
+  <text x="630" y="140" text-anchor="middle" font-size="13" fill="#92400e">revenue</text>
+
+  <!-- Dashed line down from More claims -->
+  <line x1="380" y1="170" x2="380" y2="210" stroke="#9ca3af" stroke-width="1.5" stroke-dasharray="5,4"/>
+
+  <!-- Caption text -->
+  <text x="380" y="238" text-anchor="middle" font-size="13" fill="#6b7280">Quality and outcomes are not part of the equation.</text>
+  <text x="380" y="262" text-anchor="middle" font-size="13" fill="#6b7280">Getting paid and getting patients better</text>
+  <text x="380" y="286" text-anchor="middle" font-size="13" fill="#6b7280">are two separate things.</text>
+</svg>
