@@ -41,8 +41,8 @@ export default function DiagramViewer({ id, caption, alt }) {
             onError={handleError}
           />
           <div className="px-4 py-3 flex items-center justify-between border-t border-gray-100">
-            <span className="text-sm text-gray-500 italic">{displayCaption}</span>
-            <span className="text-xs text-gray-400 group-hover:text-blue-500 transition-colors">
+            {caption && <span className="text-sm text-gray-500 italic">{caption}</span>}
+            <span className="text-xs text-gray-400 group-hover:text-blue-500 transition-colors ml-auto">
               Click to expand ↗
             </span>
           </div>
