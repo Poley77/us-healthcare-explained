@@ -4,7 +4,8 @@ import { useState, useEffect } from "react";
 
 export default function DiagramViewer({ id, caption, alt }) {
   const [open, setOpen] = useState(false);
-  const src = `/diagrams/${id}.png`;
+  const basePath = process.env.NEXT_PUBLIC_BASE_PATH || "";
+  const src = `${basePath}/diagrams/${id}.png`;
   const displayCaption = caption || id
     .replace(/^diagram\d+_/, "")
     .replace(/_/g, " ")
@@ -30,7 +31,7 @@ export default function DiagramViewer({ id, caption, alt }) {
           <img
             src={src}
             alt={alt || displayCaption}
-            className="max-w-full h-auto mx-auto block"
+            className="w-full h-auto"
             loading="lazy"
           />
           <div className="px-4 py-3 flex items-center justify-between border-t border-gray-100">
