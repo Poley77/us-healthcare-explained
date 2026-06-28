@@ -2,6 +2,7 @@ import Link from "next/link";
 import chapters from "@/data/chapters.json";
 import vocabulary from "@/data/vocabulary.json";
 import diagramTitles from "@/data/diagramTitles";
+import SidebarThumb from "@/components/chapter/SidebarThumb";
 
 const BASE = process.env.NEXT_PUBLIC_BASE_PATH || '';
 
@@ -158,22 +159,18 @@ export default function ChapterLayout({ chapter, children }) {
                 </h3>
                 <div className="flex flex-col gap-2">
                   {chapter.diagramIds.map((id) => (
-                    <Link
+                    <a
                       key={id}
-                      href={`/diagrams#${id}`}
+                      href={`#diagram-${id}`}
                       className="group flex items-center gap-2 rounded-lg border border-gray-200 bg-white p-2.5 hover:border-blue-300 transition-all"
                     >
                       <div className="w-10 h-10 rounded bg-gray-100 overflow-hidden shrink-0">
-                        <img
-                          src={`${BASE}/diagrams/${id}.png`}
-                          alt=""
-                          className="w-full h-full object-cover"
-                        />
+                        <SidebarThumb id={id} base={BASE} />
                       </div>
                       <span className="text-xs text-gray-500 group-hover:text-blue-600 transition-colors leading-snug">
                         {diagramTitles[id] || id}
                       </span>
-                    </Link>
+                    </a>
                   ))}
                 </div>
               </div>

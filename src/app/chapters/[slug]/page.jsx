@@ -1,6 +1,5 @@
 import { readFile } from 'fs/promises'
 import path from 'path'
-import matter from 'gray-matter'
 import { MDXRemote } from 'next-mdx-remote/rsc'
 import ChapterLayout from '@/components/chapter/ChapterLayout'
 import Tooltip from '@/components/ui/Tooltip'
@@ -50,7 +49,7 @@ export default async function ChapterPage({ params }) {
   let source
   try {
     const raw = await readFile(mdxPath, 'utf8')
-    source = matter(raw).content
+    source = raw.replace(/^---[\s\S]*?---\n?/, '')
   } catch {
     source = '*Content coming soon.*'
   }

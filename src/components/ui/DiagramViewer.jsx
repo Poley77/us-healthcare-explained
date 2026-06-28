@@ -27,7 +27,7 @@ export default function DiagramViewer({ id, caption, alt }) {
   return (
     <>
       {/* Inline thumbnail */}
-      <figure className="my-8 not-prose">
+      <figure id={`diagram-${id}`} className="my-8 not-prose">
         <button
           onClick={() => setOpen(true)}
           className="group w-full block rounded-xl overflow-hidden border border-gray-200 bg-white hover:border-blue-300 hover:shadow-md transition-all cursor-zoom-in"
