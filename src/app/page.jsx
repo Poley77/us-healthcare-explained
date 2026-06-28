@@ -15,9 +15,8 @@ export default function HomePage() {
         <h1 className="text-4xl lg:text-6xl font-bold text-gray-900 leading-tight mb-6 font-sans">
           Understanding the<br className="hidden sm:block" /> U.S. Healthcare System
         </h1>
-        <p className="text-xl text-gray-500 leading-relaxed mb-10 max-w-3xl mx-auto">
-          A complete reference for professionals navigating Medicare, value-based care, risk,{' '}
-          <br className="hidden sm:block" />and the organizations that shape American healthcare.
+        <p className="text-xl text-gray-500 leading-relaxed mb-10 max-w-2xl mx-auto">
+          A complete reference for professionals navigating Medicare, value-based care, risk, and the organizations that shape American healthcare.
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <Link href="/chapters"

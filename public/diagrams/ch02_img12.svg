@@ -1,6 +1,6 @@
-<svg viewBox="0 0 740 280" xmlns="http://www.w3.org/2000/svg" font-family="Inter, system-ui, -apple-system, sans-serif" role="img">
+<svg viewBox="0 0 740 300" xmlns="http://www.w3.org/2000/svg" font-family="Inter, system-ui, -apple-system, sans-serif" role="img">
   <title>Employer Insurance vs. ACA Marketplace</title>
-  <rect width="740" height="280" rx="14" fill="#f8f8f6" stroke="#e2e2dc" stroke-width="1"/>
+  <rect width="740" height="300" rx="14" fill="#f8f8f6" stroke="#e2e2dc" stroke-width="1"/>
   <text x="370" y="26" text-anchor="middle" font-size="14" font-weight="700" fill="#111">Employer Insurance vs. ACA Marketplace</text>
   <text x="370" y="44" text-anchor="middle" font-size="11" fill="#6b7280">Nearly always take what your employer offers — the subsidy math rarely works otherwise</text>
 
@@ -49,7 +49,8 @@
   <text x="540" y="205" text-anchor="middle" font-size="10" fill="#7f1d1d">Employer offer blocks subsidy</text>
 
   <!-- Verdict box -->
-  <rect x="140" y="222" width="460" height="46" rx="8" fill="#fef3c7" stroke="#fcd34d" stroke-width="1.5"/>
-  <text x="370" y="241" text-anchor="middle" font-size="10" font-weight="700" fill="#78350f">Almost always: take the employer plan</text>
-  <text x="370" y="258" text-anchor="middle" font-size="9.5" fill="#374151">If employer offer is "affordable" (&lt;9% of income), you lose all Marketplace subsidy rights — making the switch cost far more</text>
+  <rect x="100" y="222" width="540" height="66" rx="8" fill="#fef3c7" stroke="#fcd34d" stroke-width="1.5"/>
+  <text x="370" y="242" text-anchor="middle" font-size="10.5" font-weight="700" fill="#78350f">Almost always: take the employer plan</text>
+  <text x="370" y="260" text-anchor="middle" font-size="9.5" fill="#374151">If your employer offers a plan the government considers "affordable" (&lt;9% of income),</text>
+  <text x="370" y="276" text-anchor="middle" font-size="9.5" fill="#374151">you lose all Marketplace subsidy rights — making the switch cost significantly more.</text>
 </svg>
