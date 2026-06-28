@@ -1,0 +1,50 @@
+<svg viewBox="0 0 740 300" xmlns="http://www.w3.org/2000/svg" font-family="Inter, system-ui, -apple-system, sans-serif" role="img">
+  <title>Original Medicare — What You Actually Pay (2026)</title>
+  <rect width="740" height="300" rx="14" fill="#f8f8f6" stroke="#e2e2dc" stroke-width="1"/>
+  <text x="370" y="26" text-anchor="middle" font-size="14" font-weight="700" fill="#111">Original Medicare — What You Actually Pay (2026)</text>
+  <text x="370" y="44" text-anchor="middle" font-size="11" fill="#6b7280">Two parts, different structures — and no annual out-of-pocket maximum</text>
+
+  <!-- Part A block -->
+  <rect x="14" y="56" width="348" height="210" rx="10" fill="#eff6ff" stroke="#93c5fd" stroke-width="1.5"/>
+  <rect x="14" y="56" width="348" height="38" rx="10" fill="#1e3a8a"/>
+  <rect x="14" y="80" width="348" height="14" rx="0" fill="#1e3a8a"/>
+  <text x="188" y="78" text-anchor="middle" font-size="13" font-weight="700" fill="#fff">Part A — Hospital</text>
+
+  <text x="188" y="112" text-anchor="middle" font-size="10" font-weight="600" fill="#1e3a8a">Monthly Premium</text>
+  <text x="188" y="128" text-anchor="middle" font-size="10" fill="#374151">$0 if 10+ years Medicare payroll taxes paid</text>
+  <text x="188" y="143" text-anchor="middle" font-size="10" fill="#374151">Up to $505/mo if insufficient work history</text>
+
+  <line x1="30" y1="154" x2="346" y2="154" stroke="#bfdbfe" stroke-width="1"/>
+  <text x="188" y="170" text-anchor="middle" font-size="10" font-weight="600" fill="#1e3a8a">What It Covers</text>
+  <text x="188" y="186" text-anchor="middle" font-size="10" fill="#374151">Inpatient hospital stays</text>
+  <text x="188" y="201" text-anchor="middle" font-size="10" fill="#374151">Skilled nursing facility care</text>
+  <text x="188" y="216" text-anchor="middle" font-size="10" fill="#374151">Hospice care</text>
+
+  <line x1="30" y1="226" x2="346" y2="226" stroke="#bfdbfe" stroke-width="1"/>
+  <text x="188" y="242" text-anchor="middle" font-size="9.5" fill="#1e3a8a">Hospital deductible: $1,676 per stay (2026)</text>
+  <text x="188" y="257" text-anchor="middle" font-size="9.5" fill="#6b7280">Daily co-insurance kicks in after 60 days</text>
+
+  <!-- Part B block -->
+  <rect x="378" y="56" width="348" height="210" rx="10" fill="#f0fdf4" stroke="#86efac" stroke-width="1.5"/>
+  <rect x="378" y="56" width="348" height="38" rx="10" fill="#14532d"/>
+  <rect x="378" y="80" width="348" height="14" rx="0" fill="#14532d"/>
+  <text x="552" y="78" text-anchor="middle" font-size="13" font-weight="700" fill="#fff">Part B — Medical / Outpatient</text>
+
+  <text x="552" y="112" text-anchor="middle" font-size="10" font-weight="600" fill="#14532d">Monthly Premium</text>
+  <text x="552" y="128" text-anchor="middle" font-size="11" font-weight="700" fill="#111">$202.90 / month</text>
+  <text x="552" y="143" text-anchor="middle" font-size="9.5" fill="#374151">Deducted from Social Security cheque · higher earners pay more (IRMAA)</text>
+
+  <line x1="394" y1="154" x2="710" y2="154" stroke="#bbf7d0" stroke-width="1"/>
+  <text x="552" y="170" text-anchor="middle" font-size="10" font-weight="600" fill="#14532d">What It Covers</text>
+  <text x="552" y="186" text-anchor="middle" font-size="10" fill="#374151">Doctor visits &amp; outpatient procedures</text>
+  <text x="552" y="201" text-anchor="middle" font-size="10" fill="#374151">Lab tests, imaging, preventive care</text>
+  <text x="552" y="216" text-anchor="middle" font-size="10" fill="#374151">Durable medical equipment</text>
+
+  <line x1="394" y1="226" x2="710" y2="226" stroke="#bbf7d0" stroke-width="1"/>
+  <text x="552" y="242" text-anchor="middle" font-size="9.5" fill="#14532d">Annual deductible $283, then 80/20 split — you owe 20%</text>
+  <text x="552" y="257" text-anchor="middle" font-size="9.5" fill="#6b7280">Covers doctor visits; does NOT include Rx drugs</text>
+
+  <!-- Critical warning -->
+  <rect x="14" y="276" width="712" height="18" rx="6" fill="#fef2f2" stroke="#fca5a5" stroke-width="1"/>
+  <text x="370" y="289" text-anchor="middle" font-size="9.5" font-weight="600" fill="#7f1d1d">⚠ Original Medicare has NO annual out-of-pocket maximum — a $100,000 treatment could leave you owing $20,000 with no ceiling</text>
+</svg>

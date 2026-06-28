@@ -3,7 +3,7 @@
     "slug": "chapter-01-the-system-that-was-never-designed",
     "title": "The System That Was Never Designed",
     "part": 1,
-    "partTitle": "Part I \u2014 Understanding the Landscape",
+    "partTitle": "Part I — Understanding the Landscape",
     "layer": "intro",
     "layerColor": "#2A5298",
     "order": 1,
@@ -15,13 +15,13 @@
     ],
     "diagramIds": [],
     "readingTimeMinutes": 8,
-    "summary": "Why US healthcare feels so complicated \u2014 and the four flows (care, money, risk, data) that unlock it."
+    "summary": "Why US healthcare feels so complicated — and the four flows (care, money, risk, data) that unlock it."
   },
   {
     "slug": "chapter-02-who-pays-for-healthcare",
     "title": "Who Pays for Healthcare?",
     "part": 1,
-    "partTitle": "Part I \u2014 Understanding the Landscape",
+    "partTitle": "Part I — Understanding the Landscape",
     "layer": "payer",
     "layerColor": "#2A5298",
     "order": 2,
@@ -41,16 +41,45 @@
       "ch02_img04"
     ],
     "readingTimeMinutes": 7,
-    "summary": "Medicare, Medicaid, employers, and the ACA \u2014 the four sources of healthcare funding and how each works."
+    "summary": "Medicare, Medicaid, employers, and the ACA — the four sources of healthcare funding and how each works."
+  },
+  {
+    "slug": "chapter-02b-putting-it-all-together",
+    "title": "Putting It All Together",
+    "part": 1,
+    "partTitle": "Part I — Understanding the Landscape",
+    "layer": "payer",
+    "layerColor": "#2A5298",
+    "order": 3,
+    "concepts": [
+      "medicare",
+      "medicaid",
+      "health-plan",
+      "claims",
+      "fee-for-service"
+    ],
+    "diagramIds": [
+      "ch02_img05",
+      "ch02_img10",
+      "ch02_img11",
+      "ch02_img12",
+      "ch02_img13",
+      "ch02_img14",
+      "ch02_img15",
+      "ch02_img16",
+      "ch02_img17"
+    ],
+    "readingTimeMinutes": 12,
+    "summary": "The four players, employer vs. marketplace, how ACA subsidies work, Medicare Parts A through D, the three safety nets, and which path applies to you."
   },
   {
     "slug": "chapter-03-who-delivers-healthcare",
     "title": "Who Delivers Healthcare?",
     "part": 1,
-    "partTitle": "Part I \u2014 Understanding the Landscape",
+    "partTitle": "Part I — Understanding the Landscape",
     "layer": "delivery",
     "layerColor": "#B02020",
-    "order": 3,
+    "order": 4,
     "concepts": [
       "primary-care",
       "health-plan",
@@ -61,16 +90,16 @@
       "ch03_img01"
     ],
     "readingTimeMinutes": 5,
-    "summary": "Physicians, specialists, hospitals, and health systems \u2014 who they are, how they're organized, and how consolidation has reshaped care delivery."
+    "summary": "Physicians, specialists, hospitals, and health systems — who they are, how they're organized, and how consolidation has reshaped care delivery."
   },
   {
     "slug": "chapter-04-fee-for-service",
     "title": "Fee-for-Service",
     "part": 2,
-    "partTitle": "Part II \u2014 How Healthcare Money Flows",
+    "partTitle": "Part II — How Healthcare Money Flows",
     "layer": "payment",
     "layerColor": "#C05E0E",
-    "order": 4,
+    "order": 5,
     "concepts": [
       "fee-for-service",
       "cpt-code",
@@ -88,10 +117,10 @@
     "slug": "chapter-05-value-based-care",
     "title": "The Rise of Value-Based Care",
     "part": 2,
-    "partTitle": "Part II \u2014 How Healthcare Money Flows",
+    "partTitle": "Part II — How Healthcare Money Flows",
     "layer": "payment",
     "layerColor": "#C05E0E",
-    "order": 5,
+    "order": 6,
     "concepts": [
       "value-based-care",
       "triple-aim",
@@ -110,10 +139,10 @@
     "slug": "chapter-06-understanding-risk",
     "title": "Understanding Risk",
     "part": 3,
-    "partTitle": "Part III \u2014 The Value-Based Care Stack",
+    "partTitle": "Part III — The Value-Based Care Stack",
     "layer": "risk",
     "layerColor": "#C05E0E",
-    "order": 6,
+    "order": 7,
     "concepts": [
       "risk-spectrum",
       "downside-risk",
@@ -125,16 +154,16 @@
       "ch06_img01"
     ],
     "readingTimeMinutes": 5,
-    "summary": "The four levels of provider financial risk \u2014 from upside-only shared savings to full capitation."
+    "summary": "The four levels of provider financial risk — from upside-only shared savings to full capitation."
   },
   {
     "slug": "chapter-07-acos",
     "title": "ACOs: Making Providers Accountable for Populations",
     "part": 3,
-    "partTitle": "Part III \u2014 The Value-Based Care Stack",
+    "partTitle": "Part III — The Value-Based Care Stack",
     "layer": "risk",
     "layerColor": "#C05E0E",
-    "order": 7,
+    "order": 8,
     "concepts": [
       "aco",
       "mssp",
@@ -149,16 +178,16 @@
       "ch07_img02"
     ],
     "readingTimeMinutes": 8,
-    "summary": "What ACOs are, how MSSP and ACO REACH work, and the four mechanics \u2014 attribution, benchmarks, shared savings, quality scoring."
+    "summary": "What ACOs are, how MSSP and ACO REACH work, and the four mechanics — attribution, benchmarks, shared savings, quality scoring."
   },
   {
     "slug": "chapter-08-ipas",
     "title": "The Independent Practice Association (IPA)",
     "part": 3,
-    "partTitle": "Part III \u2014 The Value-Based Care Stack",
+    "partTitle": "Part III — The Value-Based Care Stack",
     "layer": "risk",
     "layerColor": "#C05E0E",
-    "order": 8,
+    "order": 9,
     "concepts": [
       "ipa",
       "sub-capitation",
@@ -170,16 +199,16 @@
       "ch08_img02"
     ],
     "readingTimeMinutes": 6,
-    "summary": "How IPAs organize independent physicians for collective contracting \u2014 origins, network formation, and the aggregation model."
+    "summary": "How IPAs organize independent physicians for collective contracting — origins, network formation, and the aggregation model."
   },
   {
     "slug": "chapter-09-msos",
     "title": "The MSO: The Operating System Behind VBC",
     "part": 3,
-    "partTitle": "Part III \u2014 The Value-Based Care Stack",
+    "partTitle": "Part III — The Value-Based Care Stack",
     "layer": "enablement",
     "layerColor": "#5B3D9E",
-    "order": 9,
+    "order": 10,
     "concepts": [
       "mso",
       "cpom",
@@ -198,10 +227,10 @@
     "slug": "chapter-10-aco-ipa-mso",
     "title": "Comparing ACOs, IPAs, and MSOs",
     "part": 3,
-    "partTitle": "Part III \u2014 The Value-Based Care Stack",
+    "partTitle": "Part III — The Value-Based Care Stack",
     "layer": "enablement",
     "layerColor": "#5B3D9E",
-    "order": 10,
+    "order": 11,
     "concepts": [
       "aco",
       "ipa",
@@ -214,16 +243,16 @@
       "ch10_img04"
     ],
     "readingTimeMinutes": 5,
-    "summary": "How the three layers work together \u2014 accountability, network, and infrastructure \u2014 and why the lines between them blur."
+    "summary": "How the three layers work together — accountability, network, and infrastructure — and why the lines between them blur."
   },
   {
     "slug": "chapter-11-cms-federal-programs",
     "title": "CMS and the Federal Architecture of Medicare",
     "part": 4,
-    "partTitle": "Part IV \u2014 The Payer Side",
+    "partTitle": "Part IV — The Payer Side",
     "layer": "payer",
     "layerColor": "#2A5298",
-    "order": 11,
+    "order": 12,
     "concepts": [
       "cms",
       "mssp",
@@ -240,16 +269,16 @@
       "ch11_img02"
     ],
     "readingTimeMinutes": 9,
-    "summary": "The full CMS program landscape \u2014 Medicare, MSSP, ACO REACH, CMMI, Medicaid, CHIP, PACE, and all major innovation models."
+    "summary": "The full CMS program landscape — Medicare, MSSP, ACO REACH, CMMI, Medicaid, CHIP, PACE, and all major innovation models."
   },
   {
     "slug": "chapter-13-health-plans",
     "title": "Health Plans",
     "part": 4,
-    "partTitle": "Part IV \u2014 The Payer Side",
+    "partTitle": "Part IV — The Payer Side",
     "layer": "payer",
     "layerColor": "#2A5298",
-    "order": 12,
+    "order": 13,
     "concepts": [
       "health-plan",
       "commercial-insurance",
@@ -262,16 +291,16 @@
       "ch12_img01"
     ],
     "readingTimeMinutes": 6,
-    "summary": "Commercial plans, Medicare Advantage, and Medicaid MCOs \u2014 three markets, same structure, different economics."
+    "summary": "Commercial plans, Medicare Advantage, and Medicaid MCOs — three markets, same structure, different economics."
   },
   {
     "slug": "chapter-14-medicare-advantage",
-    "title": "Medicare Advantage and Risk Adjustment \u2014 The Economics in Depth",
+    "title": "Medicare Advantage and Risk Adjustment — The Economics in Depth",
     "part": 4,
-    "partTitle": "Part IV \u2014 The Payer Side",
+    "partTitle": "Part IV — The Payer Side",
     "layer": "payer",
     "layerColor": "#2A5298",
-    "order": 13,
+    "order": 14,
     "concepts": [
       "medicare-advantage",
       "risk-adjustment",
@@ -292,10 +321,10 @@
     "slug": "chapter-15-how-contracts-flow",
     "title": "How Contracts Flow",
     "part": 5,
-    "partTitle": "Part V \u2014 The Modern VBC Enterprise",
+    "partTitle": "Part V — The Modern VBC Enterprise",
     "layer": "risk",
     "layerColor": "#C05E0E",
-    "order": 14,
+    "order": 15,
     "concepts": [
       "benchmark",
       "shared-savings",
@@ -316,10 +345,10 @@
     "slug": "chapter-16-how-money-flows",
     "title": "How the Money Flows",
     "part": 5,
-    "partTitle": "Part V \u2014 The Modern VBC Enterprise",
+    "partTitle": "Part V — The Modern VBC Enterprise",
     "layer": "payment",
     "layerColor": "#C05E0E",
-    "order": 15,
+    "order": 16,
     "concepts": [
       "pmpm",
       "shared-savings",
@@ -340,10 +369,10 @@
     "slug": "chapter-17-how-data-flows",
     "title": "How Data Flows",
     "part": 5,
-    "partTitle": "Part V \u2014 The Modern VBC Enterprise",
+    "partTitle": "Part V — The Modern VBC Enterprise",
     "layer": "data",
     "layerColor": "#1E6B3C",
-    "order": 16,
+    "order": 17,
     "concepts": [
       "claims",
       "ehr",
@@ -364,10 +393,10 @@
     "slug": "chapter-18-physician-led-models",
     "title": "Physician-Led Models",
     "part": 6,
-    "partTitle": "Part VI \u2014 Real-World Organizations",
+    "partTitle": "Part VI — Real-World Organizations",
     "layer": "organization",
     "layerColor": "#1E6B3C",
-    "order": 17,
+    "order": 18,
     "concepts": [
       "aco",
       "mso",
@@ -382,16 +411,16 @@
       "ch18_img03"
     ],
     "readingTimeMinutes": 9,
-    "summary": "Aledade and Privia Health \u2014 two approaches to enabling independent physicians in VBC, and what they reveal about ACO, IPA, and MSO functions in practice."
+    "summary": "Aledade and Privia Health — two approaches to enabling independent physicians in VBC, and what they reveal about ACO, IPA, and MSO functions in practice."
   },
   {
     "slug": "chapter-19-risk-bearing-platforms",
     "title": "Risk-Bearing Platforms",
     "part": 6,
-    "partTitle": "Part VI \u2014 Real-World Organizations",
+    "partTitle": "Part VI — Real-World Organizations",
     "layer": "organization",
     "layerColor": "#1E6B3C",
-    "order": 18,
+    "order": 19,
     "concepts": [
       "risk-bearing-entity",
       "global-capitation",
@@ -404,16 +433,16 @@
       "ch19_img03"
     ],
     "readingTimeMinutes": 9,
-    "summary": "agilon health and Alignment Health \u2014 the joint venture model vs. the payvider model, and why taking on full insurance risk is genuinely hard."
+    "summary": "agilon health and Alignment Health — the joint venture model vs. the payvider model, and why taking on full insurance risk is genuinely hard."
   },
   {
     "slug": "chapter-21-integrated-models",
     "title": "Integrated Models",
     "part": 6,
-    "partTitle": "Part VI \u2014 Real-World Organizations",
+    "partTitle": "Part VI — Real-World Organizations",
     "layer": "organization",
     "layerColor": "#1E6B3C",
-    "order": 19,
+    "order": 20,
     "concepts": [
       "payvider",
       "vertical-integration",
@@ -426,16 +455,16 @@
       "ch21_img03"
     ],
     "readingTimeMinutes": 6,
-    "summary": "Kaiser Permanente (purpose-built) vs. UnitedHealth Group (assembled) \u2014 the two integration architectures shaping the future of US healthcare."
+    "summary": "Kaiser Permanente (purpose-built) vs. UnitedHealth Group (assembled) — the two integration architectures shaping the future of US healthcare."
   },
   {
     "slug": "chapter-economics-incentives",
     "title": "Economics and Incentives",
     "part": 7,
-    "partTitle": "Part VII \u2014 Bringing it all together",
+    "partTitle": "Part VII — Bringing it all together",
     "layer": "synthesis",
     "layerColor": "#111111",
-    "order": 20,
+    "order": 21,
     "concepts": [
       "cms",
       "health-plan",
@@ -449,16 +478,16 @@
       "ch_econ_img01"
     ],
     "readingTimeMinutes": 18,
-    "summary": "Every major stakeholder \u2014 what they are, how they make money, what risk they bear, what metrics matter, who they contract with, and what keeps them up at night."
+    "summary": "Every major stakeholder — what they are, how they make money, what risk they bear, what metrics matter, who they contract with, and what keeps them up at night."
   },
   {
     "slug": "chapter-ecosystem-map",
-    "title": "The US Healthcare Ecosystem \u2014 A Complete Map",
+    "title": "The US Healthcare Ecosystem — A Complete Map",
     "part": 7,
-    "partTitle": "Part VII \u2014 Bringing it all together",
+    "partTitle": "Part VII — Bringing it all together",
     "layer": "synthesis",
     "layerColor": "#111111",
-    "order": 21,
+    "order": 22,
     "concepts": [
       "value-based-care",
       "fee-for-service",
@@ -472,8 +501,10 @@
       "shared-savings",
       "attribution"
     ],
-    "diagramIds": ["ch_ecosystem_img01"],
+    "diagramIds": [
+      "ch_ecosystem_img01"
+    ],
     "readingTimeMinutes": 14,
-    "summary": "A complete reference map of the US healthcare ecosystem \u2014 the four flows, every major actor layer, and the central tension that defines the VBC transition."
+    "summary": "A complete reference map of the US healthcare ecosystem — the four flows, every major actor layer, and the central tension that defines the VBC transition."
   }
 ]

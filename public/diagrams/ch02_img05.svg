@@ -1,0 +1,56 @@
+<svg viewBox="0 0 760 240" xmlns="http://www.w3.org/2000/svg" font-family="Inter, system-ui, -apple-system, sans-serif" role="img">
+  <title>The Four Players — Patients, Providers, Payers, Producers</title>
+  <rect width="760" height="240" rx="14" fill="#f8f8f6" stroke="#e2e2dc" stroke-width="1"/>
+  <text x="380" y="28" text-anchor="middle" font-size="15" font-weight="700" fill="#111">The Four Players</text>
+  <text x="380" y="46" text-anchor="middle" font-size="11" fill="#6b7280">Almost every dollar spent in US healthcare flows between these four groups</text>
+
+  <!-- Patients -->
+  <rect x="14" y="58" width="170" height="158" rx="10" fill="#eff6ff" stroke="#93c5fd" stroke-width="1.5"/>
+  <text x="99" y="80" text-anchor="middle" font-size="13" font-weight="700" fill="#1e3a8a">Patients</text>
+  <line x1="24" y1="88" x2="174" y2="88" stroke="#bfdbfe" stroke-width="1"/>
+  <text x="99" y="106" text-anchor="middle" font-size="10" fill="#374151">Receive care</text>
+  <text x="99" y="121" text-anchor="middle" font-size="10" fill="#374151">Pay premiums,</text>
+  <text x="99" y="136" text-anchor="middle" font-size="10" fill="#374151">copays, deductibles</text>
+  <text x="99" y="155" text-anchor="middle" font-size="9.5" font-weight="600" fill="#1e3a8a">Goal:</text>
+  <text x="99" y="169" text-anchor="middle" font-size="9.5" fill="#374151">Best possible care</text>
+  <text x="99" y="183" text-anchor="middle" font-size="9.5" fill="#374151">at lowest cost</text>
+  <text x="99" y="200" text-anchor="middle" font-size="9" fill="#6b7280">~335M Americans</text>
+
+  <!-- Providers -->
+  <rect x="196" y="58" width="170" height="158" rx="10" fill="#f0fdf4" stroke="#86efac" stroke-width="1.5"/>
+  <text x="281" y="80" text-anchor="middle" font-size="13" font-weight="700" fill="#14532d">Providers</text>
+  <line x1="206" y1="88" x2="356" y2="88" stroke="#bbf7d0" stroke-width="1"/>
+  <text x="281" y="106" text-anchor="middle" font-size="10" fill="#374151">Deliver care</text>
+  <text x="281" y="121" text-anchor="middle" font-size="10" fill="#374151">Physicians, hospitals,</text>
+  <text x="281" y="136" text-anchor="middle" font-size="10" fill="#374151">labs, pharmacies</text>
+  <text x="281" y="155" text-anchor="middle" font-size="9.5" font-weight="600" fill="#14532d">Goal:</text>
+  <text x="281" y="169" text-anchor="middle" font-size="9.5" fill="#374151">High-quality care,</text>
+  <text x="281" y="183" text-anchor="middle" font-size="9.5" fill="#374151">fair compensation</text>
+  <text x="281" y="200" text-anchor="middle" font-size="9" fill="#6b7280">~18M health workers</text>
+
+  <!-- Payers -->
+  <rect x="378" y="58" width="170" height="158" rx="10" fill="#fef3c7" stroke="#fcd34d" stroke-width="1.5"/>
+  <text x="463" y="80" text-anchor="middle" font-size="13" font-weight="700" fill="#78350f">Payers</text>
+  <line x1="388" y1="88" x2="538" y2="88" stroke="#fde68a" stroke-width="1"/>
+  <text x="463" y="106" text-anchor="middle" font-size="10" fill="#374151">Finance care</text>
+  <text x="463" y="121" text-anchor="middle" font-size="10" fill="#374151">Insurance plans,</text>
+  <text x="463" y="136" text-anchor="middle" font-size="10" fill="#374151">CMS, employers</text>
+  <text x="463" y="155" text-anchor="middle" font-size="9.5" font-weight="600" fill="#78350f">Goal:</text>
+  <text x="463" y="169" text-anchor="middle" font-size="9.5" fill="#374151">Control costs without</text>
+  <text x="463" y="183" text-anchor="middle" font-size="9.5" fill="#374151">compromising outcomes</text>
+  <text x="463" y="200" text-anchor="middle" font-size="9" fill="#6b7280">UHC · BCBS · CMS · Aetna</text>
+
+  <!-- Producers -->
+  <rect x="560" y="58" width="186" height="158" rx="10" fill="#f5f3ff" stroke="#ddd6fe" stroke-width="1.5"/>
+  <text x="653" y="80" text-anchor="middle" font-size="13" font-weight="700" fill="#4c1d95">Producers</text>
+  <line x1="570" y1="88" x2="736" y2="88" stroke="#ddd6fe" stroke-width="1"/>
+  <text x="653" y="106" text-anchor="middle" font-size="10" fill="#374151">Create treatments</text>
+  <text x="653" y="121" text-anchor="middle" font-size="10" fill="#374151">Pharma, devices,</text>
+  <text x="653" y="136" text-anchor="middle" font-size="10" fill="#374151">biotech, health tech</text>
+  <text x="653" y="155" text-anchor="middle" font-size="9.5" font-weight="600" fill="#4c1d95">Goal:</text>
+  <text x="653" y="169" text-anchor="middle" font-size="9.5" fill="#374151">Return on R&amp;D</text>
+  <text x="653" y="183" text-anchor="middle" font-size="9.5" fill="#374151">investment</text>
+  <text x="653" y="200" text-anchor="middle" font-size="9" fill="#6b7280">Pfizer · Medtronic · Epic</text>
+
+  <text x="380" y="228" text-anchor="middle" font-size="9.5" fill="#6b7280">Much of the complexity of US healthcare comes from balancing these four groups' competing priorities</text>
+</svg>

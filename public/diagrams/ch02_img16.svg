@@ -1,0 +1,60 @@
+<svg viewBox="0 0 760 300" xmlns="http://www.w3.org/2000/svg" font-family="Inter, system-ui, -apple-system, sans-serif" role="img">
+  <title>Original Medicare vs. Medicare Advantage — The Full Comparison</title>
+  <rect width="760" height="300" rx="14" fill="#f8f8f6" stroke="#e2e2dc" stroke-width="1"/>
+  <text x="380" y="26" text-anchor="middle" font-size="14" font-weight="700" fill="#111">Original Medicare vs. Medicare Advantage</text>
+  <text x="380" y="44" text-anchor="middle" font-size="11" fill="#6b7280">Neither is universally better — the right choice depends on your priorities</text>
+
+  <!-- Header row -->
+  <rect x="200" y="54" width="255" height="28" rx="6" fill="#1e3a8a"/>
+  <text x="327" y="73" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">Original Medicare + Medigap</text>
+  <rect x="465" y="54" width="275" height="28" rx="6" fill="#14532d"/>
+  <text x="602" y="73" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">Medicare Advantage (Part C)</text>
+
+  <line x1="14" y1="88" x2="746" y2="88" stroke="#e2e2dc" stroke-width="1"/>
+
+  <!-- Row: Doctors -->
+  <text x="190" y="106" text-anchor="end" font-size="10" font-weight="600" fill="#374151">Doctor access</text>
+  <rect x="200" y="92" width="255" height="24" rx="3" fill="#eff6ff"/>
+  <text x="327" y="109" text-anchor="middle" font-size="10" font-weight="600" fill="#1e3a8a">Any Medicare-accepting doctor, nationwide</text>
+  <rect x="465" y="92" width="275" height="24" rx="3" fill="#f0fdf4"/>
+  <text x="602" y="109" text-anchor="middle" font-size="10" fill="#374151">In-network only (local plan area)</text>
+
+  <!-- Row: OOP max -->
+  <text x="190" y="130" text-anchor="end" font-size="10" font-weight="600" fill="#374151">Out-of-pocket cap</text>
+  <rect x="200" y="116" width="255" height="24" rx="3" fill="#fef2f2"/>
+  <text x="327" y="133" text-anchor="middle" font-size="10" fill="#7f1d1d">None — no annual maximum</text>
+  <rect x="465" y="116" width="275" height="24" rx="3" fill="#f0fdf4"/>
+  <text x="602" y="133" text-anchor="middle" font-size="10" font-weight="600" fill="#14532d">~$9,250 legal annual cap</text>
+
+  <!-- Row: Premiums -->
+  <text x="190" y="154" text-anchor="end" font-size="10" font-weight="600" fill="#374151">Monthly premiums</text>
+  <rect x="200" y="140" width="255" height="24" rx="3" fill="#eff6ff"/>
+  <text x="327" y="157" text-anchor="middle" font-size="10" fill="#374151">$202.90 Part B + $150–300+ Medigap</text>
+  <rect x="465" y="140" width="275" height="24" rx="3" fill="#f0fdf4"/>
+  <text x="602" y="157" text-anchor="middle" font-size="10" fill="#374151">$202.90 Part B + often $0 extra</text>
+
+  <!-- Row: Drug coverage -->
+  <text x="190" y="178" text-anchor="end" font-size="10" font-weight="600" fill="#374151">Drug coverage</text>
+  <rect x="200" y="164" width="255" height="24" rx="3" fill="#eff6ff"/>
+  <text x="327" y="181" text-anchor="middle" font-size="10" fill="#374151">Separate standalone Part D plan needed</text>
+  <rect x="465" y="164" width="275" height="24" rx="3" fill="#f0fdf4"/>
+  <text x="602" y="181" text-anchor="middle" font-size="10" fill="#374151">Usually bundled in</text>
+
+  <!-- Row: Extras -->
+  <text x="190" y="202" text-anchor="end" font-size="10" font-weight="600" fill="#374151">Extra benefits</text>
+  <rect x="200" y="188" width="255" height="24" rx="3" fill="#eff6ff"/>
+  <text x="327" y="205" text-anchor="middle" font-size="10" fill="#374151">None beyond core Medicare</text>
+  <rect x="465" y="188" width="275" height="24" rx="3" fill="#f0fdf4"/>
+  <text x="602" y="205" text-anchor="middle" font-size="10" fill="#374151">Often dental, vision, gym</text>
+
+  <!-- Row: Best for -->
+  <text x="190" y="228" text-anchor="end" font-size="10" font-weight="600" fill="#374151">Best for</text>
+  <rect x="200" y="214" width="255" height="24" rx="3" fill="#dbeafe"/>
+  <text x="327" y="231" text-anchor="middle" font-size="10" font-weight="600" fill="#1e3a8a">Travellers · specialist-heavy care</text>
+  <rect x="465" y="214" width="275" height="24" rx="3" fill="#dcfce7"/>
+  <text x="602" y="231" text-anchor="middle" font-size="10" font-weight="600" fill="#14532d">Cost-conscious · local care</text>
+
+  <rect x="140" y="248" width="480" height="40" rx="8" fill="#fef3c7" stroke="#fcd34d" stroke-width="1"/>
+  <text x="380" y="264" text-anchor="middle" font-size="10" font-weight="600" fill="#78350f">~50% of Medicare beneficiaries now choose Medicare Advantage</text>
+  <text x="380" y="280" text-anchor="middle" font-size="9.5" fill="#374151">The shift from Original Medicare to MA has fundamentally reshaped the insurance industry</text>
+</svg>

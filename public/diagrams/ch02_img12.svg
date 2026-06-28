@@ -1,0 +1,55 @@
+<svg viewBox="0 0 740 280" xmlns="http://www.w3.org/2000/svg" font-family="Inter, system-ui, -apple-system, sans-serif" role="img">
+  <title>Employer Insurance vs. ACA Marketplace</title>
+  <rect width="740" height="280" rx="14" fill="#f8f8f6" stroke="#e2e2dc" stroke-width="1"/>
+  <text x="370" y="26" text-anchor="middle" font-size="14" font-weight="700" fill="#111">Employer Insurance vs. ACA Marketplace</text>
+  <text x="370" y="44" text-anchor="middle" font-size="11" fill="#6b7280">Nearly always take what your employer offers — the subsidy math rarely works otherwise</text>
+
+  <!-- Column labels -->
+  <rect x="200" y="54" width="220" height="28" rx="6" fill="#1e3a8a"/>
+  <text x="310" y="73" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">Employer Insurance</text>
+  <rect x="430" y="54" width="220" height="28" rx="6" fill="#2563eb"/>
+  <text x="540" y="73" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">ACA Marketplace</text>
+
+  <!-- Row labels and data -->
+  <line x1="14" y1="88" x2="726" y2="88" stroke="#e2e2dc" stroke-width="1"/>
+
+  <!-- Row: Employer premium share -->
+  <text x="190" y="106" text-anchor="end" font-size="10" font-weight="600" fill="#374151">Premium subsidy</text>
+  <rect x="200" y="92" width="220" height="24" rx="4" fill="#eff6ff"/>
+  <text x="310" y="109" text-anchor="middle" font-size="10" font-weight="600" fill="#1e3a8a">Employer pays 70–80%</text>
+  <rect x="430" y="92" width="220" height="24" rx="4" fill="#f1f5f9"/>
+  <text x="540" y="109" text-anchor="middle" font-size="10" fill="#374151">Govt credit (income-based)</text>
+
+  <!-- Row: Tax treatment -->
+  <text x="190" y="130" text-anchor="end" font-size="10" font-weight="600" fill="#374151">Tax treatment</text>
+  <rect x="200" y="116" width="220" height="24" rx="4" fill="#eff6ff"/>
+  <text x="310" y="133" text-anchor="middle" font-size="10" font-weight="600" fill="#1e3a8a">Pre-tax payroll deduction</text>
+  <rect x="430" y="116" width="220" height="24" rx="4" fill="#f1f5f9"/>
+  <text x="540" y="133" text-anchor="middle" font-size="10" fill="#374151">After-tax (credit applied later)</text>
+
+  <!-- Row: Plan choice -->
+  <text x="190" y="154" text-anchor="end" font-size="10" font-weight="600" fill="#374151">Plan selection</text>
+  <rect x="200" y="140" width="220" height="24" rx="4" fill="#eff6ff"/>
+  <text x="310" y="157" text-anchor="middle" font-size="10" fill="#374151">2–4 options HR picks</text>
+  <rect x="430" y="140" width="220" height="24" rx="4" fill="#f1f5f9"/>
+  <text x="540" y="157" text-anchor="middle" font-size="10" fill="#374151">Bronze / Silver / Gold / Platinum</text>
+
+  <!-- Row: CSR availability -->
+  <text x="190" y="178" text-anchor="end" font-size="10" font-weight="600" fill="#374151">Cost-sharing help</text>
+  <rect x="200" y="164" width="220" height="24" rx="4" fill="#eff6ff"/>
+  <text x="310" y="181" text-anchor="middle" font-size="10" fill="#374151">Employer designs benefits</text>
+  <rect x="430" y="164" width="220" height="24" rx="4" fill="#f1f5f9"/>
+  <text x="540" y="181" text-anchor="middle" font-size="10" fill="#374151">CSRs for Silver, low income</text>
+
+  <!-- Row: Eligibility lock-out -->
+  <text x="190" y="202" text-anchor="end" font-size="10" font-weight="600" fill="#374151">Subsidy lock-out?</text>
+  <rect x="200" y="188" width="220" height="24" rx="4" fill="#eff6ff"/>
+  <text x="310" y="205" text-anchor="middle" font-size="10" fill="#374151">N/A — you use employer plan</text>
+  <rect x="430" y="188" width="220" height="24" rx="4" fill="#fef2f2"/>
+  <text x="540" y="205" text-anchor="middle" font-size="10" fill="#7f1d1d">Employer offer blocks subsidy</text>
+
+  <!-- Verdict box -->
+  <rect x="140" y="222" width="460" height="46" rx="8" fill="#fef3c7" stroke="#fcd34d" stroke-width="1.5"/>
+  <text x="370" y="241" text-anchor="middle" font-size="10" font-weight="700" fill="#78350f">Almost always: take the employer plan</text>
+  <text x="370" y="258" text-anchor="middle" font-size="9.5" fill="#374151">If employer offer is "affordable" (&lt;9% of income), you lose all Marketplace subsidy rights — making the switch cost far more</text>
+</svg>
