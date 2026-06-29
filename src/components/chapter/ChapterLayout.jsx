@@ -78,7 +78,7 @@ export default function ChapterLayout({ chapter, children }) {
             </header>
 
             {/* MDX content */}
-            <article className="prose prose-lg prose-gray max-w-none font-sans
+            <article className="prose prose-gray max-w-none font-sans
               prose-headings:font-sans prose-headings:font-bold prose-headings:text-gray-900
               prose-h2:text-2xl prose-h2:mt-12 prose-h2:mb-4
               prose-h3:text-xl prose-h3:mt-8 prose-h3:mb-3
