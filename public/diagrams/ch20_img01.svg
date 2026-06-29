@@ -1,0 +1,47 @@
+<svg viewBox="0 0 760 320" xmlns="http://www.w3.org/2000/svg" font-family="Inter, system-ui, -apple-system, sans-serif" role="img">
+  <title>The PE/MSO Legal Structure — How Investors Control Without Owning</title>
+  <defs>
+    <marker id="arr-gray" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto"><polygon points="0 0,8 3,0 6" fill="#9ca3af"/></marker>
+    <marker id="arr-green" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto"><polygon points="0 0,8 3,0 6" fill="#1e6b3c"/></marker>
+    <marker id="arr-orange" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto"><polygon points="0 0,8 3,0 6" fill="#c05e0e"/></marker>
+  </defs>
+
+  <rect width="760" height="320" rx="14" fill="#f8f8f6" stroke="#e2e2dc" stroke-width="1"/>
+  <text x="380" y="26" text-anchor="middle" font-size="14" font-weight="700" fill="#111">The PE/MSO Legal Structure</text>
+  <text x="380" y="44" text-anchor="middle" font-size="11" fill="#6b7280">How investors control clinic economics without violating Corporate Practice of Medicine laws</text>
+
+  <!-- PE Firm -->
+  <rect x="300" y="58" width="160" height="46" rx="8" fill="#1e3a8a" stroke="#1e40af" stroke-width="1.5"/>
+  <text x="380" y="77" text-anchor="middle" font-size="11" font-weight="700" fill="#fff">Private Equity Firm</text>
+  <text x="380" y="93" text-anchor="middle" font-size="9.5" fill="#bfdbfe">Arsenal Capital Partners</text>
+
+  <!-- PE → MSO arrow -->
+  <line x1="380" y1="104" x2="380" y2="126" stroke="#9ca3af" stroke-width="1.5" marker-end="url(#arr-gray)"/>
+  <text x="395" y="118" font-size="9" fill="#9ca3af">Owns 100%</text>
+
+  <!-- MSO box -->
+  <rect x="240" y="126" width="280" height="56" rx="8" fill="#5b3d9e" stroke="#7c3aed" stroke-width="1.5"/>
+  <text x="380" y="147" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">Management Services Org (MSO)</text>
+  <text x="380" y="163" text-anchor="middle" font-size="9.5" fill="#ddd6fe">Owns: buildings · IT · payer contracts · billing · HR</text>
+  <text x="380" y="175" text-anchor="middle" font-size="9" fill="#c4b5fd">Non-clinical entity — can be investor-owned</text>
+
+  <!-- MSO → PC: Management Services Agreement -->
+  <line x1="380" y1="182" x2="380" y2="210" stroke="#c05e0e" stroke-width="2" stroke-dasharray="5 3" marker-end="url(#arr-orange)"/>
+  <text x="430" y="200" font-size="9" fill="#c05e0e">Management Services Agreement</text>
+  <text x="430" y="212" font-size="9" fill="#c05e0e">(long-term, exclusive)</text>
+
+  <!-- PC box -->
+  <rect x="240" y="210" width="280" height="56" rx="8" fill="#f0fdf4" stroke="#86efac" stroke-width="1.5"/>
+  <text x="380" y="231" text-anchor="middle" font-size="12" font-weight="700" fill="#14532d">Physician Professional Corp (P.C.)</text>
+  <text x="380" y="247" text-anchor="middle" font-size="9.5" fill="#374151">Holds medical license · employs physicians</text>
+  <text x="380" y="262" text-anchor="middle" font-size="9" fill="#6b7280">Physician-owned — CPOM compliant</text>
+
+  <!-- Money flow: PC → MSO -->
+  <path d="M 240 238 Q 180 238 180 190 Q 180 142 240 152" stroke="#c05e0e" stroke-width="1.5" fill="none" marker-end="url(#arr-orange)"/>
+  <text x="60" y="195" text-anchor="middle" font-size="9" fill="#c05e0e">Management fee</text>
+  <text x="60" y="207" text-anchor="middle" font-size="9" fill="#c05e0e">(% of revenue)</text>
+
+  <!-- Summary bar -->
+  <rect x="40" y="284" width="680" height="26" rx="7" fill="#fef3c7" stroke="#fcd34d" stroke-width="1"/>
+  <text x="380" y="301" text-anchor="middle" font-size="9.5" fill="#78350f">The investor controls the economics through the MSO — the physician retains nominal clinical and legal ownership of the P.C.</text>
+</svg>

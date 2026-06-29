@@ -1,0 +1,64 @@
+<svg viewBox="0 0 760 300" xmlns="http://www.w3.org/2000/svg" font-family="Inter, system-ui, -apple-system, sans-serif" role="img">
+  <title>MaxHealth Roll-Up Timeline — From Anchor Platform to 80-Clinic Network</title>
+  <defs>
+    <marker id="arr-r" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto"><polygon points="0 0,8 3,0 6" fill="#6b7280"/></marker>
+  </defs>
+
+  <rect width="760" height="300" rx="14" fill="#f8f8f6" stroke="#e2e2dc" stroke-width="1"/>
+  <text x="380" y="26" text-anchor="middle" font-size="14" font-weight="700" fill="#111">MaxHealth Roll-Up Timeline</text>
+  <text x="380" y="44" text-anchor="middle" font-size="11" fill="#6b7280">From Tampa primary care group to 80-clinic Florida network in six years</text>
+
+  <!-- Timeline spine -->
+  <line x1="60" y1="140" x2="700" y2="140" stroke="#e2e2dc" stroke-width="2"/>
+
+  <!-- Phase 1: Founded -->
+  <circle cx="100" cy="140" r="8" fill="#1e3a8a"/>
+  <line x1="100" y1="132" x2="100" y2="84" stroke="#1e3a8a" stroke-width="1.5"/>
+  <rect x="30" y="54" width="140" height="56" rx="7" fill="#eff6ff" stroke="#93c5fd" stroke-width="1.5"/>
+  <text x="100" y="71" text-anchor="middle" font-size="10" font-weight="700" fill="#1e3a8a">2018</text>
+  <text x="100" y="85" text-anchor="middle" font-size="9" fill="#374151">Best Value Healthcare</text>
+  <text x="100" y="98" text-anchor="middle" font-size="9" fill="#374151">founded — Tampa</text>
+  <text x="100" y="111" text-anchor="middle" font-size="8.5" fill="#6b7280">Medicare risk contracts</text>
+
+  <!-- Phase 2: PE acquisition -->
+  <circle cx="250" cy="140" r="8" fill="#5b3d9e"/>
+  <line x1="250" y1="148" x2="250" y2="196" stroke="#5b3d9e" stroke-width="1.5"/>
+  <rect x="180" y="162" width="140" height="56" rx="7" fill="#f5f3ff" stroke="#c4b5fd" stroke-width="1.5"/>
+  <text x="250" y="179" text-anchor="middle" font-size="10" font-weight="700" fill="#5b3d9e">Nov 2020</text>
+  <text x="250" y="193" text-anchor="middle" font-size="9" fill="#374151">Arsenal Capital</text>
+  <text x="250" y="206" text-anchor="middle" font-size="9" fill="#374151">majority stake acquired</text>
+  <text x="250" y="219" text-anchor="middle" font-size="8.5" fill="#6b7280">MSO platform launched</text>
+
+  <!-- Phase 3: MAXhealth merger -->
+  <circle cx="400" cy="140" r="8" fill="#1e6b3c"/>
+  <line x1="400" y1="132" x2="400" y2="84" stroke="#1e6b3c" stroke-width="1.5"/>
+  <rect x="330" y="54" width="140" height="56" rx="7" fill="#f0fdf4" stroke="#86efac" stroke-width="1.5"/>
+  <text x="400" y="71" text-anchor="middle" font-size="10" font-weight="700" fill="#1e6b3c">Mar 2021</text>
+  <text x="400" y="85" text-anchor="middle" font-size="9" fill="#374151">MAXhealth acquired</text>
+  <text x="400" y="98" text-anchor="middle" font-size="9" fill="#374151">13 clinics · 11,000</text>
+  <text x="400" y="111" text-anchor="middle" font-size="8.5" fill="#6b7280">Medicare patients added</text>
+
+  <!-- Phase 4: Roll-up -->
+  <circle cx="550" cy="140" r="8" fill="#c05e0e"/>
+  <line x1="550" y1="148" x2="550" y2="196" stroke="#c05e0e" stroke-width="1.5"/>
+  <rect x="475" y="162" width="150" height="56" rx="7" fill="#fff7ed" stroke="#fed7aa" stroke-width="1.5"/>
+  <text x="550" y="179" text-anchor="middle" font-size="10" font-weight="700" fill="#c05e0e">2021–2025</text>
+  <text x="550" y="193" text-anchor="middle" font-size="9" fill="#374151">Aggressive roll-up</text>
+  <text x="550" y="206" text-anchor="middle" font-size="9" fill="#374151">3 large + 13 small practices</text>
+  <text x="550" y="219" text-anchor="middle" font-size="8.5" fill="#6b7280">Statewide Florida network</text>
+
+  <!-- Phase 5: Exit -->
+  <circle cx="700" cy="140" r="10" fill="#b02020"/>
+  <line x1="700" y1="130" x2="700" y2="84" stroke="#b02020" stroke-width="1.5"/>
+  <rect x="624" y="54" width="130" height="56" rx="7" fill="#fef2f2" stroke="#fca5a5" stroke-width="1.5"/>
+  <text x="689" y="71" text-anchor="middle" font-size="10" font-weight="700" fill="#b02020">2026</text>
+  <text x="689" y="85" text-anchor="middle" font-size="9" fill="#374151">Sold to Humana</text>
+  <text x="689" y="98" text-anchor="middle" font-size="9" fill="#374151">CenterWell division</text>
+  <text x="689" y="111" text-anchor="middle" font-size="8.5" fill="#6b7280">~$1 billion · 80+ clinics</text>
+
+  <!-- Arrow labels on spine -->
+  <text x="175" y="136" text-anchor="middle" font-size="8.5" fill="#9ca3af">PE infusion</text>
+  <text x="325" y="136" text-anchor="middle" font-size="8.5" fill="#9ca3af">anchor merger</text>
+  <text x="475" y="136" text-anchor="middle" font-size="8.5" fill="#9ca3af">scale-up</text>
+  <text x="625" y="136" text-anchor="middle" font-size="8.5" fill="#9ca3af">exit</text>
+</svg>

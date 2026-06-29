@@ -1,0 +1,62 @@
+<svg viewBox="0 0 760 290" xmlns="http://www.w3.org/2000/svg" font-family="Inter, system-ui, -apple-system, sans-serif" role="img">
+  <title>The PE-to-Payer Exit — Why Health Plans Acquire MSO Networks</title>
+  <defs>
+    <marker id="arr20-b" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto"><polygon points="0 0,8 3,0 6" fill="#2563eb"/></marker>
+    <marker id="arr20-g" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto"><polygon points="0 0,8 3,0 6" fill="#16a34a"/></marker>
+    <marker id="arr20-o" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto"><polygon points="0 0,8 3,0 6" fill="#c05e0e"/></marker>
+  </defs>
+
+  <rect width="760" height="290" rx="14" fill="#f8f8f6" stroke="#e2e2dc" stroke-width="1"/>
+  <text x="380" y="26" text-anchor="middle" font-size="14" font-weight="700" fill="#111">The PE-to-Payer Exit</text>
+  <text x="380" y="44" text-anchor="middle" font-size="11" fill="#6b7280">Why a Medicare Advantage insurer pays a premium to own primary care networks directly</text>
+
+  <!-- BEFORE column -->
+  <text x="190" y="66" text-anchor="middle" font-size="11" font-weight="700" fill="#374151">BEFORE (contracted model)</text>
+  <rect x="30" y="76" width="320" height="178" rx="10" fill="#fff" stroke="#e2e2dc" stroke-width="1"/>
+
+  <rect x="50" y="90" width="140" height="50" rx="7" fill="#eff6ff" stroke="#93c5fd" stroke-width="1.5"/>
+  <text x="120" y="110" text-anchor="middle" font-size="10" font-weight="700" fill="#1e3a8a">MA Health Plan</text>
+  <text x="120" y="125" text-anchor="middle" font-size="9" fill="#374151">(e.g. Humana)</text>
+
+  <rect x="50" y="188" width="140" height="50" rx="7" fill="#f0fdf4" stroke="#86efac" stroke-width="1.5"/>
+  <text x="120" y="208" text-anchor="middle" font-size="10" font-weight="700" fill="#14532d">MSO + Clinics</text>
+  <text x="120" y="222" text-anchor="middle" font-size="9" fill="#374151">(MaxHealth)</text>
+
+  <!-- contract arrow -->
+  <line x1="120" y1="140" x2="120" y2="188" stroke="#9ca3af" stroke-width="1.5" stroke-dasharray="4 3" marker-end="url(#arr20-b)"/>
+  <text x="145" y="168" font-size="8.5" fill="#6b7280">Capitation</text>
+  <text x="145" y="180" font-size="8.5" fill="#6b7280">contract</text>
+
+  <!-- Issues column -->
+  <rect x="210" y="90" width="128" height="148" rx="7" fill="#fef2f2" stroke="#fca5a5" stroke-width="1"/>
+  <text x="274" y="108" text-anchor="middle" font-size="9.5" font-weight="700" fill="#b02020">Friction points</text>
+  <text x="220" y="124" font-size="8.5" fill="#7f1d1d">✗ Misaligned incentives</text>
+  <text x="220" y="139" font-size="8.5" fill="#7f1d1d">✗ 60-day claims lag</text>
+  <text x="220" y="154" font-size="8.5" fill="#7f1d1d">✗ Rate renegotiation</text>
+  <text x="220" y="169" font-size="8.5" fill="#7f1d1d">✗ No clinical visibility</text>
+  <text x="220" y="184" font-size="8.5" fill="#7f1d1d">✗ Coding gaps</text>
+  <text x="220" y="199" font-size="8.5" fill="#7f1d1d">✗ Duplicate overhead</text>
+  <text x="220" y="214" font-size="8.5" fill="#7f1d1d">✗ Loyalty risk</text>
+
+  <!-- Arrow between columns -->
+  <line x1="360" y1="165" x2="400" y2="165" stroke="#374151" stroke-width="2" marker-end="url(#arr20-b)"/>
+  <text x="378" y="157" text-anchor="middle" font-size="9.5" font-weight="700" fill="#374151">Acquire</text>
+
+  <!-- AFTER column -->
+  <text x="570" y="66" text-anchor="middle" font-size="11" font-weight="700" fill="#374151">AFTER (integrated model)</text>
+  <rect x="410" y="76" width="320" height="178" rx="10" fill="#f0fdf4" stroke="#86efac" stroke-width="1"/>
+
+  <rect x="430" y="90" width="280" height="148" rx="8" fill="#14532d"/>
+  <text x="570" y="115" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">Humana / CenterWell</text>
+  <text x="570" y="133" text-anchor="middle" font-size="10" fill="#bbf7d0">MA Plan + Primary Care Network</text>
+  <line x1="448" y1="143" x2="692" y2="143" stroke="#166534" stroke-width="1"/>
+  <text x="447" y="160" font-size="9" fill="#d1fae5">✓ Aligned incentives throughout</text>
+  <text x="447" y="176" font-size="9" fill="#d1fae5">✓ Real-time clinical data</text>
+  <text x="447" y="192" font-size="9" fill="#d1fae5">✓ Direct cost management</text>
+  <text x="447" y="208" font-size="9" fill="#d1fae5">✓ RAF coding controlled in-house</text>
+  <text x="447" y="224" font-size="9" fill="#d1fae5">✓ 80 clinics overnight (vs. years to build)</text>
+
+  <!-- Bottom note -->
+  <rect x="40" y="264" width="680" height="18" rx="5" fill="transparent"/>
+  <text x="380" y="277" text-anchor="middle" font-size="9.5" fill="#6b7280">Arsenal's exit multiple reflects the premium a strategic acquirer pays for a scaled, optimized network it could not build organically in a reasonable timeframe.</text>
+</svg>

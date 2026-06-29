@@ -436,13 +436,26 @@
     "summary": "agilon health and Alignment Health — the joint venture model vs. the payvider model, and why taking on full insurance risk is genuinely hard."
   },
   {
+    "slug": "chapter-20-private-equity-mso-rollup",
+    "title": "The Private Equity Playbook: MSO Roll-Ups and the Venture-Backed VBC Land Grab",
+    "part": 6,
+    "partTitle": "Part VI — Real-World Organizations",
+    "layer": "organization",
+    "layerColor": "#1E6B3C",
+    "order": 20,
+    "concepts": ["mso", "cpom", "professional-corporation", "msa", "medicare-advantage", "global-capitation", "value-based-care", "capitation", "risk-adjustment"],
+    "diagramIds": ["ch20_img01", "ch20_img02", "ch20_img03"],
+    "readingTimeMinutes": 11,
+    "summary": "How value-based care created a private equity land grab — the MSO roll-up playbook, the MaxHealth case study, and what it means for independent physicians."
+  },
+  {
     "slug": "chapter-21-integrated-models",
     "title": "Integrated Models",
     "part": 6,
     "partTitle": "Part VI — Real-World Organizations",
     "layer": "organization",
     "layerColor": "#1E6B3C",
-    "order": 20,
+    "order": 21,
     "concepts": [
       "payvider",
       "vertical-integration",
